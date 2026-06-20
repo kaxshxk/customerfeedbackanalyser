@@ -5,6 +5,7 @@ on the content, and writes the results to a JSON output file.
 """
 
 import argparse
+import csv
 import json
 import os
 import sys
@@ -61,6 +62,13 @@ def main() -> None:
         default="sentiment_result.json",
         help="path for the JSON output file",
     )
+    parser.add_argument(
+        "-c",
+        "--column",
+        type=str,
+        default="0",
+        help="Column index (0-based) or header name containing feedback text (CSVs only).",
+    )
 
     args = parser.parse_args()
 
@@ -79,20 +87,78 @@ def main() -> None:
         sys.exit(1)
 
     _, ext = os.path.splitext(args.file)
-    if ext.lower() != ".txt":
-        print(f"Error: '{args.file}' is not a .txt file.", file=sys.stderr)
-        sys.exit(1)
-
-    # Read the input feedback file
-    try:
-        with open(args.file, "r", encoding="utf-8") as f:
-            content = f.read()
-    except PermissionError:
+    ext_lower = ext.lower()
+    if ext_lower not in (".txt", ".csv"):
         print(
-            f"Error: Permission denied when reading '{args.file}'.",
+            f"Error: '{args.file}' is not a .txt or .csv file.",
             file=sys.stderr,
         )
         sys.exit(1)
+
+    # Read the input file and construct the content string
+    if ext_lower == ".txt":
+        try:
+            with open(args.file, "r", encoding="utf-8") as f:
+                content = f.read()
+        except PermissionError:
+            print(
+                f"Error: Permission denied when reading '{args.file}'.",
+                file=sys.stderr,
+            )
+            sys.exit(1)
+    else:
+        # It's a CSV file
+        try:
+            with open(args.file, "r", encoding="utf-8", newline="") as f:
+                reader = csv.reader(f)
+                rows = list(reader)
+        except PermissionError:
+            print(
+                f"Error: Permission denied when reading '{args.file}'.",
+                file=sys.stderr,
+            )
+            sys.exit(1)
+
+        if not rows:
+            print(
+                f"Error: The input file '{args.file}' is empty.",
+                file=sys.stderr,
+            )
+            sys.exit(1)
+
+        headers = rows[0]
+        col_identifier = args.column
+        col_idx = None
+
+        if col_identifier.isdigit():
+            col_idx = int(col_identifier)
+            if col_idx < 0 or col_idx >= len(headers):
+                print(
+                    f"Error: Column index {col_idx} is out of range. "
+                    f"File has {len(headers)} columns.",
+                    file=sys.stderr,
+                )
+                sys.exit(1)
+        else:
+            try:
+                col_idx = headers.index(col_identifier)
+            except ValueError:
+                print(
+                    f"Error: Column header '{col_identifier}' not found in CSV. "
+                    f"Available headers: {', '.join(headers)}",
+                    file=sys.stderr,
+                )
+                sys.exit(1)
+
+        # Skip headers when constructing lines for feedback
+        start_row = 1 if len(rows) > 1 else 0
+        lines = []
+        for row in rows[start_row:]:
+            if len(row) > col_idx:
+                val = row[col_idx].strip()
+                if val:
+                    lines.append(val)
+        content = "\n".join(lines)
 
     # Verify content is not empty
     if not content.strip():
