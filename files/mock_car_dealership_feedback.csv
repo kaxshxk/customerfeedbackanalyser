@@ -1,0 +1,1001 @@
+date,source,segment,customer_id,dealership_location,vehicle_type,product_area,rating,feedback
+2026-01-01,Service Survey,First-time Buyer,DLR-CUST-10001,Downtown Auto Mall,Certified Pre-Owned,Sales Experience,5,The sales advisor listened carefully and helped me compare trims without pressure.
+2026-01-02,Phone Follow-up,First-time Buyer,DLR-CUST-10002,Downtown Auto Mall,EV,Sales Experience,2,The salesperson kept pushing add-ons after I said I was not interested.
+2026-01-03,Email Survey,First-time Buyer,DLR-CUST-10003,Downtown Auto Mall,Certified Pre-Owned,Sales Experience,3,"The test drive was helpful, but I waited too long before someone greeted me."
+2026-01-04,Cars.com,First-time Buyer,DLR-CUST-10004,Northside Motors,Van,Sales Experience,4,The team explained the vehicle features clearly and made the buying process simple.
+2026-01-05,Facebook,First-time Buyer,DLR-CUST-10005,Northside Motors,Luxury SUV,Financing,2,The final monthly payment was higher than what was discussed online.
+2026-01-06,Google Reviews,Repeat Customer,DLR-CUST-10006,Northside Motors,Luxury SUV,Financing,1,Finance paperwork took almost three hours and several fees were not explained.
+2026-01-07,Dealer Website,Repeat Customer,DLR-CUST-10007,West Valley Cars,Truck,Financing,4,The finance manager found a better rate than my bank and explained the terms well.
+2026-01-08,Service Survey,Repeat Customer,DLR-CUST-10008,West Valley Cars,Truck,Financing,3,"Loan options were presented clearly, but the wait for approval was too long."
+2026-01-09,Dealer Website,Repeat Customer,DLR-CUST-10009,West Valley Cars,Truck,Pricing,2,The advertised price did not include mandatory dealer add-ons.
+2026-01-10,Service Survey,Repeat Customer,DLR-CUST-10010,Lakeside Dealership,Truck,Pricing,1,I felt misled by the online price because the quote changed at the dealership.
+2026-01-11,Phone Follow-up,Luxury Buyer,DLR-CUST-10011,Lakeside Dealership,Luxury SUV,Pricing,4,The price was fair and the final invoice matched the quote.
+2026-01-12,Email Survey,Luxury Buyer,DLR-CUST-10012,Lakeside Dealership,Luxury SUV,Pricing,3,"Discounts were good, but the fee breakdown should be easier to understand."
+2026-01-13,Google Reviews,Luxury Buyer,DLR-CUST-10013,Airport Auto Center,Luxury SUV,Inventory,2,The car listed online was already sold when I arrived for my appointment.
+2026-01-14,Dealer Website,Luxury Buyer,DLR-CUST-10014,Airport Auto Center,Sedan,Inventory,3,Inventory filters on the website are useful but some colors are listed incorrectly.
+2026-01-15,Service Survey,Luxury Buyer,DLR-CUST-10015,Airport Auto Center,Truck,Inventory,4,They had several trims available and helped me find the right configuration.
+2026-01-16,Phone Follow-up,Budget Buyer,DLR-CUST-10016,Downtown Auto Mall,Sedan,Inventory,1,I drove across town for a vehicle that was marked available but unavailable in store.
+2026-01-17,Phone Follow-up,Budget Buyer,DLR-CUST-10017,Downtown Auto Mall,Truck,Trade-in,2,The trade-in offer was much lower than the estimate I received online.
+2026-01-18,Email Survey,Budget Buyer,DLR-CUST-10018,Downtown Auto Mall,Certified Pre-Owned,Trade-in,4,The appraisal was quick and the trade-in credit was clearly applied to my purchase.
+2026-01-19,Cars.com,Budget Buyer,DLR-CUST-10019,Northside Motors,Certified Pre-Owned,Trade-in,3,"Trade-in inspection was fair, but I wanted more explanation about the valuation."
+2026-01-20,Facebook,Budget Buyer,DLR-CUST-10020,Northside Motors,Hybrid,Trade-in,1,My trade-in quote changed twice during the same visit.
+2026-01-21,Phone Follow-up,Fleet Customer,DLR-CUST-10021,Northside Motors,SUV,Service Department,5,Service was fast and the advisor sent updates while my car was being repaired.
+2026-01-22,Email Survey,Fleet Customer,DLR-CUST-10022,West Valley Cars,Van,Service Department,2,The repair took two days longer than promised and nobody called me.
+2026-01-23,Cars.com,Fleet Customer,DLR-CUST-10023,West Valley Cars,SUV,Service Department,3,"The oil change was fine, but the waiting area was overcrowded."
+2026-01-24,Facebook,Fleet Customer,DLR-CUST-10024,West Valley Cars,Sedan,Service Department,1,The same warning light came back the day after service.
+2026-01-25,Dealer Website,Fleet Customer,DLR-CUST-10025,Lakeside Dealership,Truck,Parts,2,The replacement part was delayed and I had to call multiple times for updates.
+2026-01-26,Service Survey,Service Customer,DLR-CUST-10026,Lakeside Dealership,Certified Pre-Owned,Parts,4,Parts staff found the correct accessory and installed it the same afternoon.
+2026-01-27,Phone Follow-up,Service Customer,DLR-CUST-10027,Lakeside Dealership,Certified Pre-Owned,Parts,3,"The part arrived on time, but the installation appointment was hard to schedule."
+2026-01-28,Google Reviews,Service Customer,DLR-CUST-10028,Airport Auto Center,Sedan,Delivery,5,Home delivery was smooth and the specialist walked me through the vehicle settings.
+2026-01-29,Dealer Website,Service Customer,DLR-CUST-10029,Airport Auto Center,Luxury SUV,Delivery,2,The vehicle was delivered with low tire pressure and no floor mats.
+2026-01-30,Service Survey,Service Customer,DLR-CUST-10030,Airport Auto Center,Sedan,Delivery,3,"Pickup was organized, but the final detailing could have been better."
+2026-01-31,Phone Follow-up,Trade-in Customer,DLR-CUST-10031,Downtown Auto Mall,Van,Delivery,1,The delivery appointment was missed and I had to reschedule twice.
+2026-02-01,Phone Follow-up,Trade-in Customer,DLR-CUST-10032,Downtown Auto Mall,EV,Website,4,The website made it easy to compare vehicles and calculate estimated payments.
+2026-02-02,Email Survey,Trade-in Customer,DLR-CUST-10033,Downtown Auto Mall,Truck,Website,2,The payment calculator does not match the numbers provided by finance.
+2026-02-03,Cars.com,Trade-in Customer,DLR-CUST-10034,Northside Motors,Hybrid,Website,3,"Online chat answered basic questions, but could not confirm real inventory."
+2026-02-04,Facebook,Trade-in Customer,DLR-CUST-10035,Northside Motors,EV,Website,1,I submitted a lead form and never received a response.
+2026-02-05,Facebook,First-time Buyer,DLR-CUST-10036,Northside Motors,Sedan,Communication,5,Everyone followed up quickly and kept me informed during the purchase.
+2026-02-06,Google Reviews,First-time Buyer,DLR-CUST-10037,West Valley Cars,Luxury SUV,Communication,2,I received too many calls after asking to communicate by email only.
+2026-02-07,Dealer Website,First-time Buyer,DLR-CUST-10038,West Valley Cars,Sedan,Communication,3,Communication was polite but inconsistent between sales and finance.
+2026-02-08,Service Survey,First-time Buyer,DLR-CUST-10039,West Valley Cars,Van,Communication,1,Nobody returned my voicemail about a warranty question.
+2026-02-09,Cars.com,First-time Buyer,DLR-CUST-10040,Lakeside Dealership,EV,Warranty,4,The warranty options were explained clearly without pressure.
+2026-02-10,Facebook,Repeat Customer,DLR-CUST-10041,Lakeside Dealership,Truck,Warranty,2,I was not told which warranty items were optional until the final paperwork.
+2026-02-11,Google Reviews,Repeat Customer,DLR-CUST-10042,Lakeside Dealership,Hybrid,Warranty,3,"Coverage seems good, but the exclusions should be easier to read."
+2026-02-12,Email Survey,Repeat Customer,DLR-CUST-10043,Airport Auto Center,Van,Cleanliness,5,The showroom was clean and the vehicle was spotless at pickup.
+2026-02-13,Cars.com,Repeat Customer,DLR-CUST-10044,Airport Auto Center,Certified Pre-Owned,Cleanliness,2,The used vehicle still had stains inside when I came for delivery.
+2026-02-14,Facebook,Repeat Customer,DLR-CUST-10045,Airport Auto Center,Van,Cleanliness,3,"The showroom was nice, but the service waiting area needs more seating."
+2026-02-15,Cars.com,Luxury Buyer,DLR-CUST-10046,Downtown Auto Mall,SUV,Customer Support,4,The receptionist quickly connected me to the right department.
+2026-02-16,Facebook,Luxury Buyer,DLR-CUST-10047,Downtown Auto Mall,Sedan,Customer Support,2,I was transferred three times before someone could answer my question.
+2026-02-17,Google Reviews,Luxury Buyer,DLR-CUST-10048,Downtown Auto Mall,Sedan,Customer Support,1,The support line disconnected twice while I was checking service status.
+2026-02-18,Dealer Website,Luxury Buyer,DLR-CUST-10049,Northside Motors,EV,Customer Support,3,"Staff were friendly, but follow-up after purchase could be more proactive."
+2026-02-19,Service Survey,Luxury Buyer,DLR-CUST-10050,Northside Motors,Luxury SUV,Sales Experience,5,The sales advisor listened carefully and helped me compare trims without pressure.
+2026-02-20,Phone Follow-up,Budget Buyer,DLR-CUST-10051,Northside Motors,Hybrid,Sales Experience,2,The salesperson kept pushing add-ons after I said I was not interested.
+2026-02-21,Email Survey,Budget Buyer,DLR-CUST-10052,West Valley Cars,Luxury SUV,Sales Experience,3,"The test drive was helpful, but I waited too long before someone greeted me."
+2026-02-22,Cars.com,Budget Buyer,DLR-CUST-10053,West Valley Cars,Sedan,Sales Experience,4,The team explained the vehicle features clearly and made the buying process simple.
+2026-02-23,Facebook,Budget Buyer,DLR-CUST-10054,West Valley Cars,Van,Financing,2,The final monthly payment was higher than what was discussed online.
+2026-02-24,Google Reviews,Budget Buyer,DLR-CUST-10055,Lakeside Dealership,Van,Financing,1,Finance paperwork took almost three hours and several fees were not explained.
+2026-02-25,Dealer Website,Fleet Customer,DLR-CUST-10056,Lakeside Dealership,EV,Financing,4,The finance manager found a better rate than my bank and explained the terms well.
+2026-02-26,Service Survey,Fleet Customer,DLR-CUST-10057,Lakeside Dealership,EV,Financing,3,"Loan options were presented clearly, but the wait for approval was too long."
+2026-02-27,Dealer Website,Fleet Customer,DLR-CUST-10058,Airport Auto Center,EV,Pricing,2,The advertised price did not include mandatory dealer add-ons.
+2026-02-28,Service Survey,Fleet Customer,DLR-CUST-10059,Airport Auto Center,EV,Pricing,1,I felt misled by the online price because the quote changed at the dealership.
+2026-03-01,Phone Follow-up,Fleet Customer,DLR-CUST-10060,Airport Auto Center,Van,Pricing,4,The price was fair and the final invoice matched the quote.
+2026-03-02,Email Survey,Service Customer,DLR-CUST-10061,Downtown Auto Mall,Van,Pricing,3,"Discounts were good, but the fee breakdown should be easier to understand."
+2026-03-03,Google Reviews,Service Customer,DLR-CUST-10062,Downtown Auto Mall,Van,Inventory,2,The car listed online was already sold when I arrived for my appointment.
+2026-03-04,Dealer Website,Service Customer,DLR-CUST-10063,Downtown Auto Mall,SUV,Inventory,3,Inventory filters on the website are useful but some colors are listed incorrectly.
+2026-03-05,Service Survey,Service Customer,DLR-CUST-10064,Northside Motors,EV,Inventory,4,They had several trims available and helped me find the right configuration.
+2026-03-06,Phone Follow-up,Service Customer,DLR-CUST-10065,Northside Motors,SUV,Inventory,1,I drove across town for a vehicle that was marked available but unavailable in store.
+2026-03-07,Phone Follow-up,Trade-in Customer,DLR-CUST-10066,Northside Motors,EV,Trade-in,2,The trade-in offer was much lower than the estimate I received online.
+2026-03-08,Email Survey,Trade-in Customer,DLR-CUST-10067,West Valley Cars,Luxury SUV,Trade-in,4,The appraisal was quick and the trade-in credit was clearly applied to my purchase.
+2026-03-09,Cars.com,Trade-in Customer,DLR-CUST-10068,West Valley Cars,Luxury SUV,Trade-in,3,"Trade-in inspection was fair, but I wanted more explanation about the valuation."
+2026-03-10,Facebook,Trade-in Customer,DLR-CUST-10069,West Valley Cars,Certified Pre-Owned,Trade-in,1,My trade-in quote changed twice during the same visit.
+2026-03-11,Phone Follow-up,Trade-in Customer,DLR-CUST-10070,Lakeside Dealership,Truck,Service Department,5,Service was fast and the advisor sent updates while my car was being repaired.
+2026-03-12,Email Survey,First-time Buyer,DLR-CUST-10071,Lakeside Dealership,Sedan,Service Department,2,The repair took two days longer than promised and nobody called me.
+2026-03-13,Cars.com,First-time Buyer,DLR-CUST-10072,Lakeside Dealership,Truck,Service Department,3,"The oil change was fine, but the waiting area was overcrowded."
+2026-03-14,Facebook,First-time Buyer,DLR-CUST-10073,Airport Auto Center,SUV,Service Department,1,The same warning light came back the day after service.
+2026-03-15,Dealer Website,First-time Buyer,DLR-CUST-10074,Airport Auto Center,EV,Parts,2,The replacement part was delayed and I had to call multiple times for updates.
+2026-03-16,Service Survey,First-time Buyer,DLR-CUST-10075,Airport Auto Center,Luxury SUV,Parts,4,Parts staff found the correct accessory and installed it the same afternoon.
+2026-03-17,Phone Follow-up,Repeat Customer,DLR-CUST-10076,Downtown Auto Mall,Luxury SUV,Parts,3,"The part arrived on time, but the installation appointment was hard to schedule."
+2026-03-18,Google Reviews,Repeat Customer,DLR-CUST-10077,Downtown Auto Mall,SUV,Delivery,5,Home delivery was smooth and the specialist walked me through the vehicle settings.
+2026-03-19,Dealer Website,Repeat Customer,DLR-CUST-10078,Downtown Auto Mall,Van,Delivery,2,The vehicle was delivered with low tire pressure and no floor mats.
+2026-03-20,Service Survey,Repeat Customer,DLR-CUST-10079,Northside Motors,SUV,Delivery,3,"Pickup was organized, but the final detailing could have been better."
+2026-03-21,Phone Follow-up,Repeat Customer,DLR-CUST-10080,Northside Motors,Sedan,Delivery,1,The delivery appointment was missed and I had to reschedule twice.
+2026-03-22,Phone Follow-up,Luxury Buyer,DLR-CUST-10081,Northside Motors,Hybrid,Website,4,The website made it easy to compare vehicles and calculate estimated payments.
+2026-03-23,Email Survey,Luxury Buyer,DLR-CUST-10082,West Valley Cars,EV,Website,2,The payment calculator does not match the numbers provided by finance.
+2026-03-24,Cars.com,Luxury Buyer,DLR-CUST-10083,West Valley Cars,Certified Pre-Owned,Website,3,"Online chat answered basic questions, but could not confirm real inventory."
+2026-03-25,Facebook,Luxury Buyer,DLR-CUST-10084,West Valley Cars,Hybrid,Website,1,I submitted a lead form and never received a response.
+2026-03-26,Facebook,Luxury Buyer,DLR-CUST-10085,Lakeside Dealership,SUV,Communication,5,Everyone followed up quickly and kept me informed during the purchase.
+2026-03-27,Google Reviews,Budget Buyer,DLR-CUST-10086,Lakeside Dealership,Van,Communication,2,I received too many calls after asking to communicate by email only.
+2026-03-28,Dealer Website,Budget Buyer,DLR-CUST-10087,Lakeside Dealership,SUV,Communication,3,Communication was polite but inconsistent between sales and finance.
+2026-03-29,Service Survey,Budget Buyer,DLR-CUST-10088,Airport Auto Center,Sedan,Communication,1,Nobody returned my voicemail about a warranty question.
+2026-03-30,Cars.com,Budget Buyer,DLR-CUST-10089,Airport Auto Center,Hybrid,Warranty,4,The warranty options were explained clearly without pressure.
+2026-03-31,Facebook,Budget Buyer,DLR-CUST-10090,Airport Auto Center,EV,Warranty,2,I was not told which warranty items were optional until the final paperwork.
+2026-04-01,Google Reviews,Fleet Customer,DLR-CUST-10091,Downtown Auto Mall,Certified Pre-Owned,Warranty,3,"Coverage seems good, but the exclusions should be easier to read."
+2026-04-02,Email Survey,Fleet Customer,DLR-CUST-10092,Downtown Auto Mall,Sedan,Cleanliness,5,The showroom was clean and the vehicle was spotless at pickup.
+2026-04-03,Cars.com,Fleet Customer,DLR-CUST-10093,Downtown Auto Mall,Luxury SUV,Cleanliness,2,The used vehicle still had stains inside when I came for delivery.
+2026-04-04,Facebook,Fleet Customer,DLR-CUST-10094,Northside Motors,Sedan,Cleanliness,3,"The showroom was nice, but the service waiting area needs more seating."
+2026-04-05,Cars.com,Fleet Customer,DLR-CUST-10095,Northside Motors,Truck,Customer Support,4,The receptionist quickly connected me to the right department.
+2026-04-06,Facebook,Service Customer,DLR-CUST-10096,Northside Motors,SUV,Customer Support,2,I was transferred three times before someone could answer my question.
+2026-04-07,Google Reviews,Service Customer,DLR-CUST-10097,West Valley Cars,SUV,Customer Support,1,The support line disconnected twice while I was checking service status.
+2026-04-08,Dealer Website,Service Customer,DLR-CUST-10098,West Valley Cars,Hybrid,Customer Support,3,"Staff were friendly, but follow-up after purchase could be more proactive."
+2026-04-09,Service Survey,Service Customer,DLR-CUST-10099,West Valley Cars,Van,Sales Experience,5,The sales advisor listened carefully and helped me compare trims without pressure.
+2026-04-10,Phone Follow-up,Service Customer,DLR-CUST-10100,Lakeside Dealership,Certified Pre-Owned,Sales Experience,2,The salesperson kept pushing add-ons after I said I was not interested.
+2026-04-11,Email Survey,Trade-in Customer,DLR-CUST-10101,Lakeside Dealership,Van,Sales Experience,3,"The test drive was helpful, but I waited too long before someone greeted me."
+2026-04-12,Cars.com,Trade-in Customer,DLR-CUST-10102,Lakeside Dealership,SUV,Sales Experience,4,The team explained the vehicle features clearly and made the buying process simple.
+2026-04-13,Facebook,Trade-in Customer,DLR-CUST-10103,Airport Auto Center,Sedan,Financing,2,The final monthly payment was higher than what was discussed online.
+2026-04-14,Google Reviews,Trade-in Customer,DLR-CUST-10104,Airport Auto Center,Sedan,Financing,1,Finance paperwork took almost three hours and several fees were not explained.
+2026-04-15,Dealer Website,Trade-in Customer,DLR-CUST-10105,Airport Auto Center,Hybrid,Financing,4,The finance manager found a better rate than my bank and explained the terms well.
+2026-04-16,Service Survey,First-time Buyer,DLR-CUST-10106,Downtown Auto Mall,Hybrid,Financing,3,"Loan options were presented clearly, but the wait for approval was too long."
+2026-04-17,Dealer Website,First-time Buyer,DLR-CUST-10107,Downtown Auto Mall,Hybrid,Pricing,2,The advertised price did not include mandatory dealer add-ons.
+2026-04-18,Service Survey,First-time Buyer,DLR-CUST-10108,Downtown Auto Mall,Hybrid,Pricing,1,I felt misled by the online price because the quote changed at the dealership.
+2026-04-19,Phone Follow-up,First-time Buyer,DLR-CUST-10109,Northside Motors,Sedan,Pricing,4,The price was fair and the final invoice matched the quote.
+2026-04-20,Email Survey,First-time Buyer,DLR-CUST-10110,Northside Motors,Sedan,Pricing,3,"Discounts were good, but the fee breakdown should be easier to understand."
+2026-04-21,Google Reviews,Repeat Customer,DLR-CUST-10111,Northside Motors,Sedan,Inventory,2,The car listed online was already sold when I arrived for my appointment.
+2026-04-22,Dealer Website,Repeat Customer,DLR-CUST-10112,West Valley Cars,Truck,Inventory,3,Inventory filters on the website are useful but some colors are listed incorrectly.
+2026-04-23,Service Survey,Repeat Customer,DLR-CUST-10113,West Valley Cars,Hybrid,Inventory,4,They had several trims available and helped me find the right configuration.
+2026-04-24,Phone Follow-up,Repeat Customer,DLR-CUST-10114,West Valley Cars,Truck,Inventory,1,I drove across town for a vehicle that was marked available but unavailable in store.
+2026-04-25,Phone Follow-up,Repeat Customer,DLR-CUST-10115,Lakeside Dealership,Hybrid,Trade-in,2,The trade-in offer was much lower than the estimate I received online.
+2026-04-26,Email Survey,Luxury Buyer,DLR-CUST-10116,Lakeside Dealership,Van,Trade-in,4,The appraisal was quick and the trade-in credit was clearly applied to my purchase.
+2026-04-27,Cars.com,Luxury Buyer,DLR-CUST-10117,Lakeside Dealership,Van,Trade-in,3,"Trade-in inspection was fair, but I wanted more explanation about the valuation."
+2026-04-28,Facebook,Luxury Buyer,DLR-CUST-10118,Airport Auto Center,Luxury SUV,Trade-in,1,My trade-in quote changed twice during the same visit.
+2026-04-29,Phone Follow-up,Luxury Buyer,DLR-CUST-10119,Airport Auto Center,EV,Service Department,5,Service was fast and the advisor sent updates while my car was being repaired.
+2026-04-30,Email Survey,Luxury Buyer,DLR-CUST-10120,Airport Auto Center,SUV,Service Department,2,The repair took two days longer than promised and nobody called me.
+2026-05-01,Cars.com,Budget Buyer,DLR-CUST-10121,Downtown Auto Mall,EV,Service Department,3,"The oil change was fine, but the waiting area was overcrowded."
+2026-05-02,Facebook,Budget Buyer,DLR-CUST-10122,Downtown Auto Mall,Truck,Service Department,1,The same warning light came back the day after service.
+2026-05-03,Dealer Website,Budget Buyer,DLR-CUST-10123,Downtown Auto Mall,Hybrid,Parts,2,The replacement part was delayed and I had to call multiple times for updates.
+2026-05-04,Service Survey,Budget Buyer,DLR-CUST-10124,Northside Motors,Van,Parts,4,Parts staff found the correct accessory and installed it the same afternoon.
+2026-05-05,Phone Follow-up,Budget Buyer,DLR-CUST-10125,Northside Motors,Van,Parts,3,"The part arrived on time, but the installation appointment was hard to schedule."
+2026-05-06,Google Reviews,Fleet Customer,DLR-CUST-10126,Northside Motors,Truck,Delivery,5,Home delivery was smooth and the specialist walked me through the vehicle settings.
+2026-05-07,Dealer Website,Fleet Customer,DLR-CUST-10127,West Valley Cars,Sedan,Delivery,2,The vehicle was delivered with low tire pressure and no floor mats.
+2026-05-08,Service Survey,Fleet Customer,DLR-CUST-10128,West Valley Cars,Truck,Delivery,3,"Pickup was organized, but the final detailing could have been better."
+2026-05-09,Phone Follow-up,Fleet Customer,DLR-CUST-10129,West Valley Cars,SUV,Delivery,1,The delivery appointment was missed and I had to reschedule twice.
+2026-05-10,Phone Follow-up,Fleet Customer,DLR-CUST-10130,Lakeside Dealership,Certified Pre-Owned,Website,4,The website made it easy to compare vehicles and calculate estimated payments.
+2026-05-11,Email Survey,Service Customer,DLR-CUST-10131,Lakeside Dealership,Hybrid,Website,2,The payment calculator does not match the numbers provided by finance.
+2026-05-12,Cars.com,Service Customer,DLR-CUST-10132,Lakeside Dealership,Luxury SUV,Website,3,"Online chat answered basic questions, but could not confirm real inventory."
+2026-05-13,Facebook,Service Customer,DLR-CUST-10133,Airport Auto Center,Certified Pre-Owned,Website,1,I submitted a lead form and never received a response.
+2026-05-14,Facebook,Service Customer,DLR-CUST-10134,Airport Auto Center,Truck,Communication,5,Everyone followed up quickly and kept me informed during the purchase.
+2026-05-15,Google Reviews,Service Customer,DLR-CUST-10135,Airport Auto Center,Sedan,Communication,2,I received too many calls after asking to communicate by email only.
+2026-05-16,Dealer Website,Trade-in Customer,DLR-CUST-10136,Downtown Auto Mall,Truck,Communication,3,Communication was polite but inconsistent between sales and finance.
+2026-05-17,Service Survey,Trade-in Customer,DLR-CUST-10137,Downtown Auto Mall,SUV,Communication,1,Nobody returned my voicemail about a warranty question.
+2026-05-18,Cars.com,Trade-in Customer,DLR-CUST-10138,Downtown Auto Mall,Certified Pre-Owned,Warranty,4,The warranty options were explained clearly without pressure.
+2026-05-19,Facebook,Trade-in Customer,DLR-CUST-10139,Northside Motors,Hybrid,Warranty,2,I was not told which warranty items were optional until the final paperwork.
+2026-05-20,Google Reviews,Trade-in Customer,DLR-CUST-10140,Northside Motors,Luxury SUV,Warranty,3,"Coverage seems good, but the exclusions should be easier to read."
+2026-05-21,Email Survey,First-time Buyer,DLR-CUST-10141,Northside Motors,SUV,Cleanliness,5,The showroom was clean and the vehicle was spotless at pickup.
+2026-05-22,Cars.com,First-time Buyer,DLR-CUST-10142,West Valley Cars,Van,Cleanliness,2,The used vehicle still had stains inside when I came for delivery.
+2026-05-23,Facebook,First-time Buyer,DLR-CUST-10143,West Valley Cars,SUV,Cleanliness,3,"The showroom was nice, but the service waiting area needs more seating."
+2026-05-24,Cars.com,First-time Buyer,DLR-CUST-10144,West Valley Cars,EV,Customer Support,4,The receptionist quickly connected me to the right department.
+2026-05-25,Facebook,First-time Buyer,DLR-CUST-10145,Lakeside Dealership,Truck,Customer Support,2,I was transferred three times before someone could answer my question.
+2026-05-26,Google Reviews,Repeat Customer,DLR-CUST-10146,Lakeside Dealership,Truck,Customer Support,1,The support line disconnected twice while I was checking service status.
+2026-05-27,Dealer Website,Repeat Customer,DLR-CUST-10147,Lakeside Dealership,Certified Pre-Owned,Customer Support,3,"Staff were friendly, but follow-up after purchase could be more proactive."
+2026-05-28,Service Survey,Repeat Customer,DLR-CUST-10148,Airport Auto Center,Sedan,Sales Experience,5,The sales advisor listened carefully and helped me compare trims without pressure.
+2026-05-29,Phone Follow-up,Repeat Customer,DLR-CUST-10149,Airport Auto Center,Luxury SUV,Sales Experience,2,The salesperson kept pushing add-ons after I said I was not interested.
+2026-05-30,Email Survey,Repeat Customer,DLR-CUST-10150,Airport Auto Center,Sedan,Sales Experience,3,"The test drive was helpful, but I waited too long before someone greeted me."
+2026-05-31,Cars.com,Luxury Buyer,DLR-CUST-10151,Downtown Auto Mall,Truck,Sales Experience,4,The team explained the vehicle features clearly and made the buying process simple.
+2026-06-01,Facebook,Luxury Buyer,DLR-CUST-10152,Downtown Auto Mall,SUV,Financing,2,The final monthly payment was higher than what was discussed online.
+2026-06-02,Google Reviews,Luxury Buyer,DLR-CUST-10153,Downtown Auto Mall,SUV,Financing,1,Finance paperwork took almost three hours and several fees were not explained.
+2026-06-03,Dealer Website,Luxury Buyer,DLR-CUST-10154,Northside Motors,Certified Pre-Owned,Financing,4,The finance manager found a better rate than my bank and explained the terms well.
+2026-06-04,Service Survey,Luxury Buyer,DLR-CUST-10155,Northside Motors,Certified Pre-Owned,Financing,3,"Loan options were presented clearly, but the wait for approval was too long."
+2026-06-05,Dealer Website,Budget Buyer,DLR-CUST-10156,Northside Motors,Certified Pre-Owned,Pricing,2,The advertised price did not include mandatory dealer add-ons.
+2026-01-01,Service Survey,Budget Buyer,DLR-CUST-10157,West Valley Cars,Certified Pre-Owned,Pricing,1,I felt misled by the online price because the quote changed at the dealership.
+2026-01-02,Phone Follow-up,Budget Buyer,DLR-CUST-10158,West Valley Cars,SUV,Pricing,4,The price was fair and the final invoice matched the quote.
+2026-01-03,Email Survey,Budget Buyer,DLR-CUST-10159,West Valley Cars,SUV,Pricing,3,"Discounts were good, but the fee breakdown should be easier to understand."
+2026-01-04,Google Reviews,Budget Buyer,DLR-CUST-10160,Lakeside Dealership,SUV,Inventory,2,The car listed online was already sold when I arrived for my appointment.
+2026-01-05,Dealer Website,Fleet Customer,DLR-CUST-10161,Lakeside Dealership,EV,Inventory,3,Inventory filters on the website are useful but some colors are listed incorrectly.
+2026-01-06,Service Survey,Fleet Customer,DLR-CUST-10162,Lakeside Dealership,Certified Pre-Owned,Inventory,4,They had several trims available and helped me find the right configuration.
+2026-01-07,Phone Follow-up,Fleet Customer,DLR-CUST-10163,Airport Auto Center,EV,Inventory,1,I drove across town for a vehicle that was marked available but unavailable in store.
+2026-01-08,Phone Follow-up,Fleet Customer,DLR-CUST-10164,Airport Auto Center,Certified Pre-Owned,Trade-in,2,The trade-in offer was much lower than the estimate I received online.
+2026-01-09,Email Survey,Fleet Customer,DLR-CUST-10165,Airport Auto Center,Sedan,Trade-in,4,The appraisal was quick and the trade-in credit was clearly applied to my purchase.
+2026-01-10,Cars.com,Service Customer,DLR-CUST-10166,Downtown Auto Mall,Sedan,Trade-in,3,"Trade-in inspection was fair, but I wanted more explanation about the valuation."
+2026-01-11,Facebook,Service Customer,DLR-CUST-10167,Downtown Auto Mall,Van,Trade-in,1,My trade-in quote changed twice during the same visit.
+2026-01-12,Phone Follow-up,Service Customer,DLR-CUST-10168,Downtown Auto Mall,Hybrid,Service Department,5,Service was fast and the advisor sent updates while my car was being repaired.
+2026-01-13,Email Survey,Service Customer,DLR-CUST-10169,Northside Motors,Truck,Service Department,2,The repair took two days longer than promised and nobody called me.
+2026-01-14,Cars.com,Service Customer,DLR-CUST-10170,Northside Motors,Hybrid,Service Department,3,"The oil change was fine, but the waiting area was overcrowded."
+2026-01-15,Facebook,Trade-in Customer,DLR-CUST-10171,Northside Motors,EV,Service Department,1,The same warning light came back the day after service.
+2026-01-16,Dealer Website,Trade-in Customer,DLR-CUST-10172,West Valley Cars,Certified Pre-Owned,Parts,2,The replacement part was delayed and I had to call multiple times for updates.
+2026-01-17,Service Survey,Trade-in Customer,DLR-CUST-10173,West Valley Cars,Sedan,Parts,4,Parts staff found the correct accessory and installed it the same afternoon.
+2026-01-18,Phone Follow-up,Trade-in Customer,DLR-CUST-10174,West Valley Cars,Sedan,Parts,3,"The part arrived on time, but the installation appointment was hard to schedule."
+2026-01-19,Google Reviews,Trade-in Customer,DLR-CUST-10175,Lakeside Dealership,EV,Delivery,5,Home delivery was smooth and the specialist walked me through the vehicle settings.
+2026-01-20,Dealer Website,First-time Buyer,DLR-CUST-10176,Lakeside Dealership,SUV,Delivery,2,The vehicle was delivered with low tire pressure and no floor mats.
+2026-01-21,Service Survey,First-time Buyer,DLR-CUST-10177,Lakeside Dealership,EV,Delivery,3,"Pickup was organized, but the final detailing could have been better."
+2026-01-22,Phone Follow-up,First-time Buyer,DLR-CUST-10178,Airport Auto Center,Truck,Delivery,1,The delivery appointment was missed and I had to reschedule twice.
+2026-01-23,Phone Follow-up,First-time Buyer,DLR-CUST-10179,Airport Auto Center,Luxury SUV,Website,4,The website made it easy to compare vehicles and calculate estimated payments.
+2026-01-24,Email Survey,First-time Buyer,DLR-CUST-10180,Airport Auto Center,Certified Pre-Owned,Website,2,The payment calculator does not match the numbers provided by finance.
+2026-01-25,Cars.com,Repeat Customer,DLR-CUST-10181,Downtown Auto Mall,Van,Website,3,"Online chat answered basic questions, but could not confirm real inventory."
+2026-01-26,Facebook,Repeat Customer,DLR-CUST-10182,Downtown Auto Mall,Luxury SUV,Website,1,I submitted a lead form and never received a response.
+2026-01-27,Facebook,Repeat Customer,DLR-CUST-10183,Downtown Auto Mall,EV,Communication,5,Everyone followed up quickly and kept me informed during the purchase.
+2026-01-28,Google Reviews,Repeat Customer,DLR-CUST-10184,Northside Motors,SUV,Communication,2,I received too many calls after asking to communicate by email only.
+2026-01-29,Dealer Website,Repeat Customer,DLR-CUST-10185,Northside Motors,EV,Communication,3,Communication was polite but inconsistent between sales and finance.
+2026-01-30,Service Survey,Luxury Buyer,DLR-CUST-10186,Northside Motors,Truck,Communication,1,Nobody returned my voicemail about a warranty question.
+2026-01-31,Cars.com,Luxury Buyer,DLR-CUST-10187,West Valley Cars,Luxury SUV,Warranty,4,The warranty options were explained clearly without pressure.
+2026-02-01,Facebook,Luxury Buyer,DLR-CUST-10188,West Valley Cars,Certified Pre-Owned,Warranty,2,I was not told which warranty items were optional until the final paperwork.
+2026-02-02,Google Reviews,Luxury Buyer,DLR-CUST-10189,West Valley Cars,Van,Warranty,3,"Coverage seems good, but the exclusions should be easier to read."
+2026-02-03,Email Survey,Luxury Buyer,DLR-CUST-10190,Lakeside Dealership,Truck,Cleanliness,5,The showroom was clean and the vehicle was spotless at pickup.
+2026-02-04,Cars.com,Budget Buyer,DLR-CUST-10191,Lakeside Dealership,Sedan,Cleanliness,2,The used vehicle still had stains inside when I came for delivery.
+2026-02-05,Facebook,Budget Buyer,DLR-CUST-10192,Lakeside Dealership,Truck,Cleanliness,3,"The showroom was nice, but the service waiting area needs more seating."
+2026-02-06,Cars.com,Budget Buyer,DLR-CUST-10193,Airport Auto Center,Hybrid,Customer Support,4,The receptionist quickly connected me to the right department.
+2026-02-07,Facebook,Budget Buyer,DLR-CUST-10194,Airport Auto Center,EV,Customer Support,2,I was transferred three times before someone could answer my question.
+2026-02-08,Google Reviews,Budget Buyer,DLR-CUST-10195,Airport Auto Center,EV,Customer Support,1,The support line disconnected twice while I was checking service status.
+2026-02-09,Dealer Website,Fleet Customer,DLR-CUST-10196,Downtown Auto Mall,Luxury SUV,Customer Support,3,"Staff were friendly, but follow-up after purchase could be more proactive."
+2026-02-10,Service Survey,Fleet Customer,DLR-CUST-10197,Downtown Auto Mall,SUV,Sales Experience,5,The sales advisor listened carefully and helped me compare trims without pressure.
+2026-02-11,Phone Follow-up,Fleet Customer,DLR-CUST-10198,Downtown Auto Mall,Van,Sales Experience,2,The salesperson kept pushing add-ons after I said I was not interested.
+2026-02-12,Email Survey,Fleet Customer,DLR-CUST-10199,Northside Motors,SUV,Sales Experience,3,"The test drive was helpful, but I waited too long before someone greeted me."
+2026-02-13,Cars.com,Fleet Customer,DLR-CUST-10200,Northside Motors,EV,Sales Experience,4,The team explained the vehicle features clearly and made the buying process simple.
+2026-02-14,Facebook,Service Customer,DLR-CUST-10201,Northside Motors,Truck,Financing,2,The final monthly payment was higher than what was discussed online.
+2026-02-15,Google Reviews,Service Customer,DLR-CUST-10202,West Valley Cars,Truck,Financing,1,Finance paperwork took almost three hours and several fees were not explained.
+2026-02-16,Dealer Website,Service Customer,DLR-CUST-10203,West Valley Cars,Luxury SUV,Financing,4,The finance manager found a better rate than my bank and explained the terms well.
+2026-02-17,Service Survey,Service Customer,DLR-CUST-10204,West Valley Cars,Luxury SUV,Financing,3,"Loan options were presented clearly, but the wait for approval was too long."
+2026-02-18,Dealer Website,Service Customer,DLR-CUST-10205,Lakeside Dealership,Luxury SUV,Pricing,2,The advertised price did not include mandatory dealer add-ons.
+2026-02-19,Service Survey,Trade-in Customer,DLR-CUST-10206,Lakeside Dealership,Luxury SUV,Pricing,1,I felt misled by the online price because the quote changed at the dealership.
+2026-02-20,Phone Follow-up,Trade-in Customer,DLR-CUST-10207,Lakeside Dealership,Truck,Pricing,4,The price was fair and the final invoice matched the quote.
+2026-02-21,Email Survey,Trade-in Customer,DLR-CUST-10208,Airport Auto Center,Truck,Pricing,3,"Discounts were good, but the fee breakdown should be easier to understand."
+2026-02-22,Google Reviews,Trade-in Customer,DLR-CUST-10209,Airport Auto Center,Truck,Inventory,2,The car listed online was already sold when I arrived for my appointment.
+2026-02-23,Dealer Website,Trade-in Customer,DLR-CUST-10210,Airport Auto Center,Hybrid,Inventory,3,Inventory filters on the website are useful but some colors are listed incorrectly.
+2026-02-24,Service Survey,First-time Buyer,DLR-CUST-10211,Downtown Auto Mall,Luxury SUV,Inventory,4,They had several trims available and helped me find the right configuration.
+2026-02-25,Phone Follow-up,First-time Buyer,DLR-CUST-10212,Downtown Auto Mall,Hybrid,Inventory,1,I drove across town for a vehicle that was marked available but unavailable in store.
+2026-02-26,Phone Follow-up,First-time Buyer,DLR-CUST-10213,Downtown Auto Mall,Luxury SUV,Trade-in,2,The trade-in offer was much lower than the estimate I received online.
+2026-02-27,Email Survey,First-time Buyer,DLR-CUST-10214,Northside Motors,SUV,Trade-in,4,The appraisal was quick and the trade-in credit was clearly applied to my purchase.
+2026-02-28,Cars.com,First-time Buyer,DLR-CUST-10215,Northside Motors,SUV,Trade-in,3,"Trade-in inspection was fair, but I wanted more explanation about the valuation."
+2026-03-01,Facebook,Repeat Customer,DLR-CUST-10216,Northside Motors,Sedan,Trade-in,1,My trade-in quote changed twice during the same visit.
+2026-03-02,Phone Follow-up,Repeat Customer,DLR-CUST-10217,West Valley Cars,Certified Pre-Owned,Service Department,5,Service was fast and the advisor sent updates while my car was being repaired.
+2026-03-03,Email Survey,Repeat Customer,DLR-CUST-10218,West Valley Cars,EV,Service Department,2,The repair took two days longer than promised and nobody called me.
+2026-03-04,Cars.com,Repeat Customer,DLR-CUST-10219,West Valley Cars,Certified Pre-Owned,Service Department,3,"The oil change was fine, but the waiting area was overcrowded."
+2026-03-05,Facebook,Repeat Customer,DLR-CUST-10220,Lakeside Dealership,Hybrid,Service Department,1,The same warning light came back the day after service.
+2026-03-06,Dealer Website,Luxury Buyer,DLR-CUST-10221,Lakeside Dealership,Luxury SUV,Parts,2,The replacement part was delayed and I had to call multiple times for updates.
+2026-03-07,Service Survey,Luxury Buyer,DLR-CUST-10222,Lakeside Dealership,SUV,Parts,4,Parts staff found the correct accessory and installed it the same afternoon.
+2026-03-08,Phone Follow-up,Luxury Buyer,DLR-CUST-10223,Airport Auto Center,SUV,Parts,3,"The part arrived on time, but the installation appointment was hard to schedule."
+2026-03-09,Google Reviews,Luxury Buyer,DLR-CUST-10224,Airport Auto Center,Hybrid,Delivery,5,Home delivery was smooth and the specialist walked me through the vehicle settings.
+2026-03-10,Dealer Website,Luxury Buyer,DLR-CUST-10225,Airport Auto Center,Truck,Delivery,2,The vehicle was delivered with low tire pressure and no floor mats.
+2026-03-11,Service Survey,Budget Buyer,DLR-CUST-10226,Downtown Auto Mall,Hybrid,Delivery,3,"Pickup was organized, but the final detailing could have been better."
+2026-03-12,Phone Follow-up,Budget Buyer,DLR-CUST-10227,Downtown Auto Mall,EV,Delivery,1,The delivery appointment was missed and I had to reschedule twice.
+2026-03-13,Phone Follow-up,Budget Buyer,DLR-CUST-10228,Downtown Auto Mall,Van,Website,4,The website made it easy to compare vehicles and calculate estimated payments.
+2026-03-14,Email Survey,Budget Buyer,DLR-CUST-10229,Northside Motors,Luxury SUV,Website,2,The payment calculator does not match the numbers provided by finance.
+2026-03-15,Cars.com,Budget Buyer,DLR-CUST-10230,Northside Motors,Sedan,Website,3,"Online chat answered basic questions, but could not confirm real inventory."
+2026-03-16,Facebook,Fleet Customer,DLR-CUST-10231,Northside Motors,Van,Website,1,I submitted a lead form and never received a response.
+2026-03-17,Facebook,Fleet Customer,DLR-CUST-10232,West Valley Cars,Hybrid,Communication,5,Everyone followed up quickly and kept me informed during the purchase.
+2026-03-18,Google Reviews,Fleet Customer,DLR-CUST-10233,West Valley Cars,Truck,Communication,2,I received too many calls after asking to communicate by email only.
+2026-03-19,Dealer Website,Fleet Customer,DLR-CUST-10234,West Valley Cars,Hybrid,Communication,3,Communication was polite but inconsistent between sales and finance.
+2026-03-20,Service Survey,Fleet Customer,DLR-CUST-10235,Lakeside Dealership,EV,Communication,1,Nobody returned my voicemail about a warranty question.
+2026-03-21,Cars.com,Service Customer,DLR-CUST-10236,Lakeside Dealership,Van,Warranty,4,The warranty options were explained clearly without pressure.
+2026-03-22,Facebook,Service Customer,DLR-CUST-10237,Lakeside Dealership,Luxury SUV,Warranty,2,I was not told which warranty items were optional until the final paperwork.
+2026-03-23,Google Reviews,Service Customer,DLR-CUST-10238,Airport Auto Center,Sedan,Warranty,3,"Coverage seems good, but the exclusions should be easier to read."
+2026-03-24,Email Survey,Service Customer,DLR-CUST-10239,Airport Auto Center,EV,Cleanliness,5,The showroom was clean and the vehicle was spotless at pickup.
+2026-03-25,Cars.com,Service Customer,DLR-CUST-10240,Airport Auto Center,SUV,Cleanliness,2,The used vehicle still had stains inside when I came for delivery.
+2026-03-26,Facebook,Trade-in Customer,DLR-CUST-10241,Downtown Auto Mall,EV,Cleanliness,3,"The showroom was nice, but the service waiting area needs more seating."
+2026-03-27,Cars.com,Trade-in Customer,DLR-CUST-10242,Downtown Auto Mall,Certified Pre-Owned,Customer Support,4,The receptionist quickly connected me to the right department.
+2026-03-28,Facebook,Trade-in Customer,DLR-CUST-10243,Downtown Auto Mall,Hybrid,Customer Support,2,I was transferred three times before someone could answer my question.
+2026-03-29,Google Reviews,Trade-in Customer,DLR-CUST-10244,Northside Motors,Hybrid,Customer Support,1,The support line disconnected twice while I was checking service status.
+2026-03-30,Dealer Website,Trade-in Customer,DLR-CUST-10245,Northside Motors,Van,Customer Support,3,"Staff were friendly, but follow-up after purchase could be more proactive."
+2026-03-31,Service Survey,First-time Buyer,DLR-CUST-10246,Northside Motors,Truck,Sales Experience,5,The sales advisor listened carefully and helped me compare trims without pressure.
+2026-04-01,Phone Follow-up,First-time Buyer,DLR-CUST-10247,West Valley Cars,Sedan,Sales Experience,2,The salesperson kept pushing add-ons after I said I was not interested.
+2026-04-02,Email Survey,First-time Buyer,DLR-CUST-10248,West Valley Cars,Truck,Sales Experience,3,"The test drive was helpful, but I waited too long before someone greeted me."
+2026-04-03,Cars.com,First-time Buyer,DLR-CUST-10249,West Valley Cars,Hybrid,Sales Experience,4,The team explained the vehicle features clearly and made the buying process simple.
+2026-04-04,Facebook,First-time Buyer,DLR-CUST-10250,Lakeside Dealership,EV,Financing,2,The final monthly payment was higher than what was discussed online.
+2026-04-05,Google Reviews,Repeat Customer,DLR-CUST-10251,Lakeside Dealership,EV,Financing,1,Finance paperwork took almost three hours and several fees were not explained.
+2026-04-06,Dealer Website,Repeat Customer,DLR-CUST-10252,Lakeside Dealership,Van,Financing,4,The finance manager found a better rate than my bank and explained the terms well.
+2026-04-07,Service Survey,Repeat Customer,DLR-CUST-10253,Airport Auto Center,Van,Financing,3,"Loan options were presented clearly, but the wait for approval was too long."
+2026-04-08,Dealer Website,Repeat Customer,DLR-CUST-10254,Airport Auto Center,Van,Pricing,2,The advertised price did not include mandatory dealer add-ons.
+2026-04-09,Service Survey,Repeat Customer,DLR-CUST-10255,Airport Auto Center,Van,Pricing,1,I felt misled by the online price because the quote changed at the dealership.
+2026-04-10,Phone Follow-up,Luxury Buyer,DLR-CUST-10256,Downtown Auto Mall,EV,Pricing,4,The price was fair and the final invoice matched the quote.
+2026-04-11,Email Survey,Luxury Buyer,DLR-CUST-10257,Downtown Auto Mall,EV,Pricing,3,"Discounts were good, but the fee breakdown should be easier to understand."
+2026-04-12,Google Reviews,Luxury Buyer,DLR-CUST-10258,Downtown Auto Mall,EV,Inventory,2,The car listed online was already sold when I arrived for my appointment.
+2026-04-13,Dealer Website,Luxury Buyer,DLR-CUST-10259,Northside Motors,Certified Pre-Owned,Inventory,3,Inventory filters on the website are useful but some colors are listed incorrectly.
+2026-04-14,Service Survey,Luxury Buyer,DLR-CUST-10260,Northside Motors,Van,Inventory,4,They had several trims available and helped me find the right configuration.
+2026-04-15,Phone Follow-up,Budget Buyer,DLR-CUST-10261,Northside Motors,Certified Pre-Owned,Inventory,1,I drove across town for a vehicle that was marked available but unavailable in store.
+2026-04-16,Phone Follow-up,Budget Buyer,DLR-CUST-10262,West Valley Cars,Van,Trade-in,2,The trade-in offer was much lower than the estimate I received online.
+2026-04-17,Email Survey,Budget Buyer,DLR-CUST-10263,West Valley Cars,Truck,Trade-in,4,The appraisal was quick and the trade-in credit was clearly applied to my purchase.
+2026-04-18,Cars.com,Budget Buyer,DLR-CUST-10264,West Valley Cars,Truck,Trade-in,3,"Trade-in inspection was fair, but I wanted more explanation about the valuation."
+2026-04-19,Facebook,Budget Buyer,DLR-CUST-10265,Lakeside Dealership,SUV,Trade-in,1,My trade-in quote changed twice during the same visit.
+2026-04-20,Phone Follow-up,Fleet Customer,DLR-CUST-10266,Lakeside Dealership,Luxury SUV,Service Department,5,Service was fast and the advisor sent updates while my car was being repaired.
+2026-04-21,Email Survey,Fleet Customer,DLR-CUST-10267,Lakeside Dealership,Hybrid,Service Department,2,The repair took two days longer than promised and nobody called me.
+2026-04-22,Cars.com,Fleet Customer,DLR-CUST-10268,Airport Auto Center,Luxury SUV,Service Department,3,"The oil change was fine, but the waiting area was overcrowded."
+2026-04-23,Facebook,Fleet Customer,DLR-CUST-10269,Airport Auto Center,Certified Pre-Owned,Service Department,1,The same warning light came back the day after service.
+2026-04-24,Dealer Website,Fleet Customer,DLR-CUST-10270,Airport Auto Center,Van,Parts,2,The replacement part was delayed and I had to call multiple times for updates.
+2026-04-25,Service Survey,Service Customer,DLR-CUST-10271,Downtown Auto Mall,Truck,Parts,4,Parts staff found the correct accessory and installed it the same afternoon.
+2026-04-26,Phone Follow-up,Service Customer,DLR-CUST-10272,Downtown Auto Mall,Truck,Parts,3,"The part arrived on time, but the installation appointment was hard to schedule."
+2026-04-27,Google Reviews,Service Customer,DLR-CUST-10273,Downtown Auto Mall,Certified Pre-Owned,Delivery,5,Home delivery was smooth and the specialist walked me through the vehicle settings.
+2026-04-28,Dealer Website,Service Customer,DLR-CUST-10274,Northside Motors,EV,Delivery,2,The vehicle was delivered with low tire pressure and no floor mats.
+2026-04-29,Service Survey,Service Customer,DLR-CUST-10275,Northside Motors,Certified Pre-Owned,Delivery,3,"Pickup was organized, but the final detailing could have been better."
+2026-04-30,Phone Follow-up,Trade-in Customer,DLR-CUST-10276,Northside Motors,Hybrid,Delivery,1,The delivery appointment was missed and I had to reschedule twice.
+2026-05-01,Phone Follow-up,Trade-in Customer,DLR-CUST-10277,West Valley Cars,Sedan,Website,4,The website made it easy to compare vehicles and calculate estimated payments.
+2026-05-02,Email Survey,Trade-in Customer,DLR-CUST-10278,West Valley Cars,Van,Website,2,The payment calculator does not match the numbers provided by finance.
+2026-05-03,Cars.com,Trade-in Customer,DLR-CUST-10279,West Valley Cars,SUV,Website,3,"Online chat answered basic questions, but could not confirm real inventory."
+2026-05-04,Facebook,Trade-in Customer,DLR-CUST-10280,Lakeside Dealership,Sedan,Website,1,I submitted a lead form and never received a response.
+2026-05-05,Facebook,First-time Buyer,DLR-CUST-10281,Lakeside Dealership,Certified Pre-Owned,Communication,5,Everyone followed up quickly and kept me informed during the purchase.
+2026-05-06,Google Reviews,First-time Buyer,DLR-CUST-10282,Lakeside Dealership,EV,Communication,2,I received too many calls after asking to communicate by email only.
+2026-05-07,Dealer Website,First-time Buyer,DLR-CUST-10283,Airport Auto Center,Certified Pre-Owned,Communication,3,Communication was polite but inconsistent between sales and finance.
+2026-05-08,Service Survey,First-time Buyer,DLR-CUST-10284,Airport Auto Center,Hybrid,Communication,1,Nobody returned my voicemail about a warranty question.
+2026-05-09,Cars.com,First-time Buyer,DLR-CUST-10285,Airport Auto Center,Sedan,Warranty,4,The warranty options were explained clearly without pressure.
+2026-05-10,Facebook,Repeat Customer,DLR-CUST-10286,Downtown Auto Mall,Van,Warranty,2,I was not told which warranty items were optional until the final paperwork.
+2026-05-11,Google Reviews,Repeat Customer,DLR-CUST-10287,Downtown Auto Mall,SUV,Warranty,3,"Coverage seems good, but the exclusions should be easier to read."
+2026-05-12,Email Survey,Repeat Customer,DLR-CUST-10288,Downtown Auto Mall,Hybrid,Cleanliness,5,The showroom was clean and the vehicle was spotless at pickup.
+2026-05-13,Cars.com,Repeat Customer,DLR-CUST-10289,Northside Motors,Truck,Cleanliness,2,The used vehicle still had stains inside when I came for delivery.
+2026-05-14,Facebook,Repeat Customer,DLR-CUST-10290,Northside Motors,Hybrid,Cleanliness,3,"The showroom was nice, but the service waiting area needs more seating."
+2026-05-15,Cars.com,Luxury Buyer,DLR-CUST-10291,Northside Motors,Luxury SUV,Customer Support,4,The receptionist quickly connected me to the right department.
+2026-05-16,Facebook,Luxury Buyer,DLR-CUST-10292,West Valley Cars,Certified Pre-Owned,Customer Support,2,I was transferred three times before someone could answer my question.
+2026-05-17,Google Reviews,Luxury Buyer,DLR-CUST-10293,West Valley Cars,Certified Pre-Owned,Customer Support,1,The support line disconnected twice while I was checking service status.
+2026-05-18,Dealer Website,Luxury Buyer,DLR-CUST-10294,West Valley Cars,Sedan,Customer Support,3,"Staff were friendly, but follow-up after purchase could be more proactive."
+2026-05-19,Service Survey,Luxury Buyer,DLR-CUST-10295,Lakeside Dealership,EV,Sales Experience,5,The sales advisor listened carefully and helped me compare trims without pressure.
+2026-05-20,Phone Follow-up,Budget Buyer,DLR-CUST-10296,Lakeside Dealership,SUV,Sales Experience,2,The salesperson kept pushing add-ons after I said I was not interested.
+2026-05-21,Email Survey,Budget Buyer,DLR-CUST-10297,Lakeside Dealership,EV,Sales Experience,3,"The test drive was helpful, but I waited too long before someone greeted me."
+2026-05-22,Cars.com,Budget Buyer,DLR-CUST-10298,Airport Auto Center,Certified Pre-Owned,Sales Experience,4,The team explained the vehicle features clearly and made the buying process simple.
+2026-05-23,Facebook,Budget Buyer,DLR-CUST-10299,Airport Auto Center,Hybrid,Financing,2,The final monthly payment was higher than what was discussed online.
+2026-05-24,Google Reviews,Budget Buyer,DLR-CUST-10300,Airport Auto Center,Hybrid,Financing,1,Finance paperwork took almost three hours and several fees were not explained.
+2026-05-25,Dealer Website,Fleet Customer,DLR-CUST-10301,Downtown Auto Mall,Sedan,Financing,4,The finance manager found a better rate than my bank and explained the terms well.
+2026-05-26,Service Survey,Fleet Customer,DLR-CUST-10302,Downtown Auto Mall,Sedan,Financing,3,"Loan options were presented clearly, but the wait for approval was too long."
+2026-05-27,Dealer Website,Fleet Customer,DLR-CUST-10303,Downtown Auto Mall,Sedan,Pricing,2,The advertised price did not include mandatory dealer add-ons.
+2026-05-28,Service Survey,Fleet Customer,DLR-CUST-10304,Northside Motors,Sedan,Pricing,1,I felt misled by the online price because the quote changed at the dealership.
+2026-05-29,Phone Follow-up,Fleet Customer,DLR-CUST-10305,Northside Motors,Hybrid,Pricing,4,The price was fair and the final invoice matched the quote.
+2026-05-30,Email Survey,Service Customer,DLR-CUST-10306,Northside Motors,Hybrid,Pricing,3,"Discounts were good, but the fee breakdown should be easier to understand."
+2026-05-31,Google Reviews,Service Customer,DLR-CUST-10307,West Valley Cars,Hybrid,Inventory,2,The car listed online was already sold when I arrived for my appointment.
+2026-06-01,Dealer Website,Service Customer,DLR-CUST-10308,West Valley Cars,Luxury SUV,Inventory,3,Inventory filters on the website are useful but some colors are listed incorrectly.
+2026-06-02,Service Survey,Service Customer,DLR-CUST-10309,West Valley Cars,Sedan,Inventory,4,They had several trims available and helped me find the right configuration.
+2026-06-03,Phone Follow-up,Service Customer,DLR-CUST-10310,Lakeside Dealership,Luxury SUV,Inventory,1,I drove across town for a vehicle that was marked available but unavailable in store.
+2026-06-04,Phone Follow-up,Trade-in Customer,DLR-CUST-10311,Lakeside Dealership,Sedan,Trade-in,2,The trade-in offer was much lower than the estimate I received online.
+2026-06-05,Email Survey,Trade-in Customer,DLR-CUST-10312,Lakeside Dealership,EV,Trade-in,4,The appraisal was quick and the trade-in credit was clearly applied to my purchase.
+2026-01-01,Cars.com,Trade-in Customer,DLR-CUST-10313,Airport Auto Center,EV,Trade-in,3,"Trade-in inspection was fair, but I wanted more explanation about the valuation."
+2026-01-02,Facebook,Trade-in Customer,DLR-CUST-10314,Airport Auto Center,Truck,Trade-in,1,My trade-in quote changed twice during the same visit.
+2026-01-03,Phone Follow-up,Trade-in Customer,DLR-CUST-10315,Airport Auto Center,Van,Service Department,5,Service was fast and the advisor sent updates while my car was being repaired.
+2026-01-04,Email Survey,First-time Buyer,DLR-CUST-10316,Downtown Auto Mall,Certified Pre-Owned,Service Department,2,The repair took two days longer than promised and nobody called me.
+2026-01-05,Cars.com,First-time Buyer,DLR-CUST-10317,Downtown Auto Mall,Van,Service Department,3,"The oil change was fine, but the waiting area was overcrowded."
+2026-01-06,Facebook,First-time Buyer,DLR-CUST-10318,Downtown Auto Mall,Luxury SUV,Service Department,1,The same warning light came back the day after service.
+2026-01-07,Dealer Website,First-time Buyer,DLR-CUST-10319,Northside Motors,Sedan,Parts,2,The replacement part was delayed and I had to call multiple times for updates.
+2026-01-08,Service Survey,First-time Buyer,DLR-CUST-10320,Northside Motors,EV,Parts,4,Parts staff found the correct accessory and installed it the same afternoon.
+2026-01-09,Phone Follow-up,Repeat Customer,DLR-CUST-10321,Northside Motors,EV,Parts,3,"The part arrived on time, but the installation appointment was hard to schedule."
+2026-01-10,Google Reviews,Repeat Customer,DLR-CUST-10322,West Valley Cars,Luxury SUV,Delivery,5,Home delivery was smooth and the specialist walked me through the vehicle settings.
+2026-01-11,Dealer Website,Repeat Customer,DLR-CUST-10323,West Valley Cars,Hybrid,Delivery,2,The vehicle was delivered with low tire pressure and no floor mats.
+2026-01-12,Service Survey,Repeat Customer,DLR-CUST-10324,West Valley Cars,Luxury SUV,Delivery,3,"Pickup was organized, but the final detailing could have been better."
+2026-01-13,Phone Follow-up,Repeat Customer,DLR-CUST-10325,Lakeside Dealership,Certified Pre-Owned,Delivery,1,The delivery appointment was missed and I had to reschedule twice.
+2026-01-14,Phone Follow-up,Luxury Buyer,DLR-CUST-10326,Lakeside Dealership,SUV,Website,4,The website made it easy to compare vehicles and calculate estimated payments.
+2026-01-15,Email Survey,Luxury Buyer,DLR-CUST-10327,Lakeside Dealership,Sedan,Website,2,The payment calculator does not match the numbers provided by finance.
+2026-01-16,Cars.com,Luxury Buyer,DLR-CUST-10328,Airport Auto Center,Truck,Website,3,"Online chat answered basic questions, but could not confirm real inventory."
+2026-01-17,Facebook,Luxury Buyer,DLR-CUST-10329,Airport Auto Center,SUV,Website,1,I submitted a lead form and never received a response.
+2026-01-18,Facebook,Luxury Buyer,DLR-CUST-10330,Airport Auto Center,Luxury SUV,Communication,5,Everyone followed up quickly and kept me informed during the purchase.
+2026-01-19,Google Reviews,Budget Buyer,DLR-CUST-10331,Downtown Auto Mall,Hybrid,Communication,2,I received too many calls after asking to communicate by email only.
+2026-01-20,Dealer Website,Budget Buyer,DLR-CUST-10332,Downtown Auto Mall,Luxury SUV,Communication,3,Communication was polite but inconsistent between sales and finance.
+2026-01-21,Service Survey,Budget Buyer,DLR-CUST-10333,Downtown Auto Mall,Certified Pre-Owned,Communication,1,Nobody returned my voicemail about a warranty question.
+2026-01-22,Cars.com,Budget Buyer,DLR-CUST-10334,Northside Motors,SUV,Warranty,4,The warranty options were explained clearly without pressure.
+2026-01-23,Facebook,Budget Buyer,DLR-CUST-10335,Northside Motors,Sedan,Warranty,2,I was not told which warranty items were optional until the final paperwork.
+2026-01-24,Google Reviews,Fleet Customer,DLR-CUST-10336,Northside Motors,Truck,Warranty,3,"Coverage seems good, but the exclusions should be easier to read."
+2026-01-25,Email Survey,Fleet Customer,DLR-CUST-10337,West Valley Cars,Certified Pre-Owned,Cleanliness,5,The showroom was clean and the vehicle was spotless at pickup.
+2026-01-26,Cars.com,Fleet Customer,DLR-CUST-10338,West Valley Cars,EV,Cleanliness,2,The used vehicle still had stains inside when I came for delivery.
+2026-01-27,Facebook,Fleet Customer,DLR-CUST-10339,West Valley Cars,Certified Pre-Owned,Cleanliness,3,"The showroom was nice, but the service waiting area needs more seating."
+2026-01-28,Cars.com,Fleet Customer,DLR-CUST-10340,Lakeside Dealership,Van,Customer Support,4,The receptionist quickly connected me to the right department.
+2026-01-29,Facebook,Service Customer,DLR-CUST-10341,Lakeside Dealership,Luxury SUV,Customer Support,2,I was transferred three times before someone could answer my question.
+2026-01-30,Google Reviews,Service Customer,DLR-CUST-10342,Lakeside Dealership,Luxury SUV,Customer Support,1,The support line disconnected twice while I was checking service status.
+2026-01-31,Dealer Website,Service Customer,DLR-CUST-10343,Airport Auto Center,SUV,Customer Support,3,"Staff were friendly, but follow-up after purchase could be more proactive."
+2026-02-01,Service Survey,Service Customer,DLR-CUST-10344,Airport Auto Center,Hybrid,Sales Experience,5,The sales advisor listened carefully and helped me compare trims without pressure.
+2026-02-02,Phone Follow-up,Service Customer,DLR-CUST-10345,Airport Auto Center,Truck,Sales Experience,2,The salesperson kept pushing add-ons after I said I was not interested.
+2026-02-03,Email Survey,Trade-in Customer,DLR-CUST-10346,Downtown Auto Mall,Hybrid,Sales Experience,3,"The test drive was helpful, but I waited too long before someone greeted me."
+2026-02-04,Cars.com,Trade-in Customer,DLR-CUST-10347,Downtown Auto Mall,Luxury SUV,Sales Experience,4,The team explained the vehicle features clearly and made the buying process simple.
+2026-02-05,Facebook,Trade-in Customer,DLR-CUST-10348,Downtown Auto Mall,Certified Pre-Owned,Financing,2,The final monthly payment was higher than what was discussed online.
+2026-02-06,Google Reviews,Trade-in Customer,DLR-CUST-10349,Northside Motors,Certified Pre-Owned,Financing,1,Finance paperwork took almost three hours and several fees were not explained.
+2026-02-07,Dealer Website,Trade-in Customer,DLR-CUST-10350,Northside Motors,SUV,Financing,4,The finance manager found a better rate than my bank and explained the terms well.
+2026-02-08,Service Survey,First-time Buyer,DLR-CUST-10351,Northside Motors,SUV,Financing,3,"Loan options were presented clearly, but the wait for approval was too long."
+2026-02-09,Dealer Website,First-time Buyer,DLR-CUST-10352,West Valley Cars,SUV,Pricing,2,The advertised price did not include mandatory dealer add-ons.
+2026-02-10,Service Survey,First-time Buyer,DLR-CUST-10353,West Valley Cars,SUV,Pricing,1,I felt misled by the online price because the quote changed at the dealership.
+2026-02-11,Phone Follow-up,First-time Buyer,DLR-CUST-10354,West Valley Cars,Certified Pre-Owned,Pricing,4,The price was fair and the final invoice matched the quote.
+2026-02-12,Email Survey,First-time Buyer,DLR-CUST-10355,Lakeside Dealership,Certified Pre-Owned,Pricing,3,"Discounts were good, but the fee breakdown should be easier to understand."
+2026-02-13,Google Reviews,Repeat Customer,DLR-CUST-10356,Lakeside Dealership,Certified Pre-Owned,Inventory,2,The car listed online was already sold when I arrived for my appointment.
+2026-02-14,Dealer Website,Repeat Customer,DLR-CUST-10357,Lakeside Dealership,Van,Inventory,3,Inventory filters on the website are useful but some colors are listed incorrectly.
+2026-02-15,Service Survey,Repeat Customer,DLR-CUST-10358,Airport Auto Center,SUV,Inventory,4,They had several trims available and helped me find the right configuration.
+2026-02-16,Phone Follow-up,Repeat Customer,DLR-CUST-10359,Airport Auto Center,Van,Inventory,1,I drove across town for a vehicle that was marked available but unavailable in store.
+2026-02-17,Phone Follow-up,Repeat Customer,DLR-CUST-10360,Airport Auto Center,SUV,Trade-in,2,The trade-in offer was much lower than the estimate I received online.
+2026-02-18,Email Survey,Luxury Buyer,DLR-CUST-10361,Downtown Auto Mall,Hybrid,Trade-in,4,The appraisal was quick and the trade-in credit was clearly applied to my purchase.
+2026-02-19,Cars.com,Luxury Buyer,DLR-CUST-10362,Downtown Auto Mall,Hybrid,Trade-in,3,"Trade-in inspection was fair, but I wanted more explanation about the valuation."
+2026-02-20,Facebook,Luxury Buyer,DLR-CUST-10363,Downtown Auto Mall,EV,Trade-in,1,My trade-in quote changed twice during the same visit.
+2026-02-21,Phone Follow-up,Luxury Buyer,DLR-CUST-10364,Northside Motors,Sedan,Service Department,5,Service was fast and the advisor sent updates while my car was being repaired.
+2026-02-22,Email Survey,Luxury Buyer,DLR-CUST-10365,Northside Motors,Luxury SUV,Service Department,2,The repair took two days longer than promised and nobody called me.
+2026-02-23,Cars.com,Budget Buyer,DLR-CUST-10366,Northside Motors,Sedan,Service Department,3,"The oil change was fine, but the waiting area was overcrowded."
+2026-02-24,Facebook,Budget Buyer,DLR-CUST-10367,West Valley Cars,Van,Service Department,1,The same warning light came back the day after service.
+2026-02-25,Dealer Website,Budget Buyer,DLR-CUST-10368,West Valley Cars,SUV,Parts,2,The replacement part was delayed and I had to call multiple times for updates.
+2026-02-26,Service Survey,Budget Buyer,DLR-CUST-10369,West Valley Cars,Hybrid,Parts,4,Parts staff found the correct accessory and installed it the same afternoon.
+2026-02-27,Phone Follow-up,Budget Buyer,DLR-CUST-10370,Lakeside Dealership,Hybrid,Parts,3,"The part arrived on time, but the installation appointment was hard to schedule."
+2026-02-28,Google Reviews,Fleet Customer,DLR-CUST-10371,Lakeside Dealership,Van,Delivery,5,Home delivery was smooth and the specialist walked me through the vehicle settings.
+2026-03-01,Dealer Website,Fleet Customer,DLR-CUST-10372,Lakeside Dealership,Certified Pre-Owned,Delivery,2,The vehicle was delivered with low tire pressure and no floor mats.
+2026-03-02,Service Survey,Fleet Customer,DLR-CUST-10373,Airport Auto Center,Van,Delivery,3,"Pickup was organized, but the final detailing could have been better."
+2026-03-03,Phone Follow-up,Fleet Customer,DLR-CUST-10374,Airport Auto Center,Luxury SUV,Delivery,1,The delivery appointment was missed and I had to reschedule twice.
+2026-03-04,Phone Follow-up,Fleet Customer,DLR-CUST-10375,Airport Auto Center,Truck,Website,4,The website made it easy to compare vehicles and calculate estimated payments.
+2026-03-05,Email Survey,Service Customer,DLR-CUST-10376,Downtown Auto Mall,SUV,Website,2,The payment calculator does not match the numbers provided by finance.
+2026-03-06,Cars.com,Service Customer,DLR-CUST-10377,Downtown Auto Mall,EV,Website,3,"Online chat answered basic questions, but could not confirm real inventory."
+2026-03-07,Facebook,Service Customer,DLR-CUST-10378,Downtown Auto Mall,Truck,Website,1,I submitted a lead form and never received a response.
+2026-03-08,Facebook,Service Customer,DLR-CUST-10379,Northside Motors,Van,Communication,5,Everyone followed up quickly and kept me informed during the purchase.
+2026-03-09,Google Reviews,Service Customer,DLR-CUST-10380,Northside Motors,Certified Pre-Owned,Communication,2,I received too many calls after asking to communicate by email only.
+2026-03-10,Dealer Website,Trade-in Customer,DLR-CUST-10381,Northside Motors,Van,Communication,3,Communication was polite but inconsistent between sales and finance.
+2026-03-11,Service Survey,Trade-in Customer,DLR-CUST-10382,West Valley Cars,Luxury SUV,Communication,1,Nobody returned my voicemail about a warranty question.
+2026-03-12,Cars.com,Trade-in Customer,DLR-CUST-10383,West Valley Cars,Truck,Warranty,4,The warranty options were explained clearly without pressure.
+2026-03-13,Facebook,Trade-in Customer,DLR-CUST-10384,West Valley Cars,SUV,Warranty,2,I was not told which warranty items were optional until the final paperwork.
+2026-03-14,Google Reviews,Trade-in Customer,DLR-CUST-10385,Lakeside Dealership,EV,Warranty,3,"Coverage seems good, but the exclusions should be easier to read."
+2026-03-15,Email Survey,First-time Buyer,DLR-CUST-10386,Lakeside Dealership,Luxury SUV,Cleanliness,5,The showroom was clean and the vehicle was spotless at pickup.
+2026-03-16,Cars.com,First-time Buyer,DLR-CUST-10387,Lakeside Dealership,Hybrid,Cleanliness,2,The used vehicle still had stains inside when I came for delivery.
+2026-03-17,Facebook,First-time Buyer,DLR-CUST-10388,Airport Auto Center,Luxury SUV,Cleanliness,3,"The showroom was nice, but the service waiting area needs more seating."
+2026-03-18,Cars.com,First-time Buyer,DLR-CUST-10389,Airport Auto Center,Sedan,Customer Support,4,The receptionist quickly connected me to the right department.
+2026-03-19,Facebook,First-time Buyer,DLR-CUST-10390,Airport Auto Center,Van,Customer Support,2,I was transferred three times before someone could answer my question.
+2026-03-20,Google Reviews,Repeat Customer,DLR-CUST-10391,Downtown Auto Mall,Van,Customer Support,1,The support line disconnected twice while I was checking service status.
+2026-03-21,Dealer Website,Repeat Customer,DLR-CUST-10392,Downtown Auto Mall,Truck,Customer Support,3,"Staff were friendly, but follow-up after purchase could be more proactive."
+2026-03-22,Service Survey,Repeat Customer,DLR-CUST-10393,Downtown Auto Mall,Certified Pre-Owned,Sales Experience,5,The sales advisor listened carefully and helped me compare trims without pressure.
+2026-03-23,Phone Follow-up,Repeat Customer,DLR-CUST-10394,Northside Motors,EV,Sales Experience,2,The salesperson kept pushing add-ons after I said I was not interested.
+2026-03-24,Email Survey,Repeat Customer,DLR-CUST-10395,Northside Motors,Certified Pre-Owned,Sales Experience,3,"The test drive was helpful, but I waited too long before someone greeted me."
+2026-03-25,Cars.com,Luxury Buyer,DLR-CUST-10396,Northside Motors,Van,Sales Experience,4,The team explained the vehicle features clearly and made the buying process simple.
+2026-03-26,Facebook,Luxury Buyer,DLR-CUST-10397,West Valley Cars,Luxury SUV,Financing,2,The final monthly payment was higher than what was discussed online.
+2026-03-27,Google Reviews,Luxury Buyer,DLR-CUST-10398,West Valley Cars,Luxury SUV,Financing,1,Finance paperwork took almost three hours and several fees were not explained.
+2026-03-28,Dealer Website,Luxury Buyer,DLR-CUST-10399,West Valley Cars,Truck,Financing,4,The finance manager found a better rate than my bank and explained the terms well.
+2026-03-29,Service Survey,Luxury Buyer,DLR-CUST-10400,Lakeside Dealership,Truck,Financing,3,"Loan options were presented clearly, but the wait for approval was too long."
+2026-03-30,Dealer Website,Budget Buyer,DLR-CUST-10401,Lakeside Dealership,Truck,Pricing,2,The advertised price did not include mandatory dealer add-ons.
+2026-03-31,Service Survey,Budget Buyer,DLR-CUST-10402,Lakeside Dealership,Truck,Pricing,1,I felt misled by the online price because the quote changed at the dealership.
+2026-04-01,Phone Follow-up,Budget Buyer,DLR-CUST-10403,Airport Auto Center,Luxury SUV,Pricing,4,The price was fair and the final invoice matched the quote.
+2026-04-02,Email Survey,Budget Buyer,DLR-CUST-10404,Airport Auto Center,Luxury SUV,Pricing,3,"Discounts were good, but the fee breakdown should be easier to understand."
+2026-04-03,Google Reviews,Budget Buyer,DLR-CUST-10405,Airport Auto Center,Luxury SUV,Inventory,2,The car listed online was already sold when I arrived for my appointment.
+2026-04-04,Dealer Website,Fleet Customer,DLR-CUST-10406,Downtown Auto Mall,Sedan,Inventory,3,Inventory filters on the website are useful but some colors are listed incorrectly.
+2026-04-05,Service Survey,Fleet Customer,DLR-CUST-10407,Downtown Auto Mall,Truck,Inventory,4,They had several trims available and helped me find the right configuration.
+2026-04-06,Phone Follow-up,Fleet Customer,DLR-CUST-10408,Downtown Auto Mall,Sedan,Inventory,1,I drove across town for a vehicle that was marked available but unavailable in store.
+2026-04-07,Phone Follow-up,Fleet Customer,DLR-CUST-10409,Northside Motors,Truck,Trade-in,2,The trade-in offer was much lower than the estimate I received online.
+2026-04-08,Email Survey,Fleet Customer,DLR-CUST-10410,Northside Motors,Certified Pre-Owned,Trade-in,4,The appraisal was quick and the trade-in credit was clearly applied to my purchase.
+2026-04-09,Cars.com,Service Customer,DLR-CUST-10411,Northside Motors,Certified Pre-Owned,Trade-in,3,"Trade-in inspection was fair, but I wanted more explanation about the valuation."
+2026-04-10,Facebook,Service Customer,DLR-CUST-10412,West Valley Cars,Hybrid,Trade-in,1,My trade-in quote changed twice during the same visit.
+2026-04-11,Phone Follow-up,Service Customer,DLR-CUST-10413,West Valley Cars,SUV,Service Department,5,Service was fast and the advisor sent updates while my car was being repaired.
+2026-04-12,Email Survey,Service Customer,DLR-CUST-10414,West Valley Cars,Van,Service Department,2,The repair took two days longer than promised and nobody called me.
+2026-04-13,Cars.com,Service Customer,DLR-CUST-10415,Lakeside Dealership,SUV,Service Department,3,"The oil change was fine, but the waiting area was overcrowded."
+2026-04-14,Facebook,Trade-in Customer,DLR-CUST-10416,Lakeside Dealership,Sedan,Service Department,1,The same warning light came back the day after service.
+2026-04-15,Dealer Website,Trade-in Customer,DLR-CUST-10417,Lakeside Dealership,Truck,Parts,2,The replacement part was delayed and I had to call multiple times for updates.
+2026-04-16,Service Survey,Trade-in Customer,DLR-CUST-10418,Airport Auto Center,Certified Pre-Owned,Parts,4,Parts staff found the correct accessory and installed it the same afternoon.
+2026-04-17,Phone Follow-up,Trade-in Customer,DLR-CUST-10419,Airport Auto Center,Certified Pre-Owned,Parts,3,"The part arrived on time, but the installation appointment was hard to schedule."
+2026-04-18,Google Reviews,Trade-in Customer,DLR-CUST-10420,Airport Auto Center,Sedan,Delivery,5,Home delivery was smooth and the specialist walked me through the vehicle settings.
+2026-04-19,Dealer Website,First-time Buyer,DLR-CUST-10421,Downtown Auto Mall,Luxury SUV,Delivery,2,The vehicle was delivered with low tire pressure and no floor mats.
+2026-04-20,Service Survey,First-time Buyer,DLR-CUST-10422,Downtown Auto Mall,Sedan,Delivery,3,"Pickup was organized, but the final detailing could have been better."
+2026-04-21,Phone Follow-up,First-time Buyer,DLR-CUST-10423,Downtown Auto Mall,Van,Delivery,1,The delivery appointment was missed and I had to reschedule twice.
+2026-04-22,Phone Follow-up,First-time Buyer,DLR-CUST-10424,Northside Motors,EV,Website,4,The website made it easy to compare vehicles and calculate estimated payments.
+2026-04-23,Email Survey,First-time Buyer,DLR-CUST-10425,Northside Motors,Truck,Website,2,The payment calculator does not match the numbers provided by finance.
+2026-04-24,Cars.com,Repeat Customer,DLR-CUST-10426,Northside Motors,Hybrid,Website,3,"Online chat answered basic questions, but could not confirm real inventory."
+2026-04-25,Facebook,Repeat Customer,DLR-CUST-10427,West Valley Cars,EV,Website,1,I submitted a lead form and never received a response.
+2026-04-26,Facebook,Repeat Customer,DLR-CUST-10428,West Valley Cars,Sedan,Communication,5,Everyone followed up quickly and kept me informed during the purchase.
+2026-04-27,Google Reviews,Repeat Customer,DLR-CUST-10429,West Valley Cars,Luxury SUV,Communication,2,I received too many calls after asking to communicate by email only.
+2026-04-28,Dealer Website,Repeat Customer,DLR-CUST-10430,Lakeside Dealership,Sedan,Communication,3,Communication was polite but inconsistent between sales and finance.
+2026-04-29,Service Survey,Luxury Buyer,DLR-CUST-10431,Lakeside Dealership,Van,Communication,1,Nobody returned my voicemail about a warranty question.
+2026-04-30,Cars.com,Luxury Buyer,DLR-CUST-10432,Lakeside Dealership,EV,Warranty,4,The warranty options were explained clearly without pressure.
+2026-05-01,Facebook,Luxury Buyer,DLR-CUST-10433,Airport Auto Center,Truck,Warranty,2,I was not told which warranty items were optional until the final paperwork.
+2026-05-02,Google Reviews,Luxury Buyer,DLR-CUST-10434,Airport Auto Center,Hybrid,Warranty,3,"Coverage seems good, but the exclusions should be easier to read."
+2026-05-03,Email Survey,Luxury Buyer,DLR-CUST-10435,Airport Auto Center,Van,Cleanliness,5,The showroom was clean and the vehicle was spotless at pickup.
+2026-05-04,Cars.com,Budget Buyer,DLR-CUST-10436,Downtown Auto Mall,Certified Pre-Owned,Cleanliness,2,The used vehicle still had stains inside when I came for delivery.
+2026-05-05,Facebook,Budget Buyer,DLR-CUST-10437,Downtown Auto Mall,Van,Cleanliness,3,"The showroom was nice, but the service waiting area needs more seating."
+2026-05-06,Cars.com,Budget Buyer,DLR-CUST-10438,Downtown Auto Mall,SUV,Customer Support,4,The receptionist quickly connected me to the right department.
+2026-05-07,Facebook,Budget Buyer,DLR-CUST-10439,Northside Motors,Sedan,Customer Support,2,I was transferred three times before someone could answer my question.
+2026-05-08,Google Reviews,Budget Buyer,DLR-CUST-10440,Northside Motors,Sedan,Customer Support,1,The support line disconnected twice while I was checking service status.
+2026-05-09,Dealer Website,Fleet Customer,DLR-CUST-10441,Northside Motors,EV,Customer Support,3,"Staff were friendly, but follow-up after purchase could be more proactive."
+2026-05-10,Service Survey,Fleet Customer,DLR-CUST-10442,West Valley Cars,Luxury SUV,Sales Experience,5,The sales advisor listened carefully and helped me compare trims without pressure.
+2026-05-11,Phone Follow-up,Fleet Customer,DLR-CUST-10443,West Valley Cars,Hybrid,Sales Experience,2,The salesperson kept pushing add-ons after I said I was not interested.
+2026-05-12,Email Survey,Fleet Customer,DLR-CUST-10444,West Valley Cars,Luxury SUV,Sales Experience,3,"The test drive was helpful, but I waited too long before someone greeted me."
+2026-05-13,Cars.com,Fleet Customer,DLR-CUST-10445,Lakeside Dealership,Sedan,Sales Experience,4,The team explained the vehicle features clearly and made the buying process simple.
+2026-05-14,Facebook,Service Customer,DLR-CUST-10446,Lakeside Dealership,Van,Financing,2,The final monthly payment was higher than what was discussed online.
+2026-05-15,Google Reviews,Service Customer,DLR-CUST-10447,Lakeside Dealership,Van,Financing,1,Finance paperwork took almost three hours and several fees were not explained.
+2026-05-16,Dealer Website,Service Customer,DLR-CUST-10448,Airport Auto Center,EV,Financing,4,The finance manager found a better rate than my bank and explained the terms well.
+2026-05-17,Service Survey,Service Customer,DLR-CUST-10449,Airport Auto Center,EV,Financing,3,"Loan options were presented clearly, but the wait for approval was too long."
+2026-05-18,Dealer Website,Service Customer,DLR-CUST-10450,Airport Auto Center,EV,Pricing,2,The advertised price did not include mandatory dealer add-ons.
+2026-05-19,Service Survey,Trade-in Customer,DLR-CUST-10451,Downtown Auto Mall,EV,Pricing,1,I felt misled by the online price because the quote changed at the dealership.
+2026-05-20,Phone Follow-up,Trade-in Customer,DLR-CUST-10452,Downtown Auto Mall,Van,Pricing,4,The price was fair and the final invoice matched the quote.
+2026-05-21,Email Survey,Trade-in Customer,DLR-CUST-10453,Downtown Auto Mall,Van,Pricing,3,"Discounts were good, but the fee breakdown should be easier to understand."
+2026-05-22,Google Reviews,Trade-in Customer,DLR-CUST-10454,Northside Motors,Van,Inventory,2,The car listed online was already sold when I arrived for my appointment.
+2026-05-23,Dealer Website,Trade-in Customer,DLR-CUST-10455,Northside Motors,SUV,Inventory,3,Inventory filters on the website are useful but some colors are listed incorrectly.
+2026-05-24,Service Survey,First-time Buyer,DLR-CUST-10456,Northside Motors,EV,Inventory,4,They had several trims available and helped me find the right configuration.
+2026-05-25,Phone Follow-up,First-time Buyer,DLR-CUST-10457,West Valley Cars,SUV,Inventory,1,I drove across town for a vehicle that was marked available but unavailable in store.
+2026-05-26,Phone Follow-up,First-time Buyer,DLR-CUST-10458,West Valley Cars,EV,Trade-in,2,The trade-in offer was much lower than the estimate I received online.
+2026-05-27,Email Survey,First-time Buyer,DLR-CUST-10459,West Valley Cars,Luxury SUV,Trade-in,4,The appraisal was quick and the trade-in credit was clearly applied to my purchase.
+2026-05-28,Cars.com,First-time Buyer,DLR-CUST-10460,Lakeside Dealership,Luxury SUV,Trade-in,3,"Trade-in inspection was fair, but I wanted more explanation about the valuation."
+2026-05-29,Facebook,Repeat Customer,DLR-CUST-10461,Lakeside Dealership,Certified Pre-Owned,Trade-in,1,My trade-in quote changed twice during the same visit.
+2026-05-30,Phone Follow-up,Repeat Customer,DLR-CUST-10462,Lakeside Dealership,Truck,Service Department,5,Service was fast and the advisor sent updates while my car was being repaired.
+2026-05-31,Email Survey,Repeat Customer,DLR-CUST-10463,Airport Auto Center,Sedan,Service Department,2,The repair took two days longer than promised and nobody called me.
+2026-06-01,Cars.com,Repeat Customer,DLR-CUST-10464,Airport Auto Center,Truck,Service Department,3,"The oil change was fine, but the waiting area was overcrowded."
+2026-06-02,Facebook,Repeat Customer,DLR-CUST-10465,Airport Auto Center,SUV,Service Department,1,The same warning light came back the day after service.
+2026-06-03,Dealer Website,Luxury Buyer,DLR-CUST-10466,Downtown Auto Mall,EV,Parts,2,The replacement part was delayed and I had to call multiple times for updates.
+2026-06-04,Service Survey,Luxury Buyer,DLR-CUST-10467,Downtown Auto Mall,Luxury SUV,Parts,4,Parts staff found the correct accessory and installed it the same afternoon.
+2026-06-05,Phone Follow-up,Luxury Buyer,DLR-CUST-10468,Downtown Auto Mall,Luxury SUV,Parts,3,"The part arrived on time, but the installation appointment was hard to schedule."
+2026-01-01,Google Reviews,Luxury Buyer,DLR-CUST-10469,Northside Motors,SUV,Delivery,5,Home delivery was smooth and the specialist walked me through the vehicle settings.
+2026-01-02,Dealer Website,Luxury Buyer,DLR-CUST-10470,Northside Motors,Van,Delivery,2,The vehicle was delivered with low tire pressure and no floor mats.
+2026-01-03,Service Survey,Budget Buyer,DLR-CUST-10471,Northside Motors,SUV,Delivery,3,"Pickup was organized, but the final detailing could have been better."
+2026-01-04,Phone Follow-up,Budget Buyer,DLR-CUST-10472,West Valley Cars,Sedan,Delivery,1,The delivery appointment was missed and I had to reschedule twice.
+2026-01-05,Phone Follow-up,Budget Buyer,DLR-CUST-10473,West Valley Cars,Hybrid,Website,4,The website made it easy to compare vehicles and calculate estimated payments.
+2026-01-06,Email Survey,Budget Buyer,DLR-CUST-10474,West Valley Cars,EV,Website,2,The payment calculator does not match the numbers provided by finance.
+2026-01-07,Cars.com,Budget Buyer,DLR-CUST-10475,Lakeside Dealership,Certified Pre-Owned,Website,3,"Online chat answered basic questions, but could not confirm real inventory."
+2026-01-08,Facebook,Fleet Customer,DLR-CUST-10476,Lakeside Dealership,Hybrid,Website,1,I submitted a lead form and never received a response.
+2026-01-09,Facebook,Fleet Customer,DLR-CUST-10477,Lakeside Dealership,SUV,Communication,5,Everyone followed up quickly and kept me informed during the purchase.
+2026-01-10,Google Reviews,Fleet Customer,DLR-CUST-10478,Airport Auto Center,Van,Communication,2,I received too many calls after asking to communicate by email only.
+2026-01-11,Dealer Website,Fleet Customer,DLR-CUST-10479,Airport Auto Center,SUV,Communication,3,Communication was polite but inconsistent between sales and finance.
+2026-01-12,Service Survey,Fleet Customer,DLR-CUST-10480,Airport Auto Center,Sedan,Communication,1,Nobody returned my voicemail about a warranty question.
+2026-01-13,Cars.com,Service Customer,DLR-CUST-10481,Downtown Auto Mall,Hybrid,Warranty,4,The warranty options were explained clearly without pressure.
+2026-01-14,Facebook,Service Customer,DLR-CUST-10482,Downtown Auto Mall,EV,Warranty,2,I was not told which warranty items were optional until the final paperwork.
+2026-01-15,Google Reviews,Service Customer,DLR-CUST-10483,Downtown Auto Mall,Certified Pre-Owned,Warranty,3,"Coverage seems good, but the exclusions should be easier to read."
+2026-01-16,Email Survey,Service Customer,DLR-CUST-10484,Northside Motors,Sedan,Cleanliness,5,The showroom was clean and the vehicle was spotless at pickup.
+2026-01-17,Cars.com,Service Customer,DLR-CUST-10485,Northside Motors,Luxury SUV,Cleanliness,2,The used vehicle still had stains inside when I came for delivery.
+2026-01-18,Facebook,Trade-in Customer,DLR-CUST-10486,Northside Motors,Sedan,Cleanliness,3,"The showroom was nice, but the service waiting area needs more seating."
+2026-01-19,Cars.com,Trade-in Customer,DLR-CUST-10487,West Valley Cars,Truck,Customer Support,4,The receptionist quickly connected me to the right department.
+2026-01-20,Facebook,Trade-in Customer,DLR-CUST-10488,West Valley Cars,SUV,Customer Support,2,I was transferred three times before someone could answer my question.
+2026-01-21,Google Reviews,Trade-in Customer,DLR-CUST-10489,West Valley Cars,SUV,Customer Support,1,The support line disconnected twice while I was checking service status.
+2026-01-22,Dealer Website,Trade-in Customer,DLR-CUST-10490,Lakeside Dealership,Hybrid,Customer Support,3,"Staff were friendly, but follow-up after purchase could be more proactive."
+2026-01-23,Service Survey,First-time Buyer,DLR-CUST-10491,Lakeside Dealership,Van,Sales Experience,5,The sales advisor listened carefully and helped me compare trims without pressure.
+2026-01-24,Phone Follow-up,First-time Buyer,DLR-CUST-10492,Lakeside Dealership,Certified Pre-Owned,Sales Experience,2,The salesperson kept pushing add-ons after I said I was not interested.
+2026-01-25,Email Survey,First-time Buyer,DLR-CUST-10493,Airport Auto Center,Van,Sales Experience,3,"The test drive was helpful, but I waited too long before someone greeted me."
+2026-01-26,Cars.com,First-time Buyer,DLR-CUST-10494,Airport Auto Center,SUV,Sales Experience,4,The team explained the vehicle features clearly and made the buying process simple.
+2026-01-27,Facebook,First-time Buyer,DLR-CUST-10495,Airport Auto Center,Sedan,Financing,2,The final monthly payment was higher than what was discussed online.
+2026-01-28,Google Reviews,Repeat Customer,DLR-CUST-10496,Downtown Auto Mall,Sedan,Financing,1,Finance paperwork took almost three hours and several fees were not explained.
+2026-01-29,Dealer Website,Repeat Customer,DLR-CUST-10497,Downtown Auto Mall,Hybrid,Financing,4,The finance manager found a better rate than my bank and explained the terms well.
+2026-01-30,Service Survey,Repeat Customer,DLR-CUST-10498,Downtown Auto Mall,Hybrid,Financing,3,"Loan options were presented clearly, but the wait for approval was too long."
+2026-01-31,Dealer Website,Repeat Customer,DLR-CUST-10499,Northside Motors,Hybrid,Pricing,2,The advertised price did not include mandatory dealer add-ons.
+2026-02-01,Service Survey,Repeat Customer,DLR-CUST-10500,Northside Motors,Hybrid,Pricing,1,I felt misled by the online price because the quote changed at the dealership.
+2026-02-02,Phone Follow-up,Luxury Buyer,DLR-CUST-10501,Northside Motors,Sedan,Pricing,4,The price was fair and the final invoice matched the quote.
+2026-02-03,Email Survey,Luxury Buyer,DLR-CUST-10502,West Valley Cars,Sedan,Pricing,3,"Discounts were good, but the fee breakdown should be easier to understand."
+2026-02-04,Google Reviews,Luxury Buyer,DLR-CUST-10503,West Valley Cars,Sedan,Inventory,2,The car listed online was already sold when I arrived for my appointment.
+2026-02-05,Dealer Website,Luxury Buyer,DLR-CUST-10504,West Valley Cars,Truck,Inventory,3,Inventory filters on the website are useful but some colors are listed incorrectly.
+2026-02-06,Service Survey,Luxury Buyer,DLR-CUST-10505,Lakeside Dealership,Hybrid,Inventory,4,They had several trims available and helped me find the right configuration.
+2026-02-07,Phone Follow-up,Budget Buyer,DLR-CUST-10506,Lakeside Dealership,Truck,Inventory,1,I drove across town for a vehicle that was marked available but unavailable in store.
+2026-02-08,Phone Follow-up,Budget Buyer,DLR-CUST-10507,Lakeside Dealership,Hybrid,Trade-in,2,The trade-in offer was much lower than the estimate I received online.
+2026-02-09,Email Survey,Budget Buyer,DLR-CUST-10508,Airport Auto Center,Van,Trade-in,4,The appraisal was quick and the trade-in credit was clearly applied to my purchase.
+2026-02-10,Cars.com,Budget Buyer,DLR-CUST-10509,Airport Auto Center,Van,Trade-in,3,"Trade-in inspection was fair, but I wanted more explanation about the valuation."
+2026-02-11,Facebook,Budget Buyer,DLR-CUST-10510,Airport Auto Center,Luxury SUV,Trade-in,1,My trade-in quote changed twice during the same visit.
+2026-02-12,Phone Follow-up,Fleet Customer,DLR-CUST-10511,Downtown Auto Mall,EV,Service Department,5,Service was fast and the advisor sent updates while my car was being repaired.
+2026-02-13,Email Survey,Fleet Customer,DLR-CUST-10512,Downtown Auto Mall,SUV,Service Department,2,The repair took two days longer than promised and nobody called me.
+2026-02-14,Cars.com,Fleet Customer,DLR-CUST-10513,Downtown Auto Mall,EV,Service Department,3,"The oil change was fine, but the waiting area was overcrowded."
+2026-02-15,Facebook,Fleet Customer,DLR-CUST-10514,Northside Motors,Truck,Service Department,1,The same warning light came back the day after service.
+2026-02-16,Dealer Website,Fleet Customer,DLR-CUST-10515,Northside Motors,Hybrid,Parts,2,The replacement part was delayed and I had to call multiple times for updates.
+2026-02-17,Service Survey,Service Customer,DLR-CUST-10516,Northside Motors,Van,Parts,4,Parts staff found the correct accessory and installed it the same afternoon.
+2026-02-18,Phone Follow-up,Service Customer,DLR-CUST-10517,West Valley Cars,Van,Parts,3,"The part arrived on time, but the installation appointment was hard to schedule."
+2026-02-19,Google Reviews,Service Customer,DLR-CUST-10518,West Valley Cars,Truck,Delivery,5,Home delivery was smooth and the specialist walked me through the vehicle settings.
+2026-02-20,Dealer Website,Service Customer,DLR-CUST-10519,West Valley Cars,Sedan,Delivery,2,The vehicle was delivered with low tire pressure and no floor mats.
+2026-02-21,Service Survey,Service Customer,DLR-CUST-10520,Lakeside Dealership,Truck,Delivery,3,"Pickup was organized, but the final detailing could have been better."
+2026-02-22,Phone Follow-up,Trade-in Customer,DLR-CUST-10521,Lakeside Dealership,SUV,Delivery,1,The delivery appointment was missed and I had to reschedule twice.
+2026-02-23,Phone Follow-up,Trade-in Customer,DLR-CUST-10522,Lakeside Dealership,Certified Pre-Owned,Website,4,The website made it easy to compare vehicles and calculate estimated payments.
+2026-02-24,Email Survey,Trade-in Customer,DLR-CUST-10523,Airport Auto Center,Hybrid,Website,2,The payment calculator does not match the numbers provided by finance.
+2026-02-25,Cars.com,Trade-in Customer,DLR-CUST-10524,Airport Auto Center,Luxury SUV,Website,3,"Online chat answered basic questions, but could not confirm real inventory."
+2026-02-26,Facebook,Trade-in Customer,DLR-CUST-10525,Airport Auto Center,Certified Pre-Owned,Website,1,I submitted a lead form and never received a response.
+2026-02-27,Facebook,First-time Buyer,DLR-CUST-10526,Downtown Auto Mall,Truck,Communication,5,Everyone followed up quickly and kept me informed during the purchase.
+2026-02-28,Google Reviews,First-time Buyer,DLR-CUST-10527,Downtown Auto Mall,Sedan,Communication,2,I received too many calls after asking to communicate by email only.
+2026-03-01,Dealer Website,First-time Buyer,DLR-CUST-10528,Downtown Auto Mall,Truck,Communication,3,Communication was polite but inconsistent between sales and finance.
+2026-03-02,Service Survey,First-time Buyer,DLR-CUST-10529,Northside Motors,SUV,Communication,1,Nobody returned my voicemail about a warranty question.
+2026-03-03,Cars.com,First-time Buyer,DLR-CUST-10530,Northside Motors,Certified Pre-Owned,Warranty,4,The warranty options were explained clearly without pressure.
+2026-03-04,Facebook,Repeat Customer,DLR-CUST-10531,Northside Motors,Hybrid,Warranty,2,I was not told which warranty items were optional until the final paperwork.
+2026-03-05,Google Reviews,Repeat Customer,DLR-CUST-10532,West Valley Cars,Luxury SUV,Warranty,3,"Coverage seems good, but the exclusions should be easier to read."
+2026-03-06,Email Survey,Repeat Customer,DLR-CUST-10533,West Valley Cars,SUV,Cleanliness,5,The showroom was clean and the vehicle was spotless at pickup.
+2026-03-07,Cars.com,Repeat Customer,DLR-CUST-10534,West Valley Cars,Van,Cleanliness,2,The used vehicle still had stains inside when I came for delivery.
+2026-03-08,Facebook,Repeat Customer,DLR-CUST-10535,Lakeside Dealership,SUV,Cleanliness,3,"The showroom was nice, but the service waiting area needs more seating."
+2026-03-09,Cars.com,Luxury Buyer,DLR-CUST-10536,Lakeside Dealership,EV,Customer Support,4,The receptionist quickly connected me to the right department.
+2026-03-10,Facebook,Luxury Buyer,DLR-CUST-10537,Lakeside Dealership,Truck,Customer Support,2,I was transferred three times before someone could answer my question.
+2026-03-11,Google Reviews,Luxury Buyer,DLR-CUST-10538,Airport Auto Center,Truck,Customer Support,1,The support line disconnected twice while I was checking service status.
+2026-03-12,Dealer Website,Luxury Buyer,DLR-CUST-10539,Airport Auto Center,Certified Pre-Owned,Customer Support,3,"Staff were friendly, but follow-up after purchase could be more proactive."
+2026-03-13,Service Survey,Luxury Buyer,DLR-CUST-10540,Airport Auto Center,Sedan,Sales Experience,5,The sales advisor listened carefully and helped me compare trims without pressure.
+2026-03-14,Phone Follow-up,Budget Buyer,DLR-CUST-10541,Downtown Auto Mall,Luxury SUV,Sales Experience,2,The salesperson kept pushing add-ons after I said I was not interested.
+2026-03-15,Email Survey,Budget Buyer,DLR-CUST-10542,Downtown Auto Mall,Sedan,Sales Experience,3,"The test drive was helpful, but I waited too long before someone greeted me."
+2026-03-16,Cars.com,Budget Buyer,DLR-CUST-10543,Downtown Auto Mall,Truck,Sales Experience,4,The team explained the vehicle features clearly and made the buying process simple.
+2026-03-17,Facebook,Budget Buyer,DLR-CUST-10544,Northside Motors,SUV,Financing,2,The final monthly payment was higher than what was discussed online.
+2026-03-18,Google Reviews,Budget Buyer,DLR-CUST-10545,Northside Motors,SUV,Financing,1,Finance paperwork took almost three hours and several fees were not explained.
+2026-03-19,Dealer Website,Fleet Customer,DLR-CUST-10546,Northside Motors,Certified Pre-Owned,Financing,4,The finance manager found a better rate than my bank and explained the terms well.
+2026-03-20,Service Survey,Fleet Customer,DLR-CUST-10547,West Valley Cars,Certified Pre-Owned,Financing,3,"Loan options were presented clearly, but the wait for approval was too long."
+2026-03-21,Dealer Website,Fleet Customer,DLR-CUST-10548,West Valley Cars,Certified Pre-Owned,Pricing,2,The advertised price did not include mandatory dealer add-ons.
+2026-03-22,Service Survey,Fleet Customer,DLR-CUST-10549,West Valley Cars,Certified Pre-Owned,Pricing,1,I felt misled by the online price because the quote changed at the dealership.
+2026-03-23,Phone Follow-up,Fleet Customer,DLR-CUST-10550,Lakeside Dealership,SUV,Pricing,4,The price was fair and the final invoice matched the quote.
+2026-03-24,Email Survey,Service Customer,DLR-CUST-10551,Lakeside Dealership,SUV,Pricing,3,"Discounts were good, but the fee breakdown should be easier to understand."
+2026-03-25,Google Reviews,Service Customer,DLR-CUST-10552,Lakeside Dealership,SUV,Inventory,2,The car listed online was already sold when I arrived for my appointment.
+2026-03-26,Dealer Website,Service Customer,DLR-CUST-10553,Airport Auto Center,EV,Inventory,3,Inventory filters on the website are useful but some colors are listed incorrectly.
+2026-03-27,Service Survey,Service Customer,DLR-CUST-10554,Airport Auto Center,Certified Pre-Owned,Inventory,4,They had several trims available and helped me find the right configuration.
+2026-03-28,Phone Follow-up,Service Customer,DLR-CUST-10555,Airport Auto Center,EV,Inventory,1,I drove across town for a vehicle that was marked available but unavailable in store.
+2026-03-29,Phone Follow-up,Trade-in Customer,DLR-CUST-10556,Downtown Auto Mall,Certified Pre-Owned,Trade-in,2,The trade-in offer was much lower than the estimate I received online.
+2026-03-30,Email Survey,Trade-in Customer,DLR-CUST-10557,Downtown Auto Mall,Sedan,Trade-in,4,The appraisal was quick and the trade-in credit was clearly applied to my purchase.
+2026-03-31,Cars.com,Trade-in Customer,DLR-CUST-10558,Downtown Auto Mall,Sedan,Trade-in,3,"Trade-in inspection was fair, but I wanted more explanation about the valuation."
+2026-04-01,Facebook,Trade-in Customer,DLR-CUST-10559,Northside Motors,Van,Trade-in,1,My trade-in quote changed twice during the same visit.
+2026-04-02,Phone Follow-up,Trade-in Customer,DLR-CUST-10560,Northside Motors,Hybrid,Service Department,5,Service was fast and the advisor sent updates while my car was being repaired.
+2026-04-03,Email Survey,First-time Buyer,DLR-CUST-10561,Northside Motors,Truck,Service Department,2,The repair took two days longer than promised and nobody called me.
+2026-04-04,Cars.com,First-time Buyer,DLR-CUST-10562,West Valley Cars,Hybrid,Service Department,3,"The oil change was fine, but the waiting area was overcrowded."
+2026-04-05,Facebook,First-time Buyer,DLR-CUST-10563,West Valley Cars,EV,Service Department,1,The same warning light came back the day after service.
+2026-04-06,Dealer Website,First-time Buyer,DLR-CUST-10564,West Valley Cars,Certified Pre-Owned,Parts,2,The replacement part was delayed and I had to call multiple times for updates.
+2026-04-07,Service Survey,First-time Buyer,DLR-CUST-10565,Lakeside Dealership,Sedan,Parts,4,Parts staff found the correct accessory and installed it the same afternoon.
+2026-04-08,Phone Follow-up,Repeat Customer,DLR-CUST-10566,Lakeside Dealership,Sedan,Parts,3,"The part arrived on time, but the installation appointment was hard to schedule."
+2026-04-09,Google Reviews,Repeat Customer,DLR-CUST-10567,Lakeside Dealership,EV,Delivery,5,Home delivery was smooth and the specialist walked me through the vehicle settings.
+2026-04-10,Dealer Website,Repeat Customer,DLR-CUST-10568,Airport Auto Center,SUV,Delivery,2,The vehicle was delivered with low tire pressure and no floor mats.
+2026-04-11,Service Survey,Repeat Customer,DLR-CUST-10569,Airport Auto Center,EV,Delivery,3,"Pickup was organized, but the final detailing could have been better."
+2026-04-12,Phone Follow-up,Repeat Customer,DLR-CUST-10570,Airport Auto Center,Truck,Delivery,1,The delivery appointment was missed and I had to reschedule twice.
+2026-04-13,Phone Follow-up,Luxury Buyer,DLR-CUST-10571,Downtown Auto Mall,Luxury SUV,Website,4,The website made it easy to compare vehicles and calculate estimated payments.
+2026-04-14,Email Survey,Luxury Buyer,DLR-CUST-10572,Downtown Auto Mall,Certified Pre-Owned,Website,2,The payment calculator does not match the numbers provided by finance.
+2026-04-15,Cars.com,Luxury Buyer,DLR-CUST-10573,Downtown Auto Mall,Van,Website,3,"Online chat answered basic questions, but could not confirm real inventory."
+2026-04-16,Facebook,Luxury Buyer,DLR-CUST-10574,Northside Motors,Luxury SUV,Website,1,I submitted a lead form and never received a response.
+2026-04-17,Facebook,Luxury Buyer,DLR-CUST-10575,Northside Motors,EV,Communication,5,Everyone followed up quickly and kept me informed during the purchase.
+2026-04-18,Google Reviews,Budget Buyer,DLR-CUST-10576,Northside Motors,SUV,Communication,2,I received too many calls after asking to communicate by email only.
+2026-04-19,Dealer Website,Budget Buyer,DLR-CUST-10577,West Valley Cars,EV,Communication,3,Communication was polite but inconsistent between sales and finance.
+2026-04-20,Service Survey,Budget Buyer,DLR-CUST-10578,West Valley Cars,Truck,Communication,1,Nobody returned my voicemail about a warranty question.
+2026-04-21,Cars.com,Budget Buyer,DLR-CUST-10579,West Valley Cars,Luxury SUV,Warranty,4,The warranty options were explained clearly without pressure.
+2026-04-22,Facebook,Budget Buyer,DLR-CUST-10580,Lakeside Dealership,Certified Pre-Owned,Warranty,2,I was not told which warranty items were optional until the final paperwork.
+2026-04-23,Google Reviews,Fleet Customer,DLR-CUST-10581,Lakeside Dealership,Van,Warranty,3,"Coverage seems good, but the exclusions should be easier to read."
+2026-04-24,Email Survey,Fleet Customer,DLR-CUST-10582,Lakeside Dealership,Truck,Cleanliness,5,The showroom was clean and the vehicle was spotless at pickup.
+2026-04-25,Cars.com,Fleet Customer,DLR-CUST-10583,Airport Auto Center,Sedan,Cleanliness,2,The used vehicle still had stains inside when I came for delivery.
+2026-04-26,Facebook,Fleet Customer,DLR-CUST-10584,Airport Auto Center,Truck,Cleanliness,3,"The showroom was nice, but the service waiting area needs more seating."
+2026-04-27,Cars.com,Fleet Customer,DLR-CUST-10585,Airport Auto Center,Hybrid,Customer Support,4,The receptionist quickly connected me to the right department.
+2026-04-28,Facebook,Service Customer,DLR-CUST-10586,Downtown Auto Mall,EV,Customer Support,2,I was transferred three times before someone could answer my question.
+2026-04-29,Google Reviews,Service Customer,DLR-CUST-10587,Downtown Auto Mall,EV,Customer Support,1,The support line disconnected twice while I was checking service status.
+2026-04-30,Dealer Website,Service Customer,DLR-CUST-10588,Downtown Auto Mall,Luxury SUV,Customer Support,3,"Staff were friendly, but follow-up after purchase could be more proactive."
+2026-05-01,Service Survey,Service Customer,DLR-CUST-10589,Northside Motors,SUV,Sales Experience,5,The sales advisor listened carefully and helped me compare trims without pressure.
+2026-05-02,Phone Follow-up,Service Customer,DLR-CUST-10590,Northside Motors,Van,Sales Experience,2,The salesperson kept pushing add-ons after I said I was not interested.
+2026-05-03,Email Survey,Trade-in Customer,DLR-CUST-10591,Northside Motors,SUV,Sales Experience,3,"The test drive was helpful, but I waited too long before someone greeted me."
+2026-05-04,Cars.com,Trade-in Customer,DLR-CUST-10592,West Valley Cars,EV,Sales Experience,4,The team explained the vehicle features clearly and made the buying process simple.
+2026-05-05,Facebook,Trade-in Customer,DLR-CUST-10593,West Valley Cars,Truck,Financing,2,The final monthly payment was higher than what was discussed online.
+2026-05-06,Google Reviews,Trade-in Customer,DLR-CUST-10594,West Valley Cars,Truck,Financing,1,Finance paperwork took almost three hours and several fees were not explained.
+2026-05-07,Dealer Website,Trade-in Customer,DLR-CUST-10595,Lakeside Dealership,Luxury SUV,Financing,4,The finance manager found a better rate than my bank and explained the terms well.
+2026-05-08,Service Survey,First-time Buyer,DLR-CUST-10596,Lakeside Dealership,Luxury SUV,Financing,3,"Loan options were presented clearly, but the wait for approval was too long."
+2026-05-09,Dealer Website,First-time Buyer,DLR-CUST-10597,Lakeside Dealership,Luxury SUV,Pricing,2,The advertised price did not include mandatory dealer add-ons.
+2026-05-10,Service Survey,First-time Buyer,DLR-CUST-10598,Airport Auto Center,Luxury SUV,Pricing,1,I felt misled by the online price because the quote changed at the dealership.
+2026-05-11,Phone Follow-up,First-time Buyer,DLR-CUST-10599,Airport Auto Center,Truck,Pricing,4,The price was fair and the final invoice matched the quote.
+2026-05-12,Email Survey,First-time Buyer,DLR-CUST-10600,Airport Auto Center,Truck,Pricing,3,"Discounts were good, but the fee breakdown should be easier to understand."
+2026-05-13,Google Reviews,Repeat Customer,DLR-CUST-10601,Downtown Auto Mall,Truck,Inventory,2,The car listed online was already sold when I arrived for my appointment.
+2026-05-14,Dealer Website,Repeat Customer,DLR-CUST-10602,Downtown Auto Mall,Hybrid,Inventory,3,Inventory filters on the website are useful but some colors are listed incorrectly.
+2026-05-15,Service Survey,Repeat Customer,DLR-CUST-10603,Downtown Auto Mall,Luxury SUV,Inventory,4,They had several trims available and helped me find the right configuration.
+2026-05-16,Phone Follow-up,Repeat Customer,DLR-CUST-10604,Northside Motors,Hybrid,Inventory,1,I drove across town for a vehicle that was marked available but unavailable in store.
+2026-05-17,Phone Follow-up,Repeat Customer,DLR-CUST-10605,Northside Motors,Luxury SUV,Trade-in,2,The trade-in offer was much lower than the estimate I received online.
+2026-05-18,Email Survey,Luxury Buyer,DLR-CUST-10606,Northside Motors,SUV,Trade-in,4,The appraisal was quick and the trade-in credit was clearly applied to my purchase.
+2026-05-19,Cars.com,Luxury Buyer,DLR-CUST-10607,West Valley Cars,SUV,Trade-in,3,"Trade-in inspection was fair, but I wanted more explanation about the valuation."
+2026-05-20,Facebook,Luxury Buyer,DLR-CUST-10608,West Valley Cars,Sedan,Trade-in,1,My trade-in quote changed twice during the same visit.
+2026-05-21,Phone Follow-up,Luxury Buyer,DLR-CUST-10609,West Valley Cars,Certified Pre-Owned,Service Department,5,Service was fast and the advisor sent updates while my car was being repaired.
+2026-05-22,Email Survey,Luxury Buyer,DLR-CUST-10610,Lakeside Dealership,EV,Service Department,2,The repair took two days longer than promised and nobody called me.
+2026-05-23,Cars.com,Budget Buyer,DLR-CUST-10611,Lakeside Dealership,Certified Pre-Owned,Service Department,3,"The oil change was fine, but the waiting area was overcrowded."
+2026-05-24,Facebook,Budget Buyer,DLR-CUST-10612,Lakeside Dealership,Hybrid,Service Department,1,The same warning light came back the day after service.
+2026-05-25,Dealer Website,Budget Buyer,DLR-CUST-10613,Airport Auto Center,Luxury SUV,Parts,2,The replacement part was delayed and I had to call multiple times for updates.
+2026-05-26,Service Survey,Budget Buyer,DLR-CUST-10614,Airport Auto Center,SUV,Parts,4,Parts staff found the correct accessory and installed it the same afternoon.
+2026-05-27,Phone Follow-up,Budget Buyer,DLR-CUST-10615,Airport Auto Center,SUV,Parts,3,"The part arrived on time, but the installation appointment was hard to schedule."
+2026-05-28,Google Reviews,Fleet Customer,DLR-CUST-10616,Downtown Auto Mall,Hybrid,Delivery,5,Home delivery was smooth and the specialist walked me through the vehicle settings.
+2026-05-29,Dealer Website,Fleet Customer,DLR-CUST-10617,Downtown Auto Mall,Truck,Delivery,2,The vehicle was delivered with low tire pressure and no floor mats.
+2026-05-30,Service Survey,Fleet Customer,DLR-CUST-10618,Downtown Auto Mall,Hybrid,Delivery,3,"Pickup was organized, but the final detailing could have been better."
+2026-05-31,Phone Follow-up,Fleet Customer,DLR-CUST-10619,Northside Motors,EV,Delivery,1,The delivery appointment was missed and I had to reschedule twice.
+2026-06-01,Phone Follow-up,Fleet Customer,DLR-CUST-10620,Northside Motors,Van,Website,4,The website made it easy to compare vehicles and calculate estimated payments.
+2026-06-02,Email Survey,Service Customer,DLR-CUST-10621,Northside Motors,Luxury SUV,Website,2,The payment calculator does not match the numbers provided by finance.
+2026-06-03,Cars.com,Service Customer,DLR-CUST-10622,West Valley Cars,Sedan,Website,3,"Online chat answered basic questions, but could not confirm real inventory."
+2026-06-04,Facebook,Service Customer,DLR-CUST-10623,West Valley Cars,Van,Website,1,I submitted a lead form and never received a response.
+2026-06-05,Facebook,Service Customer,DLR-CUST-10624,West Valley Cars,Hybrid,Communication,5,Everyone followed up quickly and kept me informed during the purchase.
+2026-01-01,Google Reviews,Service Customer,DLR-CUST-10625,Lakeside Dealership,Truck,Communication,2,I received too many calls after asking to communicate by email only.
+2026-01-02,Dealer Website,Trade-in Customer,DLR-CUST-10626,Lakeside Dealership,Hybrid,Communication,3,Communication was polite but inconsistent between sales and finance.
+2026-01-03,Service Survey,Trade-in Customer,DLR-CUST-10627,Lakeside Dealership,EV,Communication,1,Nobody returned my voicemail about a warranty question.
+2026-01-04,Cars.com,Trade-in Customer,DLR-CUST-10628,Airport Auto Center,Van,Warranty,4,The warranty options were explained clearly without pressure.
+2026-01-05,Facebook,Trade-in Customer,DLR-CUST-10629,Airport Auto Center,Luxury SUV,Warranty,2,I was not told which warranty items were optional until the final paperwork.
+2026-01-06,Google Reviews,Trade-in Customer,DLR-CUST-10630,Airport Auto Center,Sedan,Warranty,3,"Coverage seems good, but the exclusions should be easier to read."
+2026-01-07,Email Survey,First-time Buyer,DLR-CUST-10631,Downtown Auto Mall,EV,Cleanliness,5,The showroom was clean and the vehicle was spotless at pickup.
+2026-01-08,Cars.com,First-time Buyer,DLR-CUST-10632,Downtown Auto Mall,SUV,Cleanliness,2,The used vehicle still had stains inside when I came for delivery.
+2026-01-09,Facebook,First-time Buyer,DLR-CUST-10633,Downtown Auto Mall,EV,Cleanliness,3,"The showroom was nice, but the service waiting area needs more seating."
+2026-01-10,Cars.com,First-time Buyer,DLR-CUST-10634,Northside Motors,Certified Pre-Owned,Customer Support,4,The receptionist quickly connected me to the right department.
+2026-01-11,Facebook,First-time Buyer,DLR-CUST-10635,Northside Motors,Hybrid,Customer Support,2,I was transferred three times before someone could answer my question.
+2026-01-12,Google Reviews,Repeat Customer,DLR-CUST-10636,Northside Motors,Hybrid,Customer Support,1,The support line disconnected twice while I was checking service status.
+2026-01-13,Dealer Website,Repeat Customer,DLR-CUST-10637,West Valley Cars,Van,Customer Support,3,"Staff were friendly, but follow-up after purchase could be more proactive."
+2026-01-14,Service Survey,Repeat Customer,DLR-CUST-10638,West Valley Cars,Truck,Sales Experience,5,The sales advisor listened carefully and helped me compare trims without pressure.
+2026-01-15,Phone Follow-up,Repeat Customer,DLR-CUST-10639,West Valley Cars,Sedan,Sales Experience,2,The salesperson kept pushing add-ons after I said I was not interested.
+2026-01-16,Email Survey,Repeat Customer,DLR-CUST-10640,Lakeside Dealership,Truck,Sales Experience,3,"The test drive was helpful, but I waited too long before someone greeted me."
+2026-01-17,Cars.com,Luxury Buyer,DLR-CUST-10641,Lakeside Dealership,Hybrid,Sales Experience,4,The team explained the vehicle features clearly and made the buying process simple.
+2026-01-18,Facebook,Luxury Buyer,DLR-CUST-10642,Lakeside Dealership,EV,Financing,2,The final monthly payment was higher than what was discussed online.
+2026-01-19,Google Reviews,Luxury Buyer,DLR-CUST-10643,Airport Auto Center,EV,Financing,1,Finance paperwork took almost three hours and several fees were not explained.
+2026-01-20,Dealer Website,Luxury Buyer,DLR-CUST-10644,Airport Auto Center,Van,Financing,4,The finance manager found a better rate than my bank and explained the terms well.
+2026-01-21,Service Survey,Luxury Buyer,DLR-CUST-10645,Airport Auto Center,Van,Financing,3,"Loan options were presented clearly, but the wait for approval was too long."
+2026-01-22,Dealer Website,Budget Buyer,DLR-CUST-10646,Downtown Auto Mall,Van,Pricing,2,The advertised price did not include mandatory dealer add-ons.
+2026-01-23,Service Survey,Budget Buyer,DLR-CUST-10647,Downtown Auto Mall,Van,Pricing,1,I felt misled by the online price because the quote changed at the dealership.
+2026-01-24,Phone Follow-up,Budget Buyer,DLR-CUST-10648,Downtown Auto Mall,EV,Pricing,4,The price was fair and the final invoice matched the quote.
+2026-01-25,Email Survey,Budget Buyer,DLR-CUST-10649,Northside Motors,EV,Pricing,3,"Discounts were good, but the fee breakdown should be easier to understand."
+2026-01-26,Google Reviews,Budget Buyer,DLR-CUST-10650,Northside Motors,EV,Inventory,2,The car listed online was already sold when I arrived for my appointment.
+2026-01-27,Dealer Website,Fleet Customer,DLR-CUST-10651,Northside Motors,Certified Pre-Owned,Inventory,3,Inventory filters on the website are useful but some colors are listed incorrectly.
+2026-01-28,Service Survey,Fleet Customer,DLR-CUST-10652,West Valley Cars,Van,Inventory,4,They had several trims available and helped me find the right configuration.
+2026-01-29,Phone Follow-up,Fleet Customer,DLR-CUST-10653,West Valley Cars,Certified Pre-Owned,Inventory,1,I drove across town for a vehicle that was marked available but unavailable in store.
+2026-01-30,Phone Follow-up,Fleet Customer,DLR-CUST-10654,West Valley Cars,Van,Trade-in,2,The trade-in offer was much lower than the estimate I received online.
+2026-01-31,Email Survey,Fleet Customer,DLR-CUST-10655,Lakeside Dealership,Truck,Trade-in,4,The appraisal was quick and the trade-in credit was clearly applied to my purchase.
+2026-02-01,Cars.com,Service Customer,DLR-CUST-10656,Lakeside Dealership,Truck,Trade-in,3,"Trade-in inspection was fair, but I wanted more explanation about the valuation."
+2026-02-02,Facebook,Service Customer,DLR-CUST-10657,Lakeside Dealership,SUV,Trade-in,1,My trade-in quote changed twice during the same visit.
+2026-02-03,Phone Follow-up,Service Customer,DLR-CUST-10658,Airport Auto Center,Luxury SUV,Service Department,5,Service was fast and the advisor sent updates while my car was being repaired.
+2026-02-04,Email Survey,Service Customer,DLR-CUST-10659,Airport Auto Center,Hybrid,Service Department,2,The repair took two days longer than promised and nobody called me.
+2026-02-05,Cars.com,Service Customer,DLR-CUST-10660,Airport Auto Center,Luxury SUV,Service Department,3,"The oil change was fine, but the waiting area was overcrowded."
+2026-02-06,Facebook,Trade-in Customer,DLR-CUST-10661,Downtown Auto Mall,Certified Pre-Owned,Service Department,1,The same warning light came back the day after service.
+2026-02-07,Dealer Website,Trade-in Customer,DLR-CUST-10662,Downtown Auto Mall,Van,Parts,2,The replacement part was delayed and I had to call multiple times for updates.
+2026-02-08,Service Survey,Trade-in Customer,DLR-CUST-10663,Downtown Auto Mall,Truck,Parts,4,Parts staff found the correct accessory and installed it the same afternoon.
+2026-02-09,Phone Follow-up,Trade-in Customer,DLR-CUST-10664,Northside Motors,Truck,Parts,3,"The part arrived on time, but the installation appointment was hard to schedule."
+2026-02-10,Google Reviews,Trade-in Customer,DLR-CUST-10665,Northside Motors,Certified Pre-Owned,Delivery,5,Home delivery was smooth and the specialist walked me through the vehicle settings.
+2026-02-11,Dealer Website,First-time Buyer,DLR-CUST-10666,Northside Motors,EV,Delivery,2,The vehicle was delivered with low tire pressure and no floor mats.
+2026-02-12,Service Survey,First-time Buyer,DLR-CUST-10667,West Valley Cars,Certified Pre-Owned,Delivery,3,"Pickup was organized, but the final detailing could have been better."
+2026-02-13,Phone Follow-up,First-time Buyer,DLR-CUST-10668,West Valley Cars,Hybrid,Delivery,1,The delivery appointment was missed and I had to reschedule twice.
+2026-02-14,Phone Follow-up,First-time Buyer,DLR-CUST-10669,West Valley Cars,Sedan,Website,4,The website made it easy to compare vehicles and calculate estimated payments.
+2026-02-15,Email Survey,First-time Buyer,DLR-CUST-10670,Lakeside Dealership,Van,Website,2,The payment calculator does not match the numbers provided by finance.
+2026-02-16,Cars.com,Repeat Customer,DLR-CUST-10671,Lakeside Dealership,SUV,Website,3,"Online chat answered basic questions, but could not confirm real inventory."
+2026-02-17,Facebook,Repeat Customer,DLR-CUST-10672,Lakeside Dealership,Sedan,Website,1,I submitted a lead form and never received a response.
+2026-02-18,Facebook,Repeat Customer,DLR-CUST-10673,Airport Auto Center,Certified Pre-Owned,Communication,5,Everyone followed up quickly and kept me informed during the purchase.
+2026-02-19,Google Reviews,Repeat Customer,DLR-CUST-10674,Airport Auto Center,EV,Communication,2,I received too many calls after asking to communicate by email only.
+2026-02-20,Dealer Website,Repeat Customer,DLR-CUST-10675,Airport Auto Center,Certified Pre-Owned,Communication,3,Communication was polite but inconsistent between sales and finance.
+2026-02-21,Service Survey,Luxury Buyer,DLR-CUST-10676,Downtown Auto Mall,Hybrid,Communication,1,Nobody returned my voicemail about a warranty question.
+2026-02-22,Cars.com,Luxury Buyer,DLR-CUST-10677,Downtown Auto Mall,Sedan,Warranty,4,The warranty options were explained clearly without pressure.
+2026-02-23,Facebook,Luxury Buyer,DLR-CUST-10678,Downtown Auto Mall,Van,Warranty,2,I was not told which warranty items were optional until the final paperwork.
+2026-02-24,Google Reviews,Luxury Buyer,DLR-CUST-10679,Northside Motors,SUV,Warranty,3,"Coverage seems good, but the exclusions should be easier to read."
+2026-02-25,Email Survey,Luxury Buyer,DLR-CUST-10680,Northside Motors,Hybrid,Cleanliness,5,The showroom was clean and the vehicle was spotless at pickup.
+2026-02-26,Cars.com,Budget Buyer,DLR-CUST-10681,Northside Motors,Truck,Cleanliness,2,The used vehicle still had stains inside when I came for delivery.
+2026-02-27,Facebook,Budget Buyer,DLR-CUST-10682,West Valley Cars,Hybrid,Cleanliness,3,"The showroom was nice, but the service waiting area needs more seating."
+2026-02-28,Cars.com,Budget Buyer,DLR-CUST-10683,West Valley Cars,Luxury SUV,Customer Support,4,The receptionist quickly connected me to the right department.
+2026-03-01,Facebook,Budget Buyer,DLR-CUST-10684,West Valley Cars,Certified Pre-Owned,Customer Support,2,I was transferred three times before someone could answer my question.
+2026-03-02,Google Reviews,Budget Buyer,DLR-CUST-10685,Lakeside Dealership,Certified Pre-Owned,Customer Support,1,The support line disconnected twice while I was checking service status.
+2026-03-03,Dealer Website,Fleet Customer,DLR-CUST-10686,Lakeside Dealership,Sedan,Customer Support,3,"Staff were friendly, but follow-up after purchase could be more proactive."
+2026-03-04,Service Survey,Fleet Customer,DLR-CUST-10687,Lakeside Dealership,EV,Sales Experience,5,The sales advisor listened carefully and helped me compare trims without pressure.
+2026-03-05,Phone Follow-up,Fleet Customer,DLR-CUST-10688,Airport Auto Center,SUV,Sales Experience,2,The salesperson kept pushing add-ons after I said I was not interested.
+2026-03-06,Email Survey,Fleet Customer,DLR-CUST-10689,Airport Auto Center,EV,Sales Experience,3,"The test drive was helpful, but I waited too long before someone greeted me."
+2026-03-07,Cars.com,Fleet Customer,DLR-CUST-10690,Airport Auto Center,Certified Pre-Owned,Sales Experience,4,The team explained the vehicle features clearly and made the buying process simple.
+2026-03-08,Facebook,Service Customer,DLR-CUST-10691,Downtown Auto Mall,Hybrid,Financing,2,The final monthly payment was higher than what was discussed online.
+2026-03-09,Google Reviews,Service Customer,DLR-CUST-10692,Downtown Auto Mall,Hybrid,Financing,1,Finance paperwork took almost three hours and several fees were not explained.
+2026-03-10,Dealer Website,Service Customer,DLR-CUST-10693,Downtown Auto Mall,Sedan,Financing,4,The finance manager found a better rate than my bank and explained the terms well.
+2026-03-11,Service Survey,Service Customer,DLR-CUST-10694,Northside Motors,Sedan,Financing,3,"Loan options were presented clearly, but the wait for approval was too long."
+2026-03-12,Dealer Website,Service Customer,DLR-CUST-10695,Northside Motors,Sedan,Pricing,2,The advertised price did not include mandatory dealer add-ons.
+2026-03-13,Service Survey,Trade-in Customer,DLR-CUST-10696,Northside Motors,Sedan,Pricing,1,I felt misled by the online price because the quote changed at the dealership.
+2026-03-14,Phone Follow-up,Trade-in Customer,DLR-CUST-10697,West Valley Cars,Hybrid,Pricing,4,The price was fair and the final invoice matched the quote.
+2026-03-15,Email Survey,Trade-in Customer,DLR-CUST-10698,West Valley Cars,Hybrid,Pricing,3,"Discounts were good, but the fee breakdown should be easier to understand."
+2026-03-16,Google Reviews,Trade-in Customer,DLR-CUST-10699,West Valley Cars,Hybrid,Inventory,2,The car listed online was already sold when I arrived for my appointment.
+2026-03-17,Dealer Website,Trade-in Customer,DLR-CUST-10700,Lakeside Dealership,Luxury SUV,Inventory,3,Inventory filters on the website are useful but some colors are listed incorrectly.
+2026-03-18,Service Survey,First-time Buyer,DLR-CUST-10701,Lakeside Dealership,Sedan,Inventory,4,They had several trims available and helped me find the right configuration.
+2026-03-19,Phone Follow-up,First-time Buyer,DLR-CUST-10702,Lakeside Dealership,Luxury SUV,Inventory,1,I drove across town for a vehicle that was marked available but unavailable in store.
+2026-03-20,Phone Follow-up,First-time Buyer,DLR-CUST-10703,Airport Auto Center,Sedan,Trade-in,2,The trade-in offer was much lower than the estimate I received online.
+2026-03-21,Email Survey,First-time Buyer,DLR-CUST-10704,Airport Auto Center,EV,Trade-in,4,The appraisal was quick and the trade-in credit was clearly applied to my purchase.
+2026-03-22,Cars.com,First-time Buyer,DLR-CUST-10705,Airport Auto Center,EV,Trade-in,3,"Trade-in inspection was fair, but I wanted more explanation about the valuation."
+2026-03-23,Facebook,Repeat Customer,DLR-CUST-10706,Downtown Auto Mall,Truck,Trade-in,1,My trade-in quote changed twice during the same visit.
+2026-03-24,Phone Follow-up,Repeat Customer,DLR-CUST-10707,Downtown Auto Mall,Van,Service Department,5,Service was fast and the advisor sent updates while my car was being repaired.
+2026-03-25,Email Survey,Repeat Customer,DLR-CUST-10708,Downtown Auto Mall,Certified Pre-Owned,Service Department,2,The repair took two days longer than promised and nobody called me.
+2026-03-26,Cars.com,Repeat Customer,DLR-CUST-10709,Northside Motors,Van,Service Department,3,"The oil change was fine, but the waiting area was overcrowded."
+2026-03-27,Facebook,Repeat Customer,DLR-CUST-10710,Northside Motors,Luxury SUV,Service Department,1,The same warning light came back the day after service.
+2026-03-28,Dealer Website,Luxury Buyer,DLR-CUST-10711,Northside Motors,Sedan,Parts,2,The replacement part was delayed and I had to call multiple times for updates.
+2026-03-29,Service Survey,Luxury Buyer,DLR-CUST-10712,West Valley Cars,EV,Parts,4,Parts staff found the correct accessory and installed it the same afternoon.
+2026-03-30,Phone Follow-up,Luxury Buyer,DLR-CUST-10713,West Valley Cars,EV,Parts,3,"The part arrived on time, but the installation appointment was hard to schedule."
+2026-03-31,Google Reviews,Luxury Buyer,DLR-CUST-10714,West Valley Cars,Luxury SUV,Delivery,5,Home delivery was smooth and the specialist walked me through the vehicle settings.
+2026-04-01,Dealer Website,Luxury Buyer,DLR-CUST-10715,Lakeside Dealership,Hybrid,Delivery,2,The vehicle was delivered with low tire pressure and no floor mats.
+2026-04-02,Service Survey,Budget Buyer,DLR-CUST-10716,Lakeside Dealership,Luxury SUV,Delivery,3,"Pickup was organized, but the final detailing could have been better."
+2026-04-03,Phone Follow-up,Budget Buyer,DLR-CUST-10717,Lakeside Dealership,Certified Pre-Owned,Delivery,1,The delivery appointment was missed and I had to reschedule twice.
+2026-04-04,Phone Follow-up,Budget Buyer,DLR-CUST-10718,Airport Auto Center,SUV,Website,4,The website made it easy to compare vehicles and calculate estimated payments.
+2026-04-05,Email Survey,Budget Buyer,DLR-CUST-10719,Airport Auto Center,Sedan,Website,2,The payment calculator does not match the numbers provided by finance.
+2026-04-06,Cars.com,Budget Buyer,DLR-CUST-10720,Airport Auto Center,Truck,Website,3,"Online chat answered basic questions, but could not confirm real inventory."
+2026-04-07,Facebook,Fleet Customer,DLR-CUST-10721,Downtown Auto Mall,SUV,Website,1,I submitted a lead form and never received a response.
+2026-04-08,Facebook,Fleet Customer,DLR-CUST-10722,Downtown Auto Mall,Luxury SUV,Communication,5,Everyone followed up quickly and kept me informed during the purchase.
+2026-04-09,Google Reviews,Fleet Customer,DLR-CUST-10723,Downtown Auto Mall,Hybrid,Communication,2,I received too many calls after asking to communicate by email only.
+2026-04-10,Dealer Website,Fleet Customer,DLR-CUST-10724,Northside Motors,Luxury SUV,Communication,3,Communication was polite but inconsistent between sales and finance.
+2026-04-11,Service Survey,Fleet Customer,DLR-CUST-10725,Northside Motors,Certified Pre-Owned,Communication,1,Nobody returned my voicemail about a warranty question.
+2026-04-12,Cars.com,Service Customer,DLR-CUST-10726,Northside Motors,SUV,Warranty,4,The warranty options were explained clearly without pressure.
+2026-04-13,Facebook,Service Customer,DLR-CUST-10727,West Valley Cars,Sedan,Warranty,2,I was not told which warranty items were optional until the final paperwork.
+2026-04-14,Google Reviews,Service Customer,DLR-CUST-10728,West Valley Cars,Truck,Warranty,3,"Coverage seems good, but the exclusions should be easier to read."
+2026-04-15,Email Survey,Service Customer,DLR-CUST-10729,West Valley Cars,Certified Pre-Owned,Cleanliness,5,The showroom was clean and the vehicle was spotless at pickup.
+2026-04-16,Cars.com,Service Customer,DLR-CUST-10730,Lakeside Dealership,EV,Cleanliness,2,The used vehicle still had stains inside when I came for delivery.
+2026-04-17,Facebook,Trade-in Customer,DLR-CUST-10731,Lakeside Dealership,Certified Pre-Owned,Cleanliness,3,"The showroom was nice, but the service waiting area needs more seating."
+2026-04-18,Cars.com,Trade-in Customer,DLR-CUST-10732,Lakeside Dealership,Van,Customer Support,4,The receptionist quickly connected me to the right department.
+2026-04-19,Facebook,Trade-in Customer,DLR-CUST-10733,Airport Auto Center,Luxury SUV,Customer Support,2,I was transferred three times before someone could answer my question.
+2026-04-20,Google Reviews,Trade-in Customer,DLR-CUST-10734,Airport Auto Center,Luxury SUV,Customer Support,1,The support line disconnected twice while I was checking service status.
+2026-04-21,Dealer Website,Trade-in Customer,DLR-CUST-10735,Airport Auto Center,SUV,Customer Support,3,"Staff were friendly, but follow-up after purchase could be more proactive."
+2026-04-22,Service Survey,First-time Buyer,DLR-CUST-10736,Downtown Auto Mall,Hybrid,Sales Experience,5,The sales advisor listened carefully and helped me compare trims without pressure.
+2026-04-23,Phone Follow-up,First-time Buyer,DLR-CUST-10737,Downtown Auto Mall,Truck,Sales Experience,2,The salesperson kept pushing add-ons after I said I was not interested.
+2026-04-24,Email Survey,First-time Buyer,DLR-CUST-10738,Downtown Auto Mall,Hybrid,Sales Experience,3,"The test drive was helpful, but I waited too long before someone greeted me."
+2026-04-25,Cars.com,First-time Buyer,DLR-CUST-10739,Northside Motors,Luxury SUV,Sales Experience,4,The team explained the vehicle features clearly and made the buying process simple.
+2026-04-26,Facebook,First-time Buyer,DLR-CUST-10740,Northside Motors,Certified Pre-Owned,Financing,2,The final monthly payment was higher than what was discussed online.
+2026-04-27,Google Reviews,Repeat Customer,DLR-CUST-10741,Northside Motors,Certified Pre-Owned,Financing,1,Finance paperwork took almost three hours and several fees were not explained.
+2026-04-28,Dealer Website,Repeat Customer,DLR-CUST-10742,West Valley Cars,SUV,Financing,4,The finance manager found a better rate than my bank and explained the terms well.
+2026-04-29,Service Survey,Repeat Customer,DLR-CUST-10743,West Valley Cars,SUV,Financing,3,"Loan options were presented clearly, but the wait for approval was too long."
+2026-04-30,Dealer Website,Repeat Customer,DLR-CUST-10744,West Valley Cars,SUV,Pricing,2,The advertised price did not include mandatory dealer add-ons.
+2026-05-01,Service Survey,Repeat Customer,DLR-CUST-10745,Lakeside Dealership,SUV,Pricing,1,I felt misled by the online price because the quote changed at the dealership.
+2026-05-02,Phone Follow-up,Luxury Buyer,DLR-CUST-10746,Lakeside Dealership,Certified Pre-Owned,Pricing,4,The price was fair and the final invoice matched the quote.
+2026-05-03,Email Survey,Luxury Buyer,DLR-CUST-10747,Lakeside Dealership,Certified Pre-Owned,Pricing,3,"Discounts were good, but the fee breakdown should be easier to understand."
+2026-05-04,Google Reviews,Luxury Buyer,DLR-CUST-10748,Airport Auto Center,Certified Pre-Owned,Inventory,2,The car listed online was already sold when I arrived for my appointment.
+2026-05-05,Dealer Website,Luxury Buyer,DLR-CUST-10749,Airport Auto Center,Van,Inventory,3,Inventory filters on the website are useful but some colors are listed incorrectly.
+2026-05-06,Service Survey,Luxury Buyer,DLR-CUST-10750,Airport Auto Center,SUV,Inventory,4,They had several trims available and helped me find the right configuration.
+2026-05-07,Phone Follow-up,Budget Buyer,DLR-CUST-10751,Downtown Auto Mall,Van,Inventory,1,I drove across town for a vehicle that was marked available but unavailable in store.
+2026-05-08,Phone Follow-up,Budget Buyer,DLR-CUST-10752,Downtown Auto Mall,SUV,Trade-in,2,The trade-in offer was much lower than the estimate I received online.
+2026-05-09,Email Survey,Budget Buyer,DLR-CUST-10753,Downtown Auto Mall,Hybrid,Trade-in,4,The appraisal was quick and the trade-in credit was clearly applied to my purchase.
+2026-05-10,Cars.com,Budget Buyer,DLR-CUST-10754,Northside Motors,Hybrid,Trade-in,3,"Trade-in inspection was fair, but I wanted more explanation about the valuation."
+2026-05-11,Facebook,Budget Buyer,DLR-CUST-10755,Northside Motors,EV,Trade-in,1,My trade-in quote changed twice during the same visit.
+2026-05-12,Phone Follow-up,Fleet Customer,DLR-CUST-10756,Northside Motors,Sedan,Service Department,5,Service was fast and the advisor sent updates while my car was being repaired.
+2026-05-13,Email Survey,Fleet Customer,DLR-CUST-10757,West Valley Cars,Luxury SUV,Service Department,2,The repair took two days longer than promised and nobody called me.
+2026-05-14,Cars.com,Fleet Customer,DLR-CUST-10758,West Valley Cars,Sedan,Service Department,3,"The oil change was fine, but the waiting area was overcrowded."
+2026-05-15,Facebook,Fleet Customer,DLR-CUST-10759,West Valley Cars,Van,Service Department,1,The same warning light came back the day after service.
+2026-05-16,Dealer Website,Fleet Customer,DLR-CUST-10760,Lakeside Dealership,SUV,Parts,2,The replacement part was delayed and I had to call multiple times for updates.
+2026-05-17,Service Survey,Service Customer,DLR-CUST-10761,Lakeside Dealership,Hybrid,Parts,4,Parts staff found the correct accessory and installed it the same afternoon.
+2026-05-18,Phone Follow-up,Service Customer,DLR-CUST-10762,Lakeside Dealership,Hybrid,Parts,3,"The part arrived on time, but the installation appointment was hard to schedule."
+2026-05-19,Google Reviews,Service Customer,DLR-CUST-10763,Airport Auto Center,Van,Delivery,5,Home delivery was smooth and the specialist walked me through the vehicle settings.
+2026-05-20,Dealer Website,Service Customer,DLR-CUST-10764,Airport Auto Center,Certified Pre-Owned,Delivery,2,The vehicle was delivered with low tire pressure and no floor mats.
+2026-05-21,Service Survey,Service Customer,DLR-CUST-10765,Airport Auto Center,Van,Delivery,3,"Pickup was organized, but the final detailing could have been better."
+2026-05-22,Phone Follow-up,Trade-in Customer,DLR-CUST-10766,Downtown Auto Mall,Luxury SUV,Delivery,1,The delivery appointment was missed and I had to reschedule twice.
+2026-05-23,Phone Follow-up,Trade-in Customer,DLR-CUST-10767,Downtown Auto Mall,Truck,Website,4,The website made it easy to compare vehicles and calculate estimated payments.
+2026-05-24,Email Survey,Trade-in Customer,DLR-CUST-10768,Downtown Auto Mall,SUV,Website,2,The payment calculator does not match the numbers provided by finance.
+2026-05-25,Cars.com,Trade-in Customer,DLR-CUST-10769,Northside Motors,EV,Website,3,"Online chat answered basic questions, but could not confirm real inventory."
+2026-05-26,Facebook,Trade-in Customer,DLR-CUST-10770,Northside Motors,Truck,Website,1,I submitted a lead form and never received a response.
+2026-05-27,Facebook,First-time Buyer,DLR-CUST-10771,Northside Motors,Van,Communication,5,Everyone followed up quickly and kept me informed during the purchase.
+2026-05-28,Google Reviews,First-time Buyer,DLR-CUST-10772,West Valley Cars,Certified Pre-Owned,Communication,2,I received too many calls after asking to communicate by email only.
+2026-05-29,Dealer Website,First-time Buyer,DLR-CUST-10773,West Valley Cars,Van,Communication,3,Communication was polite but inconsistent between sales and finance.
+2026-05-30,Service Survey,First-time Buyer,DLR-CUST-10774,West Valley Cars,Luxury SUV,Communication,1,Nobody returned my voicemail about a warranty question.
+2026-05-31,Cars.com,First-time Buyer,DLR-CUST-10775,Lakeside Dealership,Truck,Warranty,4,The warranty options were explained clearly without pressure.
+2026-06-01,Facebook,Repeat Customer,DLR-CUST-10776,Lakeside Dealership,SUV,Warranty,2,I was not told which warranty items were optional until the final paperwork.
+2026-06-02,Google Reviews,Repeat Customer,DLR-CUST-10777,Lakeside Dealership,EV,Warranty,3,"Coverage seems good, but the exclusions should be easier to read."
+2026-06-03,Email Survey,Repeat Customer,DLR-CUST-10778,Airport Auto Center,Luxury SUV,Cleanliness,5,The showroom was clean and the vehicle was spotless at pickup.
+2026-06-04,Cars.com,Repeat Customer,DLR-CUST-10779,Airport Auto Center,Hybrid,Cleanliness,2,The used vehicle still had stains inside when I came for delivery.
+2026-06-05,Facebook,Repeat Customer,DLR-CUST-10780,Airport Auto Center,Luxury SUV,Cleanliness,3,"The showroom was nice, but the service waiting area needs more seating."
+2026-01-01,Cars.com,Luxury Buyer,DLR-CUST-10781,Downtown Auto Mall,Sedan,Customer Support,4,The receptionist quickly connected me to the right department.
+2026-01-02,Facebook,Luxury Buyer,DLR-CUST-10782,Downtown Auto Mall,Van,Customer Support,2,I was transferred three times before someone could answer my question.
+2026-01-03,Google Reviews,Luxury Buyer,DLR-CUST-10783,Downtown Auto Mall,Van,Customer Support,1,The support line disconnected twice while I was checking service status.
+2026-01-04,Dealer Website,Luxury Buyer,DLR-CUST-10784,Northside Motors,Truck,Customer Support,3,"Staff were friendly, but follow-up after purchase could be more proactive."
+2026-01-05,Service Survey,Luxury Buyer,DLR-CUST-10785,Northside Motors,Certified Pre-Owned,Sales Experience,5,The sales advisor listened carefully and helped me compare trims without pressure.
+2026-01-06,Phone Follow-up,Budget Buyer,DLR-CUST-10786,Northside Motors,EV,Sales Experience,2,The salesperson kept pushing add-ons after I said I was not interested.
+2026-01-07,Email Survey,Budget Buyer,DLR-CUST-10787,West Valley Cars,Certified Pre-Owned,Sales Experience,3,"The test drive was helpful, but I waited too long before someone greeted me."
+2026-01-08,Cars.com,Budget Buyer,DLR-CUST-10788,West Valley Cars,Van,Sales Experience,4,The team explained the vehicle features clearly and made the buying process simple.
+2026-01-09,Facebook,Budget Buyer,DLR-CUST-10789,West Valley Cars,Luxury SUV,Financing,2,The final monthly payment was higher than what was discussed online.
+2026-01-10,Google Reviews,Budget Buyer,DLR-CUST-10790,Lakeside Dealership,Luxury SUV,Financing,1,Finance paperwork took almost three hours and several fees were not explained.
+2026-01-11,Dealer Website,Fleet Customer,DLR-CUST-10791,Lakeside Dealership,Truck,Financing,4,The finance manager found a better rate than my bank and explained the terms well.
+2026-01-12,Service Survey,Fleet Customer,DLR-CUST-10792,Lakeside Dealership,Truck,Financing,3,"Loan options were presented clearly, but the wait for approval was too long."
+2026-01-13,Dealer Website,Fleet Customer,DLR-CUST-10793,Airport Auto Center,Truck,Pricing,2,The advertised price did not include mandatory dealer add-ons.
+2026-01-14,Service Survey,Fleet Customer,DLR-CUST-10794,Airport Auto Center,Truck,Pricing,1,I felt misled by the online price because the quote changed at the dealership.
+2026-01-15,Phone Follow-up,Fleet Customer,DLR-CUST-10795,Airport Auto Center,Luxury SUV,Pricing,4,The price was fair and the final invoice matched the quote.
+2026-01-16,Email Survey,Service Customer,DLR-CUST-10796,Downtown Auto Mall,Luxury SUV,Pricing,3,"Discounts were good, but the fee breakdown should be easier to understand."
+2026-01-17,Google Reviews,Service Customer,DLR-CUST-10797,Downtown Auto Mall,Luxury SUV,Inventory,2,The car listed online was already sold when I arrived for my appointment.
+2026-01-18,Dealer Website,Service Customer,DLR-CUST-10798,Downtown Auto Mall,Sedan,Inventory,3,Inventory filters on the website are useful but some colors are listed incorrectly.
+2026-01-19,Service Survey,Service Customer,DLR-CUST-10799,Northside Motors,Truck,Inventory,4,They had several trims available and helped me find the right configuration.
+2026-01-20,Phone Follow-up,Service Customer,DLR-CUST-10800,Northside Motors,Sedan,Inventory,1,I drove across town for a vehicle that was marked available but unavailable in store.
+2026-01-21,Phone Follow-up,Trade-in Customer,DLR-CUST-10801,Northside Motors,Truck,Trade-in,2,The trade-in offer was much lower than the estimate I received online.
+2026-01-22,Email Survey,Trade-in Customer,DLR-CUST-10802,West Valley Cars,Certified Pre-Owned,Trade-in,4,The appraisal was quick and the trade-in credit was clearly applied to my purchase.
+2026-01-23,Cars.com,Trade-in Customer,DLR-CUST-10803,West Valley Cars,Certified Pre-Owned,Trade-in,3,"Trade-in inspection was fair, but I wanted more explanation about the valuation."
+2026-01-24,Facebook,Trade-in Customer,DLR-CUST-10804,West Valley Cars,Hybrid,Trade-in,1,My trade-in quote changed twice during the same visit.
+2026-01-25,Phone Follow-up,Trade-in Customer,DLR-CUST-10805,Lakeside Dealership,SUV,Service Department,5,Service was fast and the advisor sent updates while my car was being repaired.
+2026-01-26,Email Survey,First-time Buyer,DLR-CUST-10806,Lakeside Dealership,Van,Service Department,2,The repair took two days longer than promised and nobody called me.
+2026-01-27,Cars.com,First-time Buyer,DLR-CUST-10807,Lakeside Dealership,SUV,Service Department,3,"The oil change was fine, but the waiting area was overcrowded."
+2026-01-28,Facebook,First-time Buyer,DLR-CUST-10808,Airport Auto Center,Sedan,Service Department,1,The same warning light came back the day after service.
+2026-01-29,Dealer Website,First-time Buyer,DLR-CUST-10809,Airport Auto Center,Truck,Parts,2,The replacement part was delayed and I had to call multiple times for updates.
+2026-01-30,Service Survey,First-time Buyer,DLR-CUST-10810,Airport Auto Center,Certified Pre-Owned,Parts,4,Parts staff found the correct accessory and installed it the same afternoon.
+2026-01-31,Phone Follow-up,Repeat Customer,DLR-CUST-10811,Downtown Auto Mall,Certified Pre-Owned,Parts,3,"The part arrived on time, but the installation appointment was hard to schedule."
+2026-02-01,Google Reviews,Repeat Customer,DLR-CUST-10812,Downtown Auto Mall,Sedan,Delivery,5,Home delivery was smooth and the specialist walked me through the vehicle settings.
+2026-02-02,Dealer Website,Repeat Customer,DLR-CUST-10813,Downtown Auto Mall,Luxury SUV,Delivery,2,The vehicle was delivered with low tire pressure and no floor mats.
+2026-02-03,Service Survey,Repeat Customer,DLR-CUST-10814,Northside Motors,Sedan,Delivery,3,"Pickup was organized, but the final detailing could have been better."
+2026-02-04,Phone Follow-up,Repeat Customer,DLR-CUST-10815,Northside Motors,Van,Delivery,1,The delivery appointment was missed and I had to reschedule twice.
+2026-02-05,Phone Follow-up,Luxury Buyer,DLR-CUST-10816,Northside Motors,EV,Website,4,The website made it easy to compare vehicles and calculate estimated payments.
+2026-02-06,Email Survey,Luxury Buyer,DLR-CUST-10817,West Valley Cars,Truck,Website,2,The payment calculator does not match the numbers provided by finance.
+2026-02-07,Cars.com,Luxury Buyer,DLR-CUST-10818,West Valley Cars,Hybrid,Website,3,"Online chat answered basic questions, but could not confirm real inventory."
+2026-02-08,Facebook,Luxury Buyer,DLR-CUST-10819,West Valley Cars,EV,Website,1,I submitted a lead form and never received a response.
+2026-02-09,Facebook,Luxury Buyer,DLR-CUST-10820,Lakeside Dealership,Sedan,Communication,5,Everyone followed up quickly and kept me informed during the purchase.
+2026-02-10,Google Reviews,Budget Buyer,DLR-CUST-10821,Lakeside Dealership,Luxury SUV,Communication,2,I received too many calls after asking to communicate by email only.
+2026-02-11,Dealer Website,Budget Buyer,DLR-CUST-10822,Lakeside Dealership,Sedan,Communication,3,Communication was polite but inconsistent between sales and finance.
+2026-02-12,Service Survey,Budget Buyer,DLR-CUST-10823,Airport Auto Center,Van,Communication,1,Nobody returned my voicemail about a warranty question.
+2026-02-13,Cars.com,Budget Buyer,DLR-CUST-10824,Airport Auto Center,EV,Warranty,4,The warranty options were explained clearly without pressure.
+2026-02-14,Facebook,Budget Buyer,DLR-CUST-10825,Airport Auto Center,Truck,Warranty,2,I was not told which warranty items were optional until the final paperwork.
+2026-02-15,Google Reviews,Fleet Customer,DLR-CUST-10826,Downtown Auto Mall,Hybrid,Warranty,3,"Coverage seems good, but the exclusions should be easier to read."
+2026-02-16,Email Survey,Fleet Customer,DLR-CUST-10827,Downtown Auto Mall,Van,Cleanliness,5,The showroom was clean and the vehicle was spotless at pickup.
+2026-02-17,Cars.com,Fleet Customer,DLR-CUST-10828,Downtown Auto Mall,Certified Pre-Owned,Cleanliness,2,The used vehicle still had stains inside when I came for delivery.
+2026-02-18,Facebook,Fleet Customer,DLR-CUST-10829,Northside Motors,Van,Cleanliness,3,"The showroom was nice, but the service waiting area needs more seating."
+2026-02-19,Cars.com,Fleet Customer,DLR-CUST-10830,Northside Motors,SUV,Customer Support,4,The receptionist quickly connected me to the right department.
+2026-02-20,Facebook,Service Customer,DLR-CUST-10831,Northside Motors,Sedan,Customer Support,2,I was transferred three times before someone could answer my question.
+2026-02-21,Google Reviews,Service Customer,DLR-CUST-10832,West Valley Cars,Sedan,Customer Support,1,The support line disconnected twice while I was checking service status.
+2026-02-22,Dealer Website,Service Customer,DLR-CUST-10833,West Valley Cars,EV,Customer Support,3,"Staff were friendly, but follow-up after purchase could be more proactive."
+2026-02-23,Service Survey,Service Customer,DLR-CUST-10834,West Valley Cars,Luxury SUV,Sales Experience,5,The sales advisor listened carefully and helped me compare trims without pressure.
+2026-02-24,Phone Follow-up,Service Customer,DLR-CUST-10835,Lakeside Dealership,Hybrid,Sales Experience,2,The salesperson kept pushing add-ons after I said I was not interested.
+2026-02-25,Email Survey,Trade-in Customer,DLR-CUST-10836,Lakeside Dealership,Luxury SUV,Sales Experience,3,"The test drive was helpful, but I waited too long before someone greeted me."
+2026-02-26,Cars.com,Trade-in Customer,DLR-CUST-10837,Lakeside Dealership,Sedan,Sales Experience,4,The team explained the vehicle features clearly and made the buying process simple.
+2026-02-27,Facebook,Trade-in Customer,DLR-CUST-10838,Airport Auto Center,Van,Financing,2,The final monthly payment was higher than what was discussed online.
+2026-02-28,Google Reviews,Trade-in Customer,DLR-CUST-10839,Airport Auto Center,Van,Financing,1,Finance paperwork took almost three hours and several fees were not explained.
+2026-03-01,Dealer Website,Trade-in Customer,DLR-CUST-10840,Airport Auto Center,EV,Financing,4,The finance manager found a better rate than my bank and explained the terms well.
+2026-03-02,Service Survey,First-time Buyer,DLR-CUST-10841,Downtown Auto Mall,EV,Financing,3,"Loan options were presented clearly, but the wait for approval was too long."
+2026-03-03,Dealer Website,First-time Buyer,DLR-CUST-10842,Downtown Auto Mall,EV,Pricing,2,The advertised price did not include mandatory dealer add-ons.
+2026-03-04,Service Survey,First-time Buyer,DLR-CUST-10843,Downtown Auto Mall,EV,Pricing,1,I felt misled by the online price because the quote changed at the dealership.
+2026-03-05,Phone Follow-up,First-time Buyer,DLR-CUST-10844,Northside Motors,Van,Pricing,4,The price was fair and the final invoice matched the quote.
+2026-03-06,Email Survey,First-time Buyer,DLR-CUST-10845,Northside Motors,Van,Pricing,3,"Discounts were good, but the fee breakdown should be easier to understand."
+2026-03-07,Google Reviews,Repeat Customer,DLR-CUST-10846,Northside Motors,Van,Inventory,2,The car listed online was already sold when I arrived for my appointment.
+2026-03-08,Dealer Website,Repeat Customer,DLR-CUST-10847,West Valley Cars,SUV,Inventory,3,Inventory filters on the website are useful but some colors are listed incorrectly.
+2026-03-09,Service Survey,Repeat Customer,DLR-CUST-10848,West Valley Cars,EV,Inventory,4,They had several trims available and helped me find the right configuration.
+2026-03-10,Phone Follow-up,Repeat Customer,DLR-CUST-10849,West Valley Cars,SUV,Inventory,1,I drove across town for a vehicle that was marked available but unavailable in store.
+2026-03-11,Phone Follow-up,Repeat Customer,DLR-CUST-10850,Lakeside Dealership,EV,Trade-in,2,The trade-in offer was much lower than the estimate I received online.
+2026-03-12,Email Survey,Luxury Buyer,DLR-CUST-10851,Lakeside Dealership,Luxury SUV,Trade-in,4,The appraisal was quick and the trade-in credit was clearly applied to my purchase.
+2026-03-13,Cars.com,Luxury Buyer,DLR-CUST-10852,Lakeside Dealership,Luxury SUV,Trade-in,3,"Trade-in inspection was fair, but I wanted more explanation about the valuation."
+2026-03-14,Facebook,Luxury Buyer,DLR-CUST-10853,Airport Auto Center,Certified Pre-Owned,Trade-in,1,My trade-in quote changed twice during the same visit.
+2026-03-15,Phone Follow-up,Luxury Buyer,DLR-CUST-10854,Airport Auto Center,Truck,Service Department,5,Service was fast and the advisor sent updates while my car was being repaired.
+2026-03-16,Email Survey,Luxury Buyer,DLR-CUST-10855,Airport Auto Center,Sedan,Service Department,2,The repair took two days longer than promised and nobody called me.
+2026-03-17,Cars.com,Budget Buyer,DLR-CUST-10856,Downtown Auto Mall,Truck,Service Department,3,"The oil change was fine, but the waiting area was overcrowded."
+2026-03-18,Facebook,Budget Buyer,DLR-CUST-10857,Downtown Auto Mall,SUV,Service Department,1,The same warning light came back the day after service.
+2026-03-19,Dealer Website,Budget Buyer,DLR-CUST-10858,Downtown Auto Mall,EV,Parts,2,The replacement part was delayed and I had to call multiple times for updates.
+2026-03-20,Service Survey,Budget Buyer,DLR-CUST-10859,Northside Motors,Luxury SUV,Parts,4,Parts staff found the correct accessory and installed it the same afternoon.
+2026-03-21,Phone Follow-up,Budget Buyer,DLR-CUST-10860,Northside Motors,Luxury SUV,Parts,3,"The part arrived on time, but the installation appointment was hard to schedule."
+2026-03-22,Google Reviews,Fleet Customer,DLR-CUST-10861,Northside Motors,SUV,Delivery,5,Home delivery was smooth and the specialist walked me through the vehicle settings.
+2026-03-23,Dealer Website,Fleet Customer,DLR-CUST-10862,West Valley Cars,Van,Delivery,2,The vehicle was delivered with low tire pressure and no floor mats.
+2026-03-24,Service Survey,Fleet Customer,DLR-CUST-10863,West Valley Cars,SUV,Delivery,3,"Pickup was organized, but the final detailing could have been better."
+2026-03-25,Phone Follow-up,Fleet Customer,DLR-CUST-10864,West Valley Cars,Sedan,Delivery,1,The delivery appointment was missed and I had to reschedule twice.
+2026-03-26,Phone Follow-up,Fleet Customer,DLR-CUST-10865,Lakeside Dealership,Hybrid,Website,4,The website made it easy to compare vehicles and calculate estimated payments.
+2026-03-27,Email Survey,Service Customer,DLR-CUST-10866,Lakeside Dealership,EV,Website,2,The payment calculator does not match the numbers provided by finance.
+2026-03-28,Cars.com,Service Customer,DLR-CUST-10867,Lakeside Dealership,Certified Pre-Owned,Website,3,"Online chat answered basic questions, but could not confirm real inventory."
+2026-03-29,Facebook,Service Customer,DLR-CUST-10868,Airport Auto Center,Hybrid,Website,1,I submitted a lead form and never received a response.
+2026-03-30,Facebook,Service Customer,DLR-CUST-10869,Airport Auto Center,SUV,Communication,5,Everyone followed up quickly and kept me informed during the purchase.
+2026-03-31,Google Reviews,Service Customer,DLR-CUST-10870,Airport Auto Center,Van,Communication,2,I received too many calls after asking to communicate by email only.
+2026-04-01,Dealer Website,Trade-in Customer,DLR-CUST-10871,Downtown Auto Mall,SUV,Communication,3,Communication was polite but inconsistent between sales and finance.
+2026-04-02,Service Survey,Trade-in Customer,DLR-CUST-10872,Downtown Auto Mall,Sedan,Communication,1,Nobody returned my voicemail about a warranty question.
+2026-04-03,Cars.com,Trade-in Customer,DLR-CUST-10873,Downtown Auto Mall,Hybrid,Warranty,4,The warranty options were explained clearly without pressure.
+2026-04-04,Facebook,Trade-in Customer,DLR-CUST-10874,Northside Motors,EV,Warranty,2,I was not told which warranty items were optional until the final paperwork.
+2026-04-05,Google Reviews,Trade-in Customer,DLR-CUST-10875,Northside Motors,Certified Pre-Owned,Warranty,3,"Coverage seems good, but the exclusions should be easier to read."
+2026-04-06,Email Survey,First-time Buyer,DLR-CUST-10876,Northside Motors,Sedan,Cleanliness,5,The showroom was clean and the vehicle was spotless at pickup.
+2026-04-07,Cars.com,First-time Buyer,DLR-CUST-10877,West Valley Cars,Luxury SUV,Cleanliness,2,The used vehicle still had stains inside when I came for delivery.
+2026-04-08,Facebook,First-time Buyer,DLR-CUST-10878,West Valley Cars,Sedan,Cleanliness,3,"The showroom was nice, but the service waiting area needs more seating."
+2026-04-09,Cars.com,First-time Buyer,DLR-CUST-10879,West Valley Cars,Truck,Customer Support,4,The receptionist quickly connected me to the right department.
+2026-04-10,Facebook,First-time Buyer,DLR-CUST-10880,Lakeside Dealership,SUV,Customer Support,2,I was transferred three times before someone could answer my question.
+2026-04-11,Google Reviews,Repeat Customer,DLR-CUST-10881,Lakeside Dealership,SUV,Customer Support,1,The support line disconnected twice while I was checking service status.
+2026-04-12,Dealer Website,Repeat Customer,DLR-CUST-10882,Lakeside Dealership,Hybrid,Customer Support,3,"Staff were friendly, but follow-up after purchase could be more proactive."
+2026-04-13,Service Survey,Repeat Customer,DLR-CUST-10883,Airport Auto Center,Van,Sales Experience,5,The sales advisor listened carefully and helped me compare trims without pressure.
+2026-04-14,Phone Follow-up,Repeat Customer,DLR-CUST-10884,Airport Auto Center,Certified Pre-Owned,Sales Experience,2,The salesperson kept pushing add-ons after I said I was not interested.
+2026-04-15,Email Survey,Repeat Customer,DLR-CUST-10885,Airport Auto Center,Van,Sales Experience,3,"The test drive was helpful, but I waited too long before someone greeted me."
+2026-04-16,Cars.com,Luxury Buyer,DLR-CUST-10886,Downtown Auto Mall,SUV,Sales Experience,4,The team explained the vehicle features clearly and made the buying process simple.
+2026-04-17,Facebook,Luxury Buyer,DLR-CUST-10887,Downtown Auto Mall,Sedan,Financing,2,The final monthly payment was higher than what was discussed online.
+2026-04-18,Google Reviews,Luxury Buyer,DLR-CUST-10888,Downtown Auto Mall,Sedan,Financing,1,Finance paperwork took almost three hours and several fees were not explained.
+2026-04-19,Dealer Website,Luxury Buyer,DLR-CUST-10889,Northside Motors,Hybrid,Financing,4,The finance manager found a better rate than my bank and explained the terms well.
+2026-04-20,Service Survey,Luxury Buyer,DLR-CUST-10890,Northside Motors,Hybrid,Financing,3,"Loan options were presented clearly, but the wait for approval was too long."
+2026-04-21,Dealer Website,Budget Buyer,DLR-CUST-10891,Northside Motors,Hybrid,Pricing,2,The advertised price did not include mandatory dealer add-ons.
+2026-04-22,Service Survey,Budget Buyer,DLR-CUST-10892,West Valley Cars,Hybrid,Pricing,1,I felt misled by the online price because the quote changed at the dealership.
+2026-04-23,Phone Follow-up,Budget Buyer,DLR-CUST-10893,West Valley Cars,Sedan,Pricing,4,The price was fair and the final invoice matched the quote.
+2026-04-24,Email Survey,Budget Buyer,DLR-CUST-10894,West Valley Cars,Sedan,Pricing,3,"Discounts were good, but the fee breakdown should be easier to understand."
+2026-04-25,Google Reviews,Budget Buyer,DLR-CUST-10895,Lakeside Dealership,Sedan,Inventory,2,The car listed online was already sold when I arrived for my appointment.
+2026-04-26,Dealer Website,Fleet Customer,DLR-CUST-10896,Lakeside Dealership,Truck,Inventory,3,Inventory filters on the website are useful but some colors are listed incorrectly.
+2026-04-27,Service Survey,Fleet Customer,DLR-CUST-10897,Lakeside Dealership,Hybrid,Inventory,4,They had several trims available and helped me find the right configuration.
+2026-04-28,Phone Follow-up,Fleet Customer,DLR-CUST-10898,Airport Auto Center,Truck,Inventory,1,I drove across town for a vehicle that was marked available but unavailable in store.
+2026-04-29,Phone Follow-up,Fleet Customer,DLR-CUST-10899,Airport Auto Center,Hybrid,Trade-in,2,The trade-in offer was much lower than the estimate I received online.
+2026-04-30,Email Survey,Fleet Customer,DLR-CUST-10900,Airport Auto Center,Van,Trade-in,4,The appraisal was quick and the trade-in credit was clearly applied to my purchase.
+2026-05-01,Cars.com,Service Customer,DLR-CUST-10901,Downtown Auto Mall,Van,Trade-in,3,"Trade-in inspection was fair, but I wanted more explanation about the valuation."
+2026-05-02,Facebook,Service Customer,DLR-CUST-10902,Downtown Auto Mall,Luxury SUV,Trade-in,1,My trade-in quote changed twice during the same visit.
+2026-05-03,Phone Follow-up,Service Customer,DLR-CUST-10903,Downtown Auto Mall,EV,Service Department,5,Service was fast and the advisor sent updates while my car was being repaired.
+2026-05-04,Email Survey,Service Customer,DLR-CUST-10904,Northside Motors,SUV,Service Department,2,The repair took two days longer than promised and nobody called me.
+2026-05-05,Cars.com,Service Customer,DLR-CUST-10905,Northside Motors,EV,Service Department,3,"The oil change was fine, but the waiting area was overcrowded."
+2026-05-06,Facebook,Trade-in Customer,DLR-CUST-10906,Northside Motors,Truck,Service Department,1,The same warning light came back the day after service.
+2026-05-07,Dealer Website,Trade-in Customer,DLR-CUST-10907,West Valley Cars,Hybrid,Parts,2,The replacement part was delayed and I had to call multiple times for updates.
+2026-05-08,Service Survey,Trade-in Customer,DLR-CUST-10908,West Valley Cars,Van,Parts,4,Parts staff found the correct accessory and installed it the same afternoon.
+2026-05-09,Phone Follow-up,Trade-in Customer,DLR-CUST-10909,West Valley Cars,Van,Parts,3,"The part arrived on time, but the installation appointment was hard to schedule."
+2026-05-10,Google Reviews,Trade-in Customer,DLR-CUST-10910,Lakeside Dealership,Truck,Delivery,5,Home delivery was smooth and the specialist walked me through the vehicle settings.
+2026-05-11,Dealer Website,First-time Buyer,DLR-CUST-10911,Lakeside Dealership,Sedan,Delivery,2,The vehicle was delivered with low tire pressure and no floor mats.
+2026-05-12,Service Survey,First-time Buyer,DLR-CUST-10912,Lakeside Dealership,Truck,Delivery,3,"Pickup was organized, but the final detailing could have been better."
+2026-05-13,Phone Follow-up,First-time Buyer,DLR-CUST-10913,Airport Auto Center,SUV,Delivery,1,The delivery appointment was missed and I had to reschedule twice.
+2026-05-14,Phone Follow-up,First-time Buyer,DLR-CUST-10914,Airport Auto Center,Certified Pre-Owned,Website,4,The website made it easy to compare vehicles and calculate estimated payments.
+2026-05-15,Email Survey,First-time Buyer,DLR-CUST-10915,Airport Auto Center,Hybrid,Website,2,The payment calculator does not match the numbers provided by finance.
+2026-05-16,Cars.com,Repeat Customer,DLR-CUST-10916,Downtown Auto Mall,Luxury SUV,Website,3,"Online chat answered basic questions, but could not confirm real inventory."
+2026-05-17,Facebook,Repeat Customer,DLR-CUST-10917,Downtown Auto Mall,Certified Pre-Owned,Website,1,I submitted a lead form and never received a response.
+2026-05-18,Facebook,Repeat Customer,DLR-CUST-10918,Downtown Auto Mall,Truck,Communication,5,Everyone followed up quickly and kept me informed during the purchase.
+2026-05-19,Google Reviews,Repeat Customer,DLR-CUST-10919,Northside Motors,Sedan,Communication,2,I received too many calls after asking to communicate by email only.
+2026-05-20,Dealer Website,Repeat Customer,DLR-CUST-10920,Northside Motors,Truck,Communication,3,Communication was polite but inconsistent between sales and finance.
+2026-05-21,Service Survey,Luxury Buyer,DLR-CUST-10921,Northside Motors,SUV,Communication,1,Nobody returned my voicemail about a warranty question.
+2026-05-22,Cars.com,Luxury Buyer,DLR-CUST-10922,West Valley Cars,Certified Pre-Owned,Warranty,4,The warranty options were explained clearly without pressure.
+2026-05-23,Facebook,Luxury Buyer,DLR-CUST-10923,West Valley Cars,Hybrid,Warranty,2,I was not told which warranty items were optional until the final paperwork.
+2026-05-24,Google Reviews,Luxury Buyer,DLR-CUST-10924,West Valley Cars,Luxury SUV,Warranty,3,"Coverage seems good, but the exclusions should be easier to read."
+2026-05-25,Email Survey,Luxury Buyer,DLR-CUST-10925,Lakeside Dealership,SUV,Cleanliness,5,The showroom was clean and the vehicle was spotless at pickup.
+2026-05-26,Cars.com,Budget Buyer,DLR-CUST-10926,Lakeside Dealership,Van,Cleanliness,2,The used vehicle still had stains inside when I came for delivery.
+2026-05-27,Facebook,Budget Buyer,DLR-CUST-10927,Lakeside Dealership,SUV,Cleanliness,3,"The showroom was nice, but the service waiting area needs more seating."
+2026-05-28,Cars.com,Budget Buyer,DLR-CUST-10928,Airport Auto Center,EV,Customer Support,4,The receptionist quickly connected me to the right department.
+2026-05-29,Facebook,Budget Buyer,DLR-CUST-10929,Airport Auto Center,Truck,Customer Support,2,I was transferred three times before someone could answer my question.
+2026-05-30,Google Reviews,Budget Buyer,DLR-CUST-10930,Airport Auto Center,Truck,Customer Support,1,The support line disconnected twice while I was checking service status.
+2026-05-31,Dealer Website,Fleet Customer,DLR-CUST-10931,Downtown Auto Mall,Certified Pre-Owned,Customer Support,3,"Staff were friendly, but follow-up after purchase could be more proactive."
+2026-06-01,Service Survey,Fleet Customer,DLR-CUST-10932,Downtown Auto Mall,Sedan,Sales Experience,5,The sales advisor listened carefully and helped me compare trims without pressure.
+2026-06-02,Phone Follow-up,Fleet Customer,DLR-CUST-10933,Downtown Auto Mall,Luxury SUV,Sales Experience,2,The salesperson kept pushing add-ons after I said I was not interested.
+2026-06-03,Email Survey,Fleet Customer,DLR-CUST-10934,Northside Motors,Sedan,Sales Experience,3,"The test drive was helpful, but I waited too long before someone greeted me."
+2026-06-04,Cars.com,Fleet Customer,DLR-CUST-10935,Northside Motors,Truck,Sales Experience,4,The team explained the vehicle features clearly and made the buying process simple.
+2026-06-05,Facebook,Service Customer,DLR-CUST-10936,Northside Motors,SUV,Financing,2,The final monthly payment was higher than what was discussed online.
+2026-01-01,Google Reviews,Service Customer,DLR-CUST-10937,West Valley Cars,SUV,Financing,1,Finance paperwork took almost three hours and several fees were not explained.
+2026-01-02,Dealer Website,Service Customer,DLR-CUST-10938,West Valley Cars,Certified Pre-Owned,Financing,4,The finance manager found a better rate than my bank and explained the terms well.
+2026-01-03,Service Survey,Service Customer,DLR-CUST-10939,West Valley Cars,Certified Pre-Owned,Financing,3,"Loan options were presented clearly, but the wait for approval was too long."
+2026-01-04,Dealer Website,Service Customer,DLR-CUST-10940,Lakeside Dealership,Certified Pre-Owned,Pricing,2,The advertised price did not include mandatory dealer add-ons.
+2026-01-05,Service Survey,Trade-in Customer,DLR-CUST-10941,Lakeside Dealership,Certified Pre-Owned,Pricing,1,I felt misled by the online price because the quote changed at the dealership.
+2026-01-06,Phone Follow-up,Trade-in Customer,DLR-CUST-10942,Lakeside Dealership,SUV,Pricing,4,The price was fair and the final invoice matched the quote.
+2026-01-07,Email Survey,Trade-in Customer,DLR-CUST-10943,Airport Auto Center,SUV,Pricing,3,"Discounts were good, but the fee breakdown should be easier to understand."
+2026-01-08,Google Reviews,Trade-in Customer,DLR-CUST-10944,Airport Auto Center,SUV,Inventory,2,The car listed online was already sold when I arrived for my appointment.
+2026-01-09,Dealer Website,Trade-in Customer,DLR-CUST-10945,Airport Auto Center,EV,Inventory,3,Inventory filters on the website are useful but some colors are listed incorrectly.
+2026-01-10,Service Survey,First-time Buyer,DLR-CUST-10946,Downtown Auto Mall,Certified Pre-Owned,Inventory,4,They had several trims available and helped me find the right configuration.
+2026-01-11,Phone Follow-up,First-time Buyer,DLR-CUST-10947,Downtown Auto Mall,EV,Inventory,1,I drove across town for a vehicle that was marked available but unavailable in store.
+2026-01-12,Phone Follow-up,First-time Buyer,DLR-CUST-10948,Downtown Auto Mall,Certified Pre-Owned,Trade-in,2,The trade-in offer was much lower than the estimate I received online.
+2026-01-13,Email Survey,First-time Buyer,DLR-CUST-10949,Northside Motors,Sedan,Trade-in,4,The appraisal was quick and the trade-in credit was clearly applied to my purchase.
+2026-01-14,Cars.com,First-time Buyer,DLR-CUST-10950,Northside Motors,Sedan,Trade-in,3,"Trade-in inspection was fair, but I wanted more explanation about the valuation."
+2026-01-15,Facebook,Repeat Customer,DLR-CUST-10951,Northside Motors,Van,Trade-in,1,My trade-in quote changed twice during the same visit.
+2026-01-16,Phone Follow-up,Repeat Customer,DLR-CUST-10952,West Valley Cars,Hybrid,Service Department,5,Service was fast and the advisor sent updates while my car was being repaired.
+2026-01-17,Email Survey,Repeat Customer,DLR-CUST-10953,West Valley Cars,Truck,Service Department,2,The repair took two days longer than promised and nobody called me.
+2026-01-18,Cars.com,Repeat Customer,DLR-CUST-10954,West Valley Cars,Hybrid,Service Department,3,"The oil change was fine, but the waiting area was overcrowded."
+2026-01-19,Facebook,Repeat Customer,DLR-CUST-10955,Lakeside Dealership,EV,Service Department,1,The same warning light came back the day after service.
+2026-01-20,Dealer Website,Luxury Buyer,DLR-CUST-10956,Lakeside Dealership,Certified Pre-Owned,Parts,2,The replacement part was delayed and I had to call multiple times for updates.
+2026-01-21,Service Survey,Luxury Buyer,DLR-CUST-10957,Lakeside Dealership,Sedan,Parts,4,Parts staff found the correct accessory and installed it the same afternoon.
+2026-01-22,Phone Follow-up,Luxury Buyer,DLR-CUST-10958,Airport Auto Center,Sedan,Parts,3,"The part arrived on time, but the installation appointment was hard to schedule."
+2026-01-23,Google Reviews,Luxury Buyer,DLR-CUST-10959,Airport Auto Center,EV,Delivery,5,Home delivery was smooth and the specialist walked me through the vehicle settings.
+2026-01-24,Dealer Website,Luxury Buyer,DLR-CUST-10960,Airport Auto Center,SUV,Delivery,2,The vehicle was delivered with low tire pressure and no floor mats.
+2026-01-25,Service Survey,Budget Buyer,DLR-CUST-10961,Downtown Auto Mall,EV,Delivery,3,"Pickup was organized, but the final detailing could have been better."
+2026-01-26,Phone Follow-up,Budget Buyer,DLR-CUST-10962,Downtown Auto Mall,Truck,Delivery,1,The delivery appointment was missed and I had to reschedule twice.
+2026-01-27,Phone Follow-up,Budget Buyer,DLR-CUST-10963,Downtown Auto Mall,Luxury SUV,Website,4,The website made it easy to compare vehicles and calculate estimated payments.
+2026-01-28,Email Survey,Budget Buyer,DLR-CUST-10964,Northside Motors,Certified Pre-Owned,Website,2,The payment calculator does not match the numbers provided by finance.
+2026-01-29,Cars.com,Budget Buyer,DLR-CUST-10965,Northside Motors,Van,Website,3,"Online chat answered basic questions, but could not confirm real inventory."
+2026-01-30,Facebook,Fleet Customer,DLR-CUST-10966,Northside Motors,Luxury SUV,Website,1,I submitted a lead form and never received a response.
+2026-01-31,Facebook,Fleet Customer,DLR-CUST-10967,West Valley Cars,EV,Communication,5,Everyone followed up quickly and kept me informed during the purchase.
+2026-02-01,Google Reviews,Fleet Customer,DLR-CUST-10968,West Valley Cars,SUV,Communication,2,I received too many calls after asking to communicate by email only.
+2026-02-02,Dealer Website,Fleet Customer,DLR-CUST-10969,West Valley Cars,EV,Communication,3,Communication was polite but inconsistent between sales and finance.
+2026-02-03,Service Survey,Fleet Customer,DLR-CUST-10970,Lakeside Dealership,Truck,Communication,1,Nobody returned my voicemail about a warranty question.
+2026-02-04,Cars.com,Service Customer,DLR-CUST-10971,Lakeside Dealership,Luxury SUV,Warranty,4,The warranty options were explained clearly without pressure.
+2026-02-05,Facebook,Service Customer,DLR-CUST-10972,Lakeside Dealership,Certified Pre-Owned,Warranty,2,I was not told which warranty items were optional until the final paperwork.
+2026-02-06,Google Reviews,Service Customer,DLR-CUST-10973,Airport Auto Center,Van,Warranty,3,"Coverage seems good, but the exclusions should be easier to read."
+2026-02-07,Email Survey,Service Customer,DLR-CUST-10974,Airport Auto Center,Truck,Cleanliness,5,The showroom was clean and the vehicle was spotless at pickup.
+2026-02-08,Cars.com,Service Customer,DLR-CUST-10975,Airport Auto Center,Sedan,Cleanliness,2,The used vehicle still had stains inside when I came for delivery.
+2026-02-09,Facebook,Trade-in Customer,DLR-CUST-10976,Downtown Auto Mall,Truck,Cleanliness,3,"The showroom was nice, but the service waiting area needs more seating."
+2026-02-10,Cars.com,Trade-in Customer,DLR-CUST-10977,Downtown Auto Mall,Hybrid,Customer Support,4,The receptionist quickly connected me to the right department.
+2026-02-11,Facebook,Trade-in Customer,DLR-CUST-10978,Downtown Auto Mall,EV,Customer Support,2,I was transferred three times before someone could answer my question.
+2026-02-12,Google Reviews,Trade-in Customer,DLR-CUST-10979,Northside Motors,EV,Customer Support,1,The support line disconnected twice while I was checking service status.
+2026-02-13,Dealer Website,Trade-in Customer,DLR-CUST-10980,Northside Motors,Luxury SUV,Customer Support,3,"Staff were friendly, but follow-up after purchase could be more proactive."
+2026-02-14,Service Survey,First-time Buyer,DLR-CUST-10981,Northside Motors,SUV,Sales Experience,5,The sales advisor listened carefully and helped me compare trims without pressure.
+2026-02-15,Phone Follow-up,First-time Buyer,DLR-CUST-10982,West Valley Cars,Van,Sales Experience,2,The salesperson kept pushing add-ons after I said I was not interested.
+2026-02-16,Email Survey,First-time Buyer,DLR-CUST-10983,West Valley Cars,SUV,Sales Experience,3,"The test drive was helpful, but I waited too long before someone greeted me."
+2026-02-17,Cars.com,First-time Buyer,DLR-CUST-10984,West Valley Cars,EV,Sales Experience,4,The team explained the vehicle features clearly and made the buying process simple.
+2026-02-18,Facebook,First-time Buyer,DLR-CUST-10985,Lakeside Dealership,Truck,Financing,2,The final monthly payment was higher than what was discussed online.
+2026-02-19,Google Reviews,Repeat Customer,DLR-CUST-10986,Lakeside Dealership,Truck,Financing,1,Finance paperwork took almost three hours and several fees were not explained.
+2026-02-20,Dealer Website,Repeat Customer,DLR-CUST-10987,Lakeside Dealership,Luxury SUV,Financing,4,The finance manager found a better rate than my bank and explained the terms well.
+2026-02-21,Service Survey,Repeat Customer,DLR-CUST-10988,Airport Auto Center,Luxury SUV,Financing,3,"Loan options were presented clearly, but the wait for approval was too long."
+2026-02-22,Dealer Website,Repeat Customer,DLR-CUST-10989,Airport Auto Center,Luxury SUV,Pricing,2,The advertised price did not include mandatory dealer add-ons.
+2026-02-23,Service Survey,Repeat Customer,DLR-CUST-10990,Airport Auto Center,Luxury SUV,Pricing,1,I felt misled by the online price because the quote changed at the dealership.
+2026-02-24,Phone Follow-up,Luxury Buyer,DLR-CUST-10991,Downtown Auto Mall,Truck,Pricing,4,The price was fair and the final invoice matched the quote.
+2026-02-25,Email Survey,Luxury Buyer,DLR-CUST-10992,Downtown Auto Mall,Truck,Pricing,3,"Discounts were good, but the fee breakdown should be easier to understand."
+2026-02-26,Google Reviews,Luxury Buyer,DLR-CUST-10993,Downtown Auto Mall,Truck,Inventory,2,The car listed online was already sold when I arrived for my appointment.
+2026-02-27,Dealer Website,Luxury Buyer,DLR-CUST-10994,Northside Motors,Hybrid,Inventory,3,Inventory filters on the website are useful but some colors are listed incorrectly.
+2026-02-28,Service Survey,Luxury Buyer,DLR-CUST-10995,Northside Motors,Luxury SUV,Inventory,4,They had several trims available and helped me find the right configuration.
+2026-03-01,Phone Follow-up,Budget Buyer,DLR-CUST-10996,Northside Motors,Hybrid,Inventory,1,I drove across town for a vehicle that was marked available but unavailable in store.
+2026-03-02,Phone Follow-up,Budget Buyer,DLR-CUST-10997,West Valley Cars,Luxury SUV,Trade-in,2,The trade-in offer was much lower than the estimate I received online.
+2026-03-03,Email Survey,Budget Buyer,DLR-CUST-10998,West Valley Cars,SUV,Trade-in,4,The appraisal was quick and the trade-in credit was clearly applied to my purchase.
+2026-03-04,Cars.com,Budget Buyer,DLR-CUST-10999,West Valley Cars,SUV,Trade-in,3,"Trade-in inspection was fair, but I wanted more explanation about the valuation."
+2026-03-05,Facebook,Budget Buyer,DLR-CUST-11000,Lakeside Dealership,Sedan,Trade-in,1,My trade-in quote changed twice during the same visit.

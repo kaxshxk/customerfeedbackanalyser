@@ -1,0 +1,290 @@
+﻿
+
+
+SOFTWARE REQUIREMENTS SPECIFICATION
+
+Customer Feedback Analyzer and Prioritization Agent
+
+Version 1.0  |  Built with Antigravity & Codex
+
+June 2026
+
+
+Document Revision History
+Version
+Date
+Author
+Description
+1.0
+June 2026
+Product Team
+Initial release
+1.1
+TBD
+Engineering
+Review updates
+
+1. Introduction
+1.1 Purpose
+This Software Requirements Specification (SRS) describes the functional and non-functional requirements for the Customer Feedback Analyzer and Prioritization Agent. This document is intended for developers, architects, QA engineers, and product stakeholders involved in building and deploying the system using the Antigravity platform and Codex AI framework.
+1.2 Scope
+The Customer Feedback Analyzer and Prioritization Agent (CFAPA) is an AI-powered system that ingests qualitative and semi-structured feedback from multiple channels, applies natural language processing to extract themes and sentiment, scores and prioritizes feature requests, and synthesizes actionable product improvement recommendations.
+The system targets product teams at SaaS companies, e-commerce platforms, and mobile application businesses that receive high volumes of unstructured feedback monthly.
+1.3 Definitions, Acronyms, and Abbreviations
+Term
+Definition
+CFAPA
+Customer Feedback Analyzer and Prioritization Agent
+NLP
+Natural Language Processing
+LLM
+Large Language Model
+SRS
+Software Requirements Specification
+API
+Application Programming Interface
+PM Tool
+Product Management Tool (Jira, Linear, Productboard)
+ICS
+Impact Confidence Score — composite prioritization metric
+Theme
+A recurring topic cluster identified by topic modeling
+Sentiment
+Emotional polarity (positive, negative, neutral) of feedback
+
+1.4 References
+Antigravity Platform Developer Documentation v3.x
+Codex AI Framework API Reference
+RICE Scoring Framework — Intercom, 2018
+Jira REST API Documentation, Atlassian
+Linear GraphQL API Reference
+Productboard REST API Documentation
+
+1.5 Overview
+This document is organized as follows: Section 2 provides the overall system description. Section 3 covers functional requirements. Section 4 details non-functional requirements. Section 5 describes external interface requirements. Section 6 covers system constraints.
+
+2. Overall Description
+2.1 Product Perspective
+CFAPA is a standalone intelligent agent integrated into product teams' existing toolchain. It operates as a middleware intelligence layer between raw feedback sources (CRM, support platforms, social media) and product management systems. The system leverages the Antigravity platform for orchestration and deployment, and Codex for AI-powered analysis pipelines.
+2.2 Product Functions
+Multi-source feedback ingestion (support tickets, reviews, social mentions, user interviews)
+Automated preprocessing and deduplication of incoming feedback
+Sentiment analysis using fine-tuned NLP models
+Topic modeling to identify and cluster recurring themes
+Impact scoring based on user segment, revenue potential, and frequency
+Feature request prioritization using composite scoring algorithms
+Insight synthesis with evidence-backed product improvement recommendations
+Bi-directional integration with Jira, Linear, and Productboard
+Dashboard for real-time trend visualization and priority queues
+Alerting for sentiment spikes and critical feedback patterns
+
+2.3 User Classes and Characteristics
+User Class
+Description
+Technical Expertise
+Product Manager
+Primary consumer; reviews prioritized insights and recommendations
+Low-Medium
+Data Analyst
+Validates models, tunes scoring parameters
+High
+Customer Success Manager
+Monitors sentiment trends and escalations
+Medium
+Engineering Lead
+Integrates PM tool outputs; configures data pipelines
+High
+Executive
+Views high-level dashboards and quarterly summaries
+Low
+
+2.4 Operating Environment
+Cloud-native deployment on Antigravity infrastructure (AWS/GCP-backed)
+Containerized microservices architecture (Docker, Kubernetes)
+Codex AI inference endpoints for NLP workloads
+REST and webhook interfaces for external integrations
+Web-based dashboard compatible with Chrome, Firefox, Edge (latest 2 versions)
+
+2.5 Design and Implementation Constraints
+All AI inference must use Codex-provided model endpoints; no third-party LLM APIs
+Data residency must comply with customer-specified regional constraints
+The system must operate within Antigravity platform resource quotas
+PM tool integrations must use official, versioned APIs
+No raw customer PII should be stored beyond 90 days
+
+2.6 Assumptions and Dependencies
+The Antigravity platform provides managed authentication, logging, and autoscaling
+Codex provides fine-tunable NLP models for sentiment analysis and topic modeling
+Customers have active subscriptions to at least one PM tool (Jira, Linear, or Productboard)
+Source platforms expose webhook or API-based data export capabilities
+Feedback volume per customer does not exceed 500,000 items per month in v1.0
+
+3. Functional Requirements
+3.1 Feedback Ingestion
+3.1.1 Multi-Source Connectors
+FR-ING-001: The system SHALL provide native connectors for the following sources:
+App Store and Google Play reviews (via scraping + official APIs)
+Customer support tickets from Zendesk, Intercom, and Freshdesk
+Social media mentions from Twitter/X and Reddit
+User interview transcripts (uploaded as .txt, .docx, or .pdf)
+CSV bulk upload for historical data migration
+
+FR-ING-002: Each connector SHALL operate in polling (scheduled) and webhook (real-time) modes.
+FR-ING-003: The system SHALL dedup incoming feedback using content fingerprinting (SHA-256 hash of normalized text) within a 30-day rolling window.
+FR-ING-004: The system SHALL preserve source metadata including: platform, timestamp, user ID (anonymized), product version, and user segment tag.
+3.1.2 Data Normalization
+FR-ING-005: All ingested text SHALL be normalized: Unicode normalization (NFC), HTML/markdown stripping, language detection, and encoding to UTF-8.
+FR-ING-006: Non-English feedback SHALL be auto-translated to English using Codex translation capabilities, with original language preserved in metadata.
+3.2 Sentiment Analysis
+FR-SA-001: The system SHALL classify each feedback item into one of five sentiment classes: Very Positive, Positive, Neutral, Negative, Very Negative.
+FR-SA-002: Sentiment classification SHALL achieve a minimum precision of 85% and recall of 82% on the internal validation benchmark.
+FR-SA-003: The system SHALL perform aspect-level sentiment analysis, identifying sentiment polarity per detected feature or product area.
+FR-SA-004: Sentiment model SHALL be fine-tuned using Codex on a domain-specific corpus and support periodic retraining cycles.
+3.3 Theme and Topic Modeling
+FR-TM-001: The system SHALL apply unsupervised topic modeling (LDA or BERTopic via Codex) to cluster feedback into recurring themes.
+FR-TM-002: The system SHALL auto-generate human-readable theme labels using LLM summarization.
+FR-TM-003: Themes SHALL be refreshed on a configurable schedule (default: weekly) or triggered manually.
+FR-TM-004: The system SHALL support taxonomy management — product admins may rename, merge, or archive themes.
+FR-TM-005: Each theme SHALL expose: item count, trend (growing/stable/declining), top contributing sources, and sentiment distribution.
+3.4 Feature Request Extraction
+FR-FRE-001: The system SHALL automatically identify feedback items that contain feature requests using a Codex-powered intent classifier.
+FR-FRE-002: Identified feature requests SHALL be deduplicated and grouped into feature clusters.
+FR-FRE-003: Each feature cluster SHALL display: verbatim evidence quotes, requestor count, associated user segments, and first/last seen dates.
+3.5 Impact Scoring and Prioritization
+FR-IS-001: The system SHALL compute an Impact Confidence Score (ICS) for each feature cluster using:
+Request frequency (weight: 30%)
+Revenue-weighted user segment (weight: 30%)
+Sentiment severity of associated complaints (weight: 20%)
+Recency and trend direction (weight: 20%)
+
+FR-IS-002: Scoring weights SHALL be configurable by product admins.
+FR-IS-003: The system SHALL generate a ranked priority list of feature requests, updated on each ingestion cycle.
+FR-IS-004: The system SHALL flag items in the top 10% of ICS for immediate PM review via notification.
+3.6 Recommendation Generation
+FR-RG-001: For each top-ranked theme or feature cluster, the system SHALL generate a structured product improvement recommendation containing:
+Executive summary (2-3 sentences)
+Supporting evidence (3-5 verbatim quotes)
+Affected user segments
+Suggested action type (new feature, bug fix, UX improvement, documentation)
+Estimated effort tier (Low / Medium / High) based on comparable PM tool items
+
+FR-RG-002: Recommendations SHALL be generated using Codex LLM with a structured prompt template, ensuring consistent format.
+FR-RG-003: Recommendations SHALL cite their evidence sources with traceable links to original feedback items.
+3.7 PM Tool Integration
+FR-PMI-001: The system SHALL support one-click creation of issues in Jira (REST API), Linear (GraphQL API), and Productboard (REST API).
+FR-PMI-002: Created issues SHALL pre-populate with: recommendation summary, evidence quotes, ICS score, affected user count, and CFAPA item ID.
+FR-PMI-003: The system SHALL support bi-directional sync: when an issue is marked 'Done' in a PM tool, the associated CFAPA theme status SHALL update to 'Addressed'.
+FR-PMI-004: PM tool credentials SHALL be stored as encrypted secrets using Antigravity's secrets manager.
+3.8 Dashboard and Reporting
+FR-DR-001: The system SHALL provide a real-time web dashboard with: sentiment trend charts, theme heatmaps, priority queues, and source volume analytics.
+FR-DR-002: The dashboard SHALL support date range filtering, source filtering, and user segment filtering.
+FR-DR-003: The system SHALL generate automated weekly and monthly digest reports in PDF and email format.
+FR-DR-004: Digest reports SHALL include: top 5 themes, sentiment delta vs previous period, top 3 recommendations, and PM tool integration status.
+
+4. Non-Functional Requirements
+4.1 Performance
+Requirement
+Metric
+Target
+Ingestion throughput
+Items processed per minute
+>= 1,000 items/min
+Sentiment latency
+p99 per item
+<= 200ms
+Theme refresh cycle
+Full corpus re-modeling
+<= 30 minutes
+Dashboard load time
+Initial page load (p95)
+<= 2 seconds
+PM tool sync
+Issue creation round-trip
+<= 5 seconds
+
+4.2 Reliability and Availability
+NFR-RA-001: The system SHALL target 99.9% monthly uptime (excluding scheduled maintenance).
+NFR-RA-002: The ingestion pipeline SHALL be fault-tolerant: failed items SHALL be queued for retry with exponential backoff (max 3 retries).
+NFR-RA-003: Scheduled maintenance windows SHALL not exceed 4 hours per month and SHALL be announced 48 hours in advance.
+4.3 Security
+NFR-SEC-001: All data in transit SHALL be encrypted using TLS 1.3.
+NFR-SEC-002: All data at rest SHALL be encrypted using AES-256.
+NFR-SEC-003: Authentication SHALL use OAuth 2.0 / OIDC via Antigravity's identity provider.
+NFR-SEC-004: Role-based access control (RBAC) SHALL enforce viewer, analyst, and admin permission tiers.
+NFR-SEC-005: PII detection SHALL flag and optionally redact personal identifiers (email, names, phone) in ingested text.
+4.4 Scalability
+NFR-SCALE-001: The architecture SHALL horizontally scale ingestion workers to handle traffic spikes up to 10x baseline.
+NFR-SCALE-002: The system SHALL support multi-tenancy, with data isolation guaranteed per organization.
+4.5 Maintainability
+NFR-MAIN-001: All AI models SHALL be versioned; rollback to a previous model version SHALL be possible within 15 minutes.
+NFR-MAIN-002: System configuration (weights, thresholds, schedules) SHALL be manageable via admin UI without code deployment.
+4.6 Compliance
+NFR-COMP-001: The system SHALL comply with GDPR requirements for EU-based customers including data deletion on request within 30 days.
+NFR-COMP-002: The system SHALL comply with CCPA for California-based customers.
+NFR-COMP-003: Audit logs SHALL be retained for a minimum of 12 months.
+
+5. External Interface Requirements
+5.1 User Interfaces
+Web application dashboard (React-based, responsive)
+Email digest reports (HTML email template)
+In-app notification center for priority alerts
+
+5.2 Hardware Interfaces
+No direct hardware interfaces. The system operates entirely on cloud infrastructure managed by Antigravity.
+5.3 Software Interfaces
+System
+Interface Type
+Purpose
+Codex AI
+REST API / SDK
+NLP inference, topic modeling, LLM generation
+Antigravity Platform
+SDK / Cloud APIs
+Orchestration, autoscaling, secrets, auth
+Jira
+REST API v3
+Issue creation and status sync
+Linear
+GraphQL API
+Issue creation and status sync
+Productboard
+REST API
+Feature push and feedback link
+Zendesk
+REST API
+Ticket ingestion
+Intercom
+REST + Webhook
+Conversation ingestion
+App Store Connect
+App Store Connect API
+Review ingestion
+Google Play
+Google Play Developer API
+Review ingestion
+
+5.4 Communication Interfaces
+HTTPS (TLS 1.3) for all external API calls
+WebSocket for real-time dashboard updates
+SMTP/SendGrid for email digest delivery
+Webhook receiver endpoints for real-time source push
+
+6. System Constraints and Limitations
+6.1 Technical Constraints
+v1.0 supports English-language feedback as primary; multilingual support is supplementary via translation
+Maximum feedback item length: 10,000 characters (items exceeding this limit are truncated with a flag)
+Topic modeling requires a minimum corpus of 500 items to produce reliable clusters
+PM tool integration supports one active workspace per integration per organization in v1.0
+
+6.2 Business Constraints
+Go-to-market timeline targets Q3 2026 beta with design partners
+v1.0 must operate within Antigravity's starter tier infrastructure cost envelope
+Codex API usage must remain within contracted token budget per customer tier
+
+6.3 Regulatory Constraints
+GDPR Article 17 (right to erasure) must be implemented for all EU customer data
+CCPA opt-out mechanisms must be available for California users
+SOC 2 Type II certification is a target within 12 months of GA launch
+
+
+— End of SRS Document —

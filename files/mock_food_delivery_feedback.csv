@@ -1,0 +1,31 @@
+Date,Source,Segment,Feedback,Rating
+2026-05-01,Zendesk,Consumer,"Food was delivered super fast, pizza was still piping hot. Courier was very polite! (Ref: #4000)",5
+2026-05-02,Reddit,Consumer,"Delivery was delayed by an hour, my burger arrived ice cold and soggy. (Ref: #4001)",1
+2026-05-03,Google Play,Premium,"Customer service bot keeps looping and won't connect me to a real agent to fix my refund. (Ref: #4002)",2
+2026-05-04,Intercom,Consumer,"Love the real-time courier tracking map, order was completely accurate. Excellent service. (Ref: #4003)",5
+2026-05-05,App Store,Consumer,"The restaurant forgot my drink and dessert, but the app refuse to refund me. (Ref: #4004)",2
+2026-05-06,Zendesk,Enterprise,"The coupon code worked perfectly, got 30% off my order. Seamless checkout. (Ref: #4005)",5
+2026-05-07,Reddit,Consumer,"The food delivery was super slow. The app said 20 minutes but it took 80 minutes. (Ref: #4006)",1
+2026-05-08,App Store,SMB,"Received the completely wrong order! I ordered vegan salad and got a beef wrap. (Ref: #4007)",1
+2026-05-09,Google Play,Premium,"My soup container was crushed and spilled all over the bag. Absolute mess. (Ref: #4008)",1
+2026-05-10,Intercom,Consumer,"The delivery driver left my food in the lobby without calling or messaging. Food got cold. (Ref: #4009)",2
+2026-05-11,Reddit,Premium,"App checkout keeps crashing when I try to pay with Apple Pay or credit card. (Ref: #4010)",1
+2026-05-12,Zendesk,Consumer,"Driver was rude and refused to deliver up to the 4th floor. (Ref: #4011)",2
+2026-05-13,Intercom,Enterprise,"Very convenient app! Quick reorder button and saved payment cards make checkout a breeze. (Ref: #4012)",5
+2026-05-14,Google Play,Consumer,"Refund request for missing item got rejected automatically. Customer support is terrible. (Ref: #4013)",1
+2026-05-15,Reddit,Premium,"Payment went through twice on checkout, app support has not replied to my ticket. (Ref: #4014)",1
+2026-05-16,App Store,Consumer,"Food order tracking map keeps freezing, courier position does not update. (Ref: #4015)",2
+2026-05-17,Zendesk,SMB,"Portion size was much smaller than what was shown in the restaurant photo in the app. (Ref: #4016)",3
+2026-05-18,Intercom,Premium,"Delivery was incredibly fast, sushi was fresh and cold items stayed cold. (Ref: #4017)",5
+2026-05-19,Reddit,Consumer,"Delivery fee is too high, and they add a service charge on top. Becoming too expensive. (Ref: #4018)",3
+2026-05-20,Google Play,Enterprise,"Corporate catering order arrived exactly on time. Food was warm and plates were included. (Ref: #4019)",5
+2026-05-21,App Store,Consumer,"App keeps suggesting restaurants that are closed or too far away. (Ref: #4020)",2
+2026-05-22,Zendesk,Consumer,"Ordered dessert but received cold appetizer instead. Food was soggy and driver was late. (Ref: #4021)",2
+2026-05-23,Intercom,Premium,"Notification alert was delayed, only knew my food arrived when I opened the front door. (Ref: #4022)",2
+2026-05-24,Reddit,SMB,"Great support team! Courier was delayed due to rain, and support gave me a coupon code refund. (Ref: #4023)",5
+2026-05-25,Google Play,Consumer,"The food options are excellent, but the app drains battery heavily when tracking orders. (Ref: #4024)",3
+2026-05-26,App Store,Premium,"Delivery courier drove in the wrong direction for 15 minutes. Food arrived stone cold. (Ref: #4025)",1
+2026-05-27,Zendesk,Consumer,"Very clean interface, food search filter works great for gluten-free items. (Ref: #4026)",5
+2026-05-28,Reddit,Enterprise,"Group ordering feature is great for office lunches, saves a lot of delivery fee. (Ref: #4027)",5
+2026-05-29,Intercom,Consumer,"Order got cancelled after 40 minutes of waiting with no explanation or coupon refund. (Ref: #4028)",1
+2026-05-30,Google Play,Premium,"Super easy checkout, Google Pay works seamlessly and drivers always follow drop-off notes. (Ref: #4029)",5

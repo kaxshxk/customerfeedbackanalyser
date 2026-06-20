@@ -1,0 +1,201 @@
+Date,Source,Segment,Feedback,Rating
+2026-05-04,Email,Academic,"The professor explains curriculum concepts clearly. The lecture videos load extremely fast. (Ref: #2000)",4
+2026-05-19,Reddit,Student,"The curriculum modules are extremely outdated. They are still teaching Python 2 syntax. (Ref: #2001)",1
+2026-05-01,Intercom,Corporate,"The curriculum covers the basics, though I expected more hands-on coding assignments. (Ref: #2002)",3
+2026-05-03,Email,Academic,"The curriculum modules are extremely outdated. They are still teaching Python 2 syntax. (Ref: #2003)",1
+2026-05-21,Zendesk,Corporate,"Passed the exam and my certificate generated instantly. The student dashboard is super clean. (Ref: #2004)",4
+2026-05-13,Zendesk,Corporate,"Incredible learning platform! The data science course curriculum is modern and easy to follow. (Ref: #2005)",4
+2026-05-16,Email,Professional,"The student platform interface is very clunky. It is hard to find where the syllabus is. (Ref: #2006)",1
+2026-05-29,Reddit,Professional,"The professor explains curriculum concepts clearly. The lecture videos load extremely fast. (Ref: #2007)",4
+2026-05-06,Email,Student,"The student platform interface is very clunky. It is hard to find where the syllabus is. (Ref: #2008)",2
+2026-05-24,Intercom,Student,"Great university-level lecture materials. Very satisfied with the student learning dashboard. (Ref: #2009)",4
+2026-05-09,Zendesk,Corporate,"Clean curriculum organization. Navigating between course modules is intuitive. (Ref: #2010)",4
+2026-05-23,Web Portal,Academic,"Syllabus is fine, but the video quality of the lectures could be improved. (Ref: #2011)",3
+2026-05-09,Zendesk,Student,"Love the on-demand classes! Video player runs smoothly with zero buffering issues. (Ref: #2012)",5
+2026-05-13,Reddit,Academic,"Syllabus files are corrupted, and the learning modules are missing key lectures. (Ref: #2013)",1
+2026-05-08,Web Portal,Corporate,"The online course lecture video player is constantly buffering. I cannot watch the classes smoothly. (Ref: #2014)",2
+2026-05-19,Web Portal,Professional,"Syllabus is fine, but the video quality of the lectures could be improved. (Ref: #2015)",3
+2026-05-26,Web Portal,Professional,"The degree program enrollment process is very confusing and the platform is slow. (Ref: #2016)",1
+2026-05-24,Reddit,Student,"The instructor is unresponsive to questions in the curriculum forums. Very disappointed. (Ref: #2017)",1
+2026-05-30,Reddit,Professional,"The instructor is unresponsive to questions in the curriculum forums. Very disappointed. (Ref: #2018)",2
+2026-05-05,Web Portal,Student,"Syllabus is fine, but the video quality of the lectures could be improved. (Ref: #2019)",3
+2026-05-19,Reddit,Professional,"Average learning materials. The certificate generated fine, but the slides are plain. (Ref: #2020)",3
+2026-05-04,Intercom,Corporate,"The professor explains curriculum concepts clearly. The lecture videos load extremely fast. (Ref: #2021)",4
+2026-05-05,Reddit,Corporate,"The student platform interface is very clunky. It is hard to find where the syllabus is. (Ref: #2022)",2
+2026-05-13,Intercom,Academic,"Lectures are informative, but the student platform sometimes takes a while to load. (Ref: #2023)",3
+2026-05-09,Email,Corporate,"The course is okay, but the quiz questions are a bit too simple. (Ref: #2024)",3
+2026-05-25,Email,Professional,"The curriculum modules are extremely outdated. They are still teaching Python 2 syntax. (Ref: #2025)",1
+2026-05-29,Web Portal,Corporate,"The curriculum modules are extremely outdated. They are still teaching Python 2 syntax. (Ref: #2026)",2
+2026-05-27,Intercom,Professional,"The professor explains curriculum concepts clearly. The lecture videos load extremely fast. (Ref: #2027)",5
+2026-05-20,Intercom,Professional,"Passed the exam and my certificate generated instantly. The student dashboard is super clean. (Ref: #2028)",4
+2026-05-27,Intercom,Corporate,"Passed the exam and my certificate generated instantly. The student dashboard is super clean. (Ref: #2029)",5
+2026-05-22,Web Portal,Student,"The curriculum modules are extremely outdated. They are still teaching Python 2 syntax. (Ref: #2030)",2
+2026-05-05,Web Portal,Corporate,"The curriculum modules are extremely outdated. They are still teaching Python 2 syntax. (Ref: #2031)",2
+2026-05-10,Web Portal,Corporate,"The degree program enrollment process is very confusing and the platform is slow. (Ref: #2032)",2
+2026-05-16,Intercom,Professional,"The quiz certificate did not generate after I passed the final exam. Backend database error? (Ref: #2033)",1
+2026-05-10,Reddit,Student,"Lectures are informative, but the student platform sometimes takes a while to load. (Ref: #2034)",3
+2026-05-30,Email,Academic,"The professor explains curriculum concepts clearly. The lecture videos load extremely fast. (Ref: #2035)",4
+2026-05-13,Intercom,Student,"Syllabus files are corrupted, and the learning modules are missing key lectures. (Ref: #2036)",2
+2026-05-29,Zendesk,Academic,"I passed the quiz but the exam status didn't update. Outdated student registration portal. (Ref: #2037)",2
+2026-05-27,Zendesk,Student,"The curriculum modules are extremely outdated. They are still teaching Python 2 syntax. (Ref: #2038)",1
+2026-05-27,Email,Professional,"Love the on-demand classes! Video player runs smoothly with zero buffering issues. (Ref: #2039)",5
+2026-05-23,Intercom,Corporate,"The student support community is very helpful. Quick responses from teachers and tutors. (Ref: #2040)",5
+2026-05-12,Intercom,Corporate,"The curriculum modules are extremely outdated. They are still teaching Python 2 syntax. (Ref: #2041)",1
+2026-05-08,Web Portal,Student,"The online course lecture video player is constantly buffering. I cannot watch the classes smoothly. (Ref: #2042)",1
+2026-05-30,Intercom,Professional,"The student platform interface is very clunky. It is hard to find where the syllabus is. (Ref: #2043)",1
+2026-05-18,Zendesk,Academic,"The online course lecture video player is constantly buffering. I cannot watch the classes smoothly. (Ref: #2044)",1
+2026-05-23,Web Portal,Student,"I passed the quiz but the exam status didn't update. Outdated student registration portal. (Ref: #2045)",1
+2026-05-17,Intercom,Corporate,"Average learning materials. The certificate generated fine, but the slides are plain. (Ref: #2046)",3
+2026-05-08,Intercom,Academic,"Syllabus files are corrupted, and the learning modules are missing key lectures. (Ref: #2047)",2
+2026-05-26,Reddit,Student,"Clean curriculum organization. Navigating between course modules is intuitive. (Ref: #2048)",4
+2026-05-06,Zendesk,Academic,"The student platform interface is very clunky. It is hard to find where the syllabus is. (Ref: #2049)",2
+2026-05-02,Reddit,Student,"Excellent syllabus alignment. The assignments are challenging but very educational. (Ref: #2050)",4
+2026-05-11,Intercom,Corporate,"Great university-level lecture materials. Very satisfied with the student learning dashboard. (Ref: #2051)",5
+2026-05-24,Email,Professional,"Love the on-demand classes! Video player runs smoothly with zero buffering issues. (Ref: #2052)",4
+2026-05-13,Web Portal,Professional,"Syllabus is fine, but the video quality of the lectures could be improved. (Ref: #2053)",3
+2026-05-20,Web Portal,Professional,"The degree program enrollment process is very confusing and the platform is slow. (Ref: #2054)",1
+2026-05-11,Intercom,Student,"Great university-level lecture materials. Very satisfied with the student learning dashboard. (Ref: #2055)",4
+2026-05-18,Web Portal,Corporate,"The degree program enrollment process is very confusing and the platform is slow. (Ref: #2056)",1
+2026-05-12,Intercom,Student,"The student support community is very helpful. Quick responses from teachers and tutors. (Ref: #2057)",5
+2026-05-14,Reddit,Professional,"The curriculum covers the basics, though I expected more hands-on coding assignments. (Ref: #2058)",3
+2026-05-02,Zendesk,Student,"Lectures are informative, but the student platform sometimes takes a while to load. (Ref: #2059)",3
+2026-05-14,Email,Student,"The online course lecture video player is constantly buffering. I cannot watch the classes smoothly. (Ref: #2060)",2
+2026-05-08,Email,Professional,"The course is okay, but the quiz questions are a bit too simple. (Ref: #2061)",3
+2026-05-13,Reddit,Professional,"The quiz certificate did not generate after I passed the final exam. Backend database error? (Ref: #2062)",1
+2026-05-20,Email,Student,"The curriculum covers the basics, though I expected more hands-on coding assignments. (Ref: #2063)",3
+2026-05-28,Email,Student,"The instructor is unresponsive to questions in the curriculum forums. Very disappointed. (Ref: #2064)",2
+2026-05-05,Reddit,Professional,"Excellent syllabus alignment. The assignments are challenging but very educational. (Ref: #2065)",4
+2026-05-15,Zendesk,Corporate,"Syllabus files are corrupted, and the learning modules are missing key lectures. (Ref: #2066)",1
+2026-05-29,Reddit,Corporate,"Syllabus is fine, but the video quality of the lectures could be improved. (Ref: #2067)",3
+2026-05-27,Web Portal,Student,"The curriculum modules are extremely outdated. They are still teaching Python 2 syntax. (Ref: #2068)",2
+2026-05-26,Web Portal,Corporate,"Video buffering makes the learning experience terrible. On-demand classes load very slow. (Ref: #2069)",2
+2026-05-19,Reddit,Student,"The student platform interface is very clunky. It is hard to find where the syllabus is. (Ref: #2070)",1
+2026-05-23,Zendesk,Professional,"Love the on-demand classes! Video player runs smoothly with zero buffering issues. (Ref: #2071)",4
+2026-05-02,Reddit,Professional,"The quiz certificate did not generate after I passed the final exam. Backend database error? (Ref: #2072)",1
+2026-05-02,Intercom,Professional,"The course is okay, but the quiz questions are a bit too simple. (Ref: #2073)",3
+2026-05-06,Web Portal,Corporate,"Confusing assignment instructions and lack of feedback from the teacher or professor. (Ref: #2074)",2
+2026-05-01,Zendesk,Academic,"I passed the quiz but the exam status didn't update. Outdated student registration portal. (Ref: #2075)",1
+2026-05-15,Intercom,Academic,"Great university-level lecture materials. Very satisfied with the student learning dashboard. (Ref: #2076)",4
+2026-05-06,Web Portal,Corporate,"Syllabus files are corrupted, and the learning modules are missing key lectures. (Ref: #2077)",1
+2026-05-27,Intercom,Academic,"The curriculum modules are extremely outdated. They are still teaching Python 2 syntax. (Ref: #2078)",2
+2026-05-07,Intercom,Student,"The instructor is unresponsive to questions in the curriculum forums. Very disappointed. (Ref: #2079)",1
+2026-05-19,Email,Student,"Syllabus files are corrupted, and the learning modules are missing key lectures. (Ref: #2080)",2
+2026-05-26,Email,Corporate,"The student platform interface is very clunky. It is hard to find where the syllabus is. (Ref: #2081)",1
+2026-05-03,Email,Student,"The student support community is very helpful. Quick responses from teachers and tutors. (Ref: #2082)",5
+2026-05-29,Web Portal,Student,"Passed the exam and my certificate generated instantly. The student dashboard is super clean. (Ref: #2083)",4
+2026-05-06,Zendesk,Student,"The student platform interface is very clunky. It is hard to find where the syllabus is. (Ref: #2084)",2
+2026-05-17,Intercom,Corporate,"Great university-level lecture materials. Very satisfied with the student learning dashboard. (Ref: #2085)",4
+2026-05-04,Web Portal,Professional,"The degree program enrollment process is very confusing and the platform is slow. (Ref: #2086)",2
+2026-05-21,Email,Corporate,"The quiz certificate did not generate after I passed the final exam. Backend database error? (Ref: #2087)",1
+2026-05-01,Intercom,Corporate,"Average learning materials. The certificate generated fine, but the slides are plain. (Ref: #2088)",3
+2026-04-30,Reddit,Professional,"Confusing assignment instructions and lack of feedback from the teacher or professor. (Ref: #2089)",2
+2026-05-20,Zendesk,Professional,"Incredible learning platform! The data science course curriculum is modern and easy to follow. (Ref: #2090)",5
+2026-05-12,Intercom,Academic,"Confusing assignment instructions and lack of feedback from the teacher or professor. (Ref: #2091)",1
+2026-05-09,Intercom,Academic,"The quiz certificate did not generate after I passed the final exam. Backend database error? (Ref: #2092)",1
+2026-05-26,Reddit,Professional,"Great university-level lecture materials. Very satisfied with the student learning dashboard. (Ref: #2093)",5
+2026-05-15,Intercom,Academic,"The curriculum covers the basics, though I expected more hands-on coding assignments. (Ref: #2094)",3
+2026-05-23,Zendesk,Academic,"Syllabus files are corrupted, and the learning modules are missing key lectures. (Ref: #2095)",1
+2026-05-24,Zendesk,Academic,"The degree program enrollment process is very confusing and the platform is slow. (Ref: #2096)",2
+2026-05-27,Reddit,Academic,"Syllabus is fine, but the video quality of the lectures could be improved. (Ref: #2097)",3
+2026-05-01,Email,Academic,"Excellent syllabus alignment. The assignments are challenging but very educational. (Ref: #2098)",4
+2026-05-02,Zendesk,Academic,"Great university-level lecture materials. Very satisfied with the student learning dashboard. (Ref: #2099)",5
+2026-05-01,Zendesk,Professional,"The course is okay, but the quiz questions are a bit too simple. (Ref: #2100)",3
+2026-05-01,Zendesk,Professional,"I passed the quiz but the exam status didn't update. Outdated student registration portal. (Ref: #2101)",1
+2026-05-04,Intercom,Corporate,"Love the on-demand classes! Video player runs smoothly with zero buffering issues. (Ref: #2102)",5
+2026-04-30,Intercom,Student,"Average learning materials. The certificate generated fine, but the slides are plain. (Ref: #2103)",3
+2026-05-14,Reddit,Academic,"Great university-level lecture materials. Very satisfied with the student learning dashboard. (Ref: #2104)",4
+2026-05-02,Email,Student,"Lectures are informative, but the student platform sometimes takes a while to load. (Ref: #2105)",3
+2026-05-02,Reddit,Professional,"The student platform interface is very clunky. It is hard to find where the syllabus is. (Ref: #2106)",1
+2026-05-24,Email,Academic,"Average learning materials. The certificate generated fine, but the slides are plain. (Ref: #2107)",3
+2026-05-23,Zendesk,Corporate,"Clean curriculum organization. Navigating between course modules is intuitive. (Ref: #2108)",5
+2026-05-27,Email,Professional,"The professor explains curriculum concepts clearly. The lecture videos load extremely fast. (Ref: #2109)",5
+2026-05-03,Email,Professional,"Clean curriculum organization. Navigating between course modules is intuitive. (Ref: #2110)",4
+2026-05-19,Email,Academic,"Great university-level lecture materials. Very satisfied with the student learning dashboard. (Ref: #2111)",4
+2026-05-26,Email,Professional,"The quiz certificate did not generate after I passed the final exam. Backend database error? (Ref: #2112)",1
+2026-05-09,Web Portal,Student,"Great university-level lecture materials. Very satisfied with the student learning dashboard. (Ref: #2113)",5
+2026-05-02,Email,Corporate,"I passed the quiz but the exam status didn't update. Outdated student registration portal. (Ref: #2114)",1
+2026-05-14,Intercom,Professional,"The online course lecture video player is constantly buffering. I cannot watch the classes smoothly. (Ref: #2115)",2
+2026-05-19,Web Portal,Student,"I passed the quiz but the exam status didn't update. Outdated student registration portal. (Ref: #2116)",2
+2026-05-14,Web Portal,Professional,"Passed the exam and my certificate generated instantly. The student dashboard is super clean. (Ref: #2117)",5
+2026-05-21,Zendesk,Academic,"The degree program enrollment process is very confusing and the platform is slow. (Ref: #2118)",2
+2026-05-02,Zendesk,Professional,"Love the on-demand classes! Video player runs smoothly with zero buffering issues. (Ref: #2119)",4
+2026-05-09,Reddit,Corporate,"I passed the quiz but the exam status didn't update. Outdated student registration portal. (Ref: #2120)",1
+2026-05-01,Reddit,Student,"The student platform interface is very clunky. It is hard to find where the syllabus is. (Ref: #2121)",1
+2026-05-17,Intercom,Academic,"The professor explains curriculum concepts clearly. The lecture videos load extremely fast. (Ref: #2122)",4
+2026-05-07,Email,Corporate,"Incredible learning platform! The data science course curriculum is modern and easy to follow. (Ref: #2123)",5
+2026-05-12,Intercom,Academic,"The curriculum modules are extremely outdated. They are still teaching Python 2 syntax. (Ref: #2124)",2
+2026-05-22,Zendesk,Student,"The professor explains curriculum concepts clearly. The lecture videos load extremely fast. (Ref: #2125)",4
+2026-05-26,Web Portal,Student,"Average learning materials. The certificate generated fine, but the slides are plain. (Ref: #2126)",3
+2026-05-16,Reddit,Academic,"The curriculum modules are extremely outdated. They are still teaching Python 2 syntax. (Ref: #2127)",1
+2026-05-20,Email,Student,"Clean curriculum organization. Navigating between course modules is intuitive. (Ref: #2128)",5
+2026-05-24,Reddit,Student,"The curriculum modules are extremely outdated. They are still teaching Python 2 syntax. (Ref: #2129)",1
+2026-05-13,Intercom,Corporate,"Video buffering makes the learning experience terrible. On-demand classes load very slow. (Ref: #2130)",1
+2026-05-23,Zendesk,Student,"Average learning materials. The certificate generated fine, but the slides are plain. (Ref: #2131)",3
+2026-05-16,Reddit,Academic,"Passed the exam and my certificate generated instantly. The student dashboard is super clean. (Ref: #2132)",4
+2026-05-29,Reddit,Professional,"Syllabus is fine, but the video quality of the lectures could be improved. (Ref: #2133)",3
+2026-05-29,Email,Academic,"The instructor is unresponsive to questions in the curriculum forums. Very disappointed. (Ref: #2134)",1
+2026-05-07,Zendesk,Student,"Excellent syllabus alignment. The assignments are challenging but very educational. (Ref: #2135)",4
+2026-05-04,Web Portal,Academic,"Video buffering makes the learning experience terrible. On-demand classes load very slow. (Ref: #2136)",1
+2026-05-04,Email,Academic,"Syllabus is fine, but the video quality of the lectures could be improved. (Ref: #2137)",3
+2026-05-04,Web Portal,Student,"Great university-level lecture materials. Very satisfied with the student learning dashboard. (Ref: #2138)",5
+2026-05-24,Email,Student,"Clean curriculum organization. Navigating between course modules is intuitive. (Ref: #2139)",5
+2026-05-25,Reddit,Academic,"The student platform interface is very clunky. It is hard to find where the syllabus is. (Ref: #2140)",1
+2026-05-01,Reddit,Academic,"Passed the exam and my certificate generated instantly. The student dashboard is super clean. (Ref: #2141)",4
+2026-05-15,Email,Corporate,"The instructor is unresponsive to questions in the curriculum forums. Very disappointed. (Ref: #2142)",2
+2026-05-03,Zendesk,Academic,"The quiz certificate did not generate after I passed the final exam. Backend database error? (Ref: #2143)",2
+2026-05-24,Web Portal,Academic,"The professor explains curriculum concepts clearly. The lecture videos load extremely fast. (Ref: #2144)",4
+2026-05-25,Zendesk,Student,"Clean curriculum organization. Navigating between course modules is intuitive. (Ref: #2145)",4
+2026-05-06,Intercom,Corporate,"Lectures are informative, but the student platform sometimes takes a while to load. (Ref: #2146)",3
+2026-05-09,Web Portal,Student,"I passed the quiz but the exam status didn't update. Outdated student registration portal. (Ref: #2147)",2
+2026-05-01,Intercom,Professional,"The professor explains curriculum concepts clearly. The lecture videos load extremely fast. (Ref: #2148)",4
+2026-05-14,Zendesk,Academic,"Syllabus is fine, but the video quality of the lectures could be improved. (Ref: #2149)",3
+2026-05-29,Reddit,Corporate,"Syllabus files are corrupted, and the learning modules are missing key lectures. (Ref: #2150)",2
+2026-05-23,Zendesk,Professional,"Lectures are informative, but the student platform sometimes takes a while to load. (Ref: #2151)",3
+2026-05-28,Reddit,Professional,"Confusing assignment instructions and lack of feedback from the teacher or professor. (Ref: #2152)",2
+2026-05-29,Intercom,Student,"The course is okay, but the quiz questions are a bit too simple. (Ref: #2153)",3
+2026-05-07,Intercom,Corporate,"Syllabus files are corrupted, and the learning modules are missing key lectures. (Ref: #2154)",2
+2026-05-05,Intercom,Corporate,"Great university-level lecture materials. Very satisfied with the student learning dashboard. (Ref: #2155)",4
+2026-05-03,Web Portal,Student,"Great university-level lecture materials. Very satisfied with the student learning dashboard. (Ref: #2156)",4
+2026-05-29,Email,Student,"The degree program enrollment process is very confusing and the platform is slow. (Ref: #2157)",2
+2026-05-21,Reddit,Student,"The student support community is very helpful. Quick responses from teachers and tutors. (Ref: #2158)",4
+2026-05-03,Zendesk,Academic,"The quiz certificate did not generate after I passed the final exam. Backend database error? (Ref: #2159)",1
+2026-05-08,Zendesk,Corporate,"Lectures are informative, but the student platform sometimes takes a while to load. (Ref: #2160)",3
+2026-05-27,Web Portal,Corporate,"Syllabus is fine, but the video quality of the lectures could be improved. (Ref: #2161)",3
+2026-05-21,Zendesk,Professional,"Video buffering makes the learning experience terrible. On-demand classes load very slow. (Ref: #2162)",2
+2026-05-21,Intercom,Student,"The student platform interface is very clunky. It is hard to find where the syllabus is. (Ref: #2163)",2
+2026-05-30,Zendesk,Corporate,"Syllabus is fine, but the video quality of the lectures could be improved. (Ref: #2164)",3
+2026-05-21,Web Portal,Student,"Lectures are informative, but the student platform sometimes takes a while to load. (Ref: #2165)",3
+2026-05-12,Intercom,Corporate,"Incredible learning platform! The data science course curriculum is modern and easy to follow. (Ref: #2166)",5
+2026-05-30,Intercom,Professional,"Love the on-demand classes! Video player runs smoothly with zero buffering issues. (Ref: #2167)",5
+2026-05-27,Web Portal,Student,"The degree program enrollment process is very confusing and the platform is slow. (Ref: #2168)",1
+2026-05-27,Reddit,Academic,"Excellent syllabus alignment. The assignments are challenging but very educational. (Ref: #2169)",5
+2026-05-03,Reddit,Student,"Lectures are informative, but the student platform sometimes takes a while to load. (Ref: #2170)",3
+2026-05-02,Email,Student,"Average learning materials. The certificate generated fine, but the slides are plain. (Ref: #2171)",3
+2026-05-05,Web Portal,Student,"Lectures are informative, but the student platform sometimes takes a while to load. (Ref: #2172)",3
+2026-05-11,Email,Academic,"The professor explains curriculum concepts clearly. The lecture videos load extremely fast. (Ref: #2173)",4
+2026-05-27,Intercom,Academic,"Average learning materials. The certificate generated fine, but the slides are plain. (Ref: #2174)",3
+2026-05-04,Zendesk,Academic,"The curriculum covers the basics, though I expected more hands-on coding assignments. (Ref: #2175)",3
+2026-04-30,Intercom,Corporate,"Confusing assignment instructions and lack of feedback from the teacher or professor. (Ref: #2176)",2
+2026-05-07,Email,Academic,"The degree program enrollment process is very confusing and the platform is slow. (Ref: #2177)",1
+2026-05-16,Reddit,Corporate,"Syllabus is fine, but the video quality of the lectures could be improved. (Ref: #2178)",3
+2026-05-14,Email,Corporate,"The online course lecture video player is constantly buffering. I cannot watch the classes smoothly. (Ref: #2179)",2
+2026-05-14,Intercom,Professional,"Lectures are informative, but the student platform sometimes takes a while to load. (Ref: #2180)",3
+2026-05-12,Web Portal,Student,"Syllabus is fine, but the video quality of the lectures could be improved. (Ref: #2181)",3
+2026-05-13,Reddit,Academic,"The degree program enrollment process is very confusing and the platform is slow. (Ref: #2182)",2
+2026-05-21,Intercom,Academic,"Excellent syllabus alignment. The assignments are challenging but very educational. (Ref: #2183)",5
+2026-05-10,Web Portal,Academic,"Incredible learning platform! The data science course curriculum is modern and easy to follow. (Ref: #2184)",5
+2026-05-22,Web Portal,Student,"Lectures are informative, but the student platform sometimes takes a while to load. (Ref: #2185)",3
+2026-05-23,Intercom,Corporate,"Great university-level lecture materials. Very satisfied with the student learning dashboard. (Ref: #2186)",4
+2026-05-07,Intercom,Academic,"The degree program enrollment process is very confusing and the platform is slow. (Ref: #2187)",1
+2026-05-12,Zendesk,Student,"Great university-level lecture materials. Very satisfied with the student learning dashboard. (Ref: #2188)",4
+2026-05-21,Reddit,Student,"Love the on-demand classes! Video player runs smoothly with zero buffering issues. (Ref: #2189)",4
+2026-05-17,Email,Professional,"The quiz certificate did not generate after I passed the final exam. Backend database error? (Ref: #2190)",2
+2026-04-30,Email,Professional,"Passed the exam and my certificate generated instantly. The student dashboard is super clean. (Ref: #2191)",4
+2026-05-14,Intercom,Corporate,"The professor explains curriculum concepts clearly. The lecture videos load extremely fast. (Ref: #2192)",5
+2026-05-15,Reddit,Academic,"The student support community is very helpful. Quick responses from teachers and tutors. (Ref: #2193)",4
+2026-05-13,Web Portal,Professional,"Clean curriculum organization. Navigating between course modules is intuitive. (Ref: #2194)",5
+2026-05-20,Zendesk,Academic,"Syllabus is fine, but the video quality of the lectures could be improved. (Ref: #2195)",3
+2026-05-04,Web Portal,Professional,"The course is okay, but the quiz questions are a bit too simple. (Ref: #2196)",3
+2026-04-30,Intercom,Student,"Great university-level lecture materials. Very satisfied with the student learning dashboard. (Ref: #2197)",5
+2026-05-06,Email,Professional,"Confusing assignment instructions and lack of feedback from the teacher or professor. (Ref: #2198)",1
+2026-05-21,Intercom,Professional,"Confusing assignment instructions and lack of feedback from the teacher or professor. (Ref: #2199)",2

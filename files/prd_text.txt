@@ -1,0 +1,299 @@
+PRODUCT REQUIREMENTS DOCUMENT
+Customer Feedback Analyzer and Prioritization Agent
+Version 1.0  |  Antigravity + Codex Stack
+June 2026
+Document Owner
+Status
+Target GA
+Last Updated
+Head of Product
+Draft — In Review
+Q3 2026
+June 2026
+1. Executive Summary
+Product teams at SaaS companies, e-commerce platforms, and mobile apps collectively drown in thousands of unstructured feedback signals monthly — app store reviews, support tickets, social mentions, and interview notes. Without systematic analysis, high-signal insights go unnoticed while engineering prioritizes based on loudest voices rather than actual user impact.
+The Customer Feedback Analyzer and Prioritization Agent (CFAPA) solves this by deploying an AI-powered pipeline — built on the Antigravity platform and Codex AI framework — that ingests feedback from all sources, extracts themes and sentiment automatically, and surfaces prioritized, evidence-backed product recommendations directly into teams&apos; existing PM workflows.
+CFAPA is designed for teams receiving 1,000–500,000 feedback items per month who want to replace ad-hoc analysis with a systematic, data-driven feedback intelligence layer.
+2. Problem Statement
+2.1 The Core Problem
+Product teams lack a systematic, scalable method to analyze qualitative feedback. Current pain points include:
+Manual analysis is slow: reviewing 5,000 tickets monthly takes ~80 analyst hours
+Coverage is incomplete: teams typically sample &lt;10% of feedback due to volume
+Insight quality is biased: loudest customer voices, not highest-impact themes, drive roadmaps
+No quantification: qualitative feedback cannot be compared against revenue or segment impact
+Fragmentation: insights live in Slack, spreadsheets, and individual team members&apos; heads
+2.2 Who Is Affected
+Persona
+Pain Point
+Current Workaround
+Product Manager
+Cannot identify top feature requests systematically
+Manual review of sampled tickets
+Customer Success
+No early warning on emerging sentiment drops
+Weekly support ticket reviews
+Engineering Lead
+Unclear which bugs or gaps matter most to revenue
+Relies on PM judgment
+Executive
+No data-backed product health metrics from customers
+Anecdotal reports from CS team
+3. Goals and Success Metrics
+3.1 Product Goals
+Reduce time to insight from weeks to hours for product teams
+Increase feedback coverage from &lt;10% to 100% of incoming items
+Enable data-driven prioritization linked to user segment and revenue impact
+Seamlessly embed feedback intelligence into existing PM tool workflows
+Become the single source of truth for customer voice in the product organization
+3.2 Success Metrics (OKRs)
+Objective
+Key Result
+Target (6 months post-launch)
+Reduce insight latency
+Time from feedback ingestion to insight dashboard
+&lt; 2 hours (from ~2 weeks)
+Increase coverage
+% of monthly feedback items analyzed
+&gt; 98%
+Drive adoption
+DAU/MAU of dashboard among PM personas
+&gt; 60%
+Impact roadmap accuracy
+% of shipped features traceable to top-10 CFAPA themes
+&gt; 70%
+Customer retention
+Net Retention Rate of CFAPA customers
+&gt; 115%
+NPS
+Product NPS from CFAPA users
+&gt; 50
+4. Target Users and Personas
+4.1 Primary Persona — The Overwhelmed PM
+Alex, 34 — Senior Product Manager at a B2B SaaS company (Series B, 200 employees)
+Alex manages a product used by 8,000 business customers. Each month, 12,000 support tickets and 3,000 app reviews arrive. Alex currently samples ~200 items per month and maintains a shared spreadsheet to track themes. Critical feature requests are missed. Sprint planning feels like guesswork.
+CFAPA gives Alex an always-on intelligence layer that highlights the top 10 themes every week and auto-creates Linear tickets for the top-ranked ones — saving 15+ hours/month and ensuring no critical signal is missed.
+4.2 Secondary Persona — The Customer Success Lead
+Priya, 29 — Customer Success Manager at a mobile-first e-commerce platform
+Priya handles 40 enterprise accounts and needs early warnings when sentiment deteriorates before it leads to churn. She currently relies on reactive support escalations. CFAPA&apos;s alerting feature lets Priya see a sentiment score drop for a specific customer segment before they cancel.
+4.3 Tertiary Persona — The Data-Driven CPO
+Marcus, 42 — Chief Product Officer at a SaaS company (growth stage, 500+ employees)
+Marcus needs board-level metrics on product-market fit derived from customer feedback trends. He wants a quarterly digest that shows which themes are growing, which were addressed, and how feedback sentiment correlates with revenue cohorts.
+5. Feature Requirements
+5.1 Feature Prioritization Matrix
+Feature
+Priority
+Phase
+Effort
+Multi-source feedback ingestion
+P0 — Must Have
+v1.0
+Large
+Sentiment analysis (item-level)
+P0 — Must Have
+v1.0
+Medium
+Topic modeling + theme clustering
+P0 — Must Have
+v1.0
+Large
+Feature request extraction
+P0 — Must Have
+v1.0
+Medium
+Impact Confidence Score (ICS)
+P0 — Must Have
+v1.0
+Medium
+PM tool integration (Jira/Linear)
+P0 — Must Have
+v1.0
+Medium
+Real-time dashboard
+P1 — Should Have
+v1.0
+Large
+Recommendation generation (LLM)
+P1 — Should Have
+v1.0
+Medium
+Sentiment alerting
+P1 — Should Have
+v1.1
+Small
+Productboard integration
+P2 — Nice to Have
+v1.1
+Small
+Quarterly digest reports
+P2 — Nice to Have
+v1.1
+Small
+Multilingual support (non-English)
+P3 — Future
+v2.0
+Large
+Custom scoring model training
+P3 — Future
+v2.0
+Large
+5.2 Core Feature Descriptions
+5.2.1 Multi-Source Feedback Ingestion
+Connect and ingest feedback from app stores, support platforms (Zendesk, Intercom, Freshdesk), social media (Twitter/X, Reddit), user interview transcripts, and CSV uploads. Support both scheduled polling and real-time webhook modes. Deduplicate using content fingerprinting.
+5.2.2 Sentiment Analysis
+Per-item sentiment classification (5-class) and aspect-level sentiment by product area. Powered by a Codex fine-tuned model. Accuracy target: 85% precision, 82% recall. Sentiment scores feed into ICS computation and alerting.
+5.2.3 Topic Modeling and Theme Clustering
+Unsupervised clustering of feedback into recurring themes using BERTopic via Codex. Auto-generated human-readable labels per theme. Weekly or on-demand refresh. Admin tools to merge, rename, and archive themes. Each theme shows trend direction, item count, and sentiment distribution.
+5.2.4 Impact Confidence Score (ICS)
+A composite prioritization score combining request frequency (30%), revenue-weighted user segment (30%), sentiment severity (20%), and recency trend (20%). Configurable weights. Produces a ranked priority queue refreshed per ingestion cycle. Top 10% flagged for immediate PM review.
+5.2.5 PM Tool Integration
+One-click issue creation in Jira (REST), Linear (GraphQL), and Productboard (REST). Issues pre-populated with recommendation summary, evidence quotes, ICS score, and affected user count. Bi-directional sync: &apos;Done&apos; in PM tool marks theme as &apos;Addressed&apos; in CFAPA.
+5.2.6 LLM-Powered Recommendations
+For each top-ranked theme, CFAPA generates a structured recommendation: executive summary, 3-5 evidence quotes, affected segments, suggested action type, and estimated effort tier. Generated via Codex LLM with a structured, versioned prompt template ensuring consistent format and traceable citations.
+6. Key User Stories
+ID
+As a...
+I want to...
+So that...
+US-01
+Product Manager
+See a ranked list of the top 10 feature requests this week
+I can plan the sprint based on real customer demand
+US-02
+Product Manager
+Push a CFAPA recommendation to Linear with one click
+I don&apos;t have to manually copy-paste insight into tickets
+US-03
+Customer Success
+Receive an alert when a key account&apos;s sentiment drops below 3.0
+I can proactively reach out before churn risk increases
+US-04
+PM / Analyst
+Filter the theme dashboard by user segment (Enterprise vs SMB)
+I can understand which issues affect high-value customers most
+US-05
+Admin
+Configure ICS weight parameters without a code deploy
+I can tune prioritization logic as our business evolves
+US-06
+CPO / Executive
+Receive a monthly PDF report of top themes and sentiment deltas
+I can report product-market fit signals to the board
+US-07
+Data Analyst
+Access raw feedback items linked to each theme
+I can validate model output and audit recommendations
+US-08
+Engineer
+Trigger a manual ingestion run for a specific source
+I can test integrations or recover from a pipeline outage
+7. UX and Design Requirements
+7.1 Design Principles
+Clarity over complexity: insights should be scannable in under 60 seconds
+Evidence-first: every recommendation must link to supporting feedback items
+Embedded in workflow: minimize context-switching via deep PM tool integration
+Progressive disclosure: summary views with drill-down for analysts who want depth
+7.2 Key Screens
+Screen
+Primary User
+Key Content
+Weekly Digest Dashboard
+Product Manager
+Top 10 themes, sentiment trend, priority queue, ICS scores
+Theme Detail View
+PM / Analyst
+Theme timeline, item list, sentiment breakdown, evidence quotes
+Recommendation Card
+Product Manager
+Summary, evidence, affected users, one-click PM tool push
+Settings / Integrations
+Admin
+Source connectors, PM tool auth, ICS weight config, alert rules
+Executive Summary Report
+CPO / Exec
+High-level trend charts, addressed vs open themes, sentiment delta
+8. Go-to-Market Considerations
+8.1 Target Segments for v1.0
+B2B SaaS companies: Series A–C, 50–500 employees, PM team of 2–8
+Mobile apps: consumer or prosumer apps with 50K+ MAU
+E-commerce platforms: mid-market with active CS and PM functions
+8.2 Pricing Model (Proposed)
+Tier
+Feedback Items/Month
+Sources
+Integrations
+Price
+Starter
+Up to 10,000
+3 sources
+1 PM tool
+$299/month
+Growth
+Up to 100,000
+8 sources
+3 PM tools
+$799/month
+Enterprise
+Unlimited
+All sources
+All + custom
+Custom
+8.3 Launch Milestones
+Milestone
+Date
+Description
+Private Beta
+July 2026
+5–10 design partner companies; core ingestion + theme features
+Public Beta
+August 2026
+Open waitlist; PM tool integrations + ICS scoring live
+General Availability
+September 2026
+Full feature set, pricing active, self-serve onboarding
+v1.1 Release
+November 2026
+Alerting, Productboard integration, digest reports
+9. Open Questions and Assumptions
+#
+Question / Assumption
+Owner
+Status
+1
+Should ICS include churn-risk signals from CRM data in v1.0?
+Head of Product
+Open
+2
+Assumed: Codex supports BERTopic-equivalent topic modeling natively
+AI/ML Lead
+To Validate
+3
+Assumed: Antigravity handles multi-tenant data isolation at platform level
+Engineering
+Confirmed
+4
+Do we need SOC 2 Type II for enterprise launch or will Type I suffice?
+Legal / Security
+Open
+5
+Will multilingual support be required by any design partner?
+CS / Sales
+Open
+6
+Should interview transcript ingestion support audio (via transcription)?
+PM
+v2.0 Candidate
+10. Constraints and Out of Scope (v1.0)
+10.1 In Scope
+English-language feedback analysis (primary)
+Five source connectors: App Store, Google Play, Zendesk, Intercom, CSV upload
+Jira and Linear PM tool integrations
+Web dashboard + weekly digest email
+ICS-based prioritization with configurable weights
+10.2 Out of Scope for v1.0
+Real-time audio/video interview ingestion and transcription
+Custom ML model training by customers
+Mobile native dashboard app
+Salesforce, HubSpot, or other CRM integrations
+Competitor feedback benchmarking
+A/B test result correlation with feedback themes
+— End of PRD Document —

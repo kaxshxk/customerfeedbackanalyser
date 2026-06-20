@@ -1,0 +1,3226 @@
+{
+  "dataset": {
+    "rows": [
+      {
+        "date": "2026-05-01",
+        "source": "Zendesk",
+        "segment": "Enterprise",
+        "customer_id": "CUST-1001",
+        "product_area": "Dashboard",
+        "feedback": "The dashboard takes too long to load when filtering reports by region."
+      },
+      {
+        "date": "2026-05-02",
+        "source": "Intercom",
+        "segment": "SMB",
+        "customer_id": "CUST-1002",
+        "product_area": "Onboarding",
+        "feedback": "The onboarding checklist is confusing for new admins and we had to contact support twice."
+      },
+      {
+        "date": "2026-05-03",
+        "source": "App Store",
+        "segment": "Consumer",
+        "customer_id": "CUST-1003",
+        "product_area": "Mobile App",
+        "feedback": "The app crashes whenever I try to upload a profile photo."
+      },
+      {
+        "date": "2026-05-04",
+        "source": "Google Play",
+        "segment": "Consumer",
+        "customer_id": "CUST-1004",
+        "product_area": "Performance",
+        "feedback": "Search results are very slow and sometimes show old data."
+      },
+      {
+        "date": "2026-05-05",
+        "source": "Zendesk",
+        "segment": "Enterprise",
+        "customer_id": "CUST-1005",
+        "product_area": "Billing",
+        "feedback": "We need bulk invoice export for finance review at the end of each month."
+      },
+      {
+        "date": "2026-05-06",
+        "source": "CSV Import",
+        "segment": "Growth",
+        "customer_id": "CUST-1006",
+        "product_area": "Integrations",
+        "feedback": "Please add a native HubSpot integration so we do not have to use Zapier."
+      },
+      {
+        "date": "2026-05-07",
+        "source": "Intercom",
+        "segment": "SMB",
+        "customer_id": "CUST-1007",
+        "product_area": "UX",
+        "feedback": "The settings page is hard to understand and important controls are buried."
+      },
+      {
+        "date": "2026-05-08",
+        "source": "Zendesk",
+        "segment": "Enterprise",
+        "customer_id": "CUST-1008",
+        "product_area": "Permissions",
+        "feedback": "Role permissions are too limited for our regional managers."
+      },
+      {
+        "date": "2026-05-09",
+        "source": "App Store",
+        "segment": "Consumer",
+        "customer_id": "CUST-1009",
+        "product_area": "Mobile App",
+        "feedback": "I love the new layout, but notifications arrive late."
+      },
+      {
+        "date": "2026-05-10",
+        "source": "Google Play",
+        "segment": "Consumer",
+        "customer_id": "CUST-1010",
+        "product_area": "Bugs",
+        "feedback": "Export fails with an unknown error when the report has more than 500 rows."
+      },
+      {
+        "date": "2026-05-11",
+        "source": "Intercom",
+        "segment": "Growth",
+        "customer_id": "CUST-1011",
+        "product_area": "Support",
+        "feedback": "Support response was helpful, but the help center article was outdated."
+      },
+      {
+        "date": "2026-05-12",
+        "source": "Zendesk",
+        "segment": "Enterprise",
+        "customer_id": "CUST-1012",
+        "product_area": "Reporting",
+        "feedback": "The weekly report needs a comparison against the previous month."
+      },
+      {
+        "date": "2026-05-13",
+        "source": "CSV Import",
+        "segment": "SMB",
+        "customer_id": "CUST-1013",
+        "product_area": "Pricing",
+        "feedback": "The pricing page does not explain what is included in the Growth plan."
+      },
+      {
+        "date": "2026-05-14",
+        "source": "Intercom",
+        "segment": "Enterprise",
+        "customer_id": "CUST-1014",
+        "product_area": "Integrations",
+        "feedback": "The Salesforce sync disconnects every few days and creates duplicate records."
+      },
+      {
+        "date": "2026-05-15",
+        "source": "App Store",
+        "segment": "Consumer",
+        "customer_id": "CUST-1015",
+        "product_area": "UX",
+        "feedback": "It is difficult to find saved items after the latest update."
+      },
+      {
+        "date": "2026-06-01",
+        "source": "Zendesk",
+        "segment": "Growth",
+        "customer_id": "CUST-1016",
+        "product_area": "Dashboard",
+        "feedback": "The dashboard freezes when I switch between saved filters during a live review."
+      },
+      {
+        "date": "2026-06-02",
+        "source": "Intercom",
+        "segment": "SMB",
+        "customer_id": "CUST-1017",
+        "product_area": "Dashboard",
+        "feedback": "Charts are useful, but I need clearer labels for weekly trend changes."
+      },
+      {
+        "date": "2026-06-03",
+        "source": "App Store",
+        "segment": "Consumer",
+        "customer_id": "CUST-1018",
+        "product_area": "Dashboard",
+        "feedback": "The dashboard should let me pin my most important metrics at the top."
+      },
+      {
+        "date": "2026-06-04",
+        "source": "Google Play",
+        "segment": "Enterprise",
+        "customer_id": "CUST-1019",
+        "product_area": "Onboarding",
+        "feedback": "The first setup screen has too many choices and new teammates get stuck."
+      },
+      {
+        "date": "2026-06-05",
+        "source": "CSV Import",
+        "segment": "Growth",
+        "customer_id": "CUST-1020",
+        "product_area": "Onboarding",
+        "feedback": "We need a progress indicator during onboarding so admins know what is left."
+      },
+      {
+        "date": "2026-06-06",
+        "source": "Zendesk",
+        "segment": "SMB",
+        "customer_id": "CUST-1021",
+        "product_area": "Onboarding",
+        "feedback": "The invite team step fails silently when an email address has a typo."
+      },
+      {
+        "date": "2026-06-07",
+        "source": "Intercom",
+        "segment": "Consumer",
+        "customer_id": "CUST-1022",
+        "product_area": "Mobile App",
+        "feedback": "The mobile app logs me out every morning even though remember me is enabled."
+      },
+      {
+        "date": "2026-06-08",
+        "source": "App Store",
+        "segment": "Enterprise",
+        "customer_id": "CUST-1023",
+        "product_area": "Mobile App",
+        "feedback": "Push notifications open the wrong screen after I tap them."
+      },
+      {
+        "date": "2026-06-09",
+        "source": "Google Play",
+        "segment": "Growth",
+        "customer_id": "CUST-1024",
+        "product_area": "Mobile App",
+        "feedback": "The mobile layout cuts off long project names on smaller phones."
+      },
+      {
+        "date": "2026-06-10",
+        "source": "CSV Import",
+        "segment": "SMB",
+        "customer_id": "CUST-1025",
+        "product_area": "Performance",
+        "feedback": "Large reports take more than a minute to generate during peak hours."
+      },
+      {
+        "date": "2026-06-11",
+        "source": "Zendesk",
+        "segment": "Consumer",
+        "customer_id": "CUST-1026",
+        "product_area": "Performance",
+        "feedback": "Search is fast for recent records but slow for older customer history."
+      },
+      {
+        "date": "2026-06-12",
+        "source": "Intercom",
+        "segment": "Enterprise",
+        "customer_id": "CUST-1027",
+        "product_area": "Performance",
+        "feedback": "The app becomes sluggish after I leave several tabs open all day."
+      },
+      {
+        "date": "2026-06-13",
+        "source": "App Store",
+        "segment": "Growth",
+        "customer_id": "CUST-1028",
+        "product_area": "Billing",
+        "feedback": "Invoice downloads should include the subscription ID and tax details."
+      },
+      {
+        "date": "2026-06-14",
+        "source": "Google Play",
+        "segment": "SMB",
+        "customer_id": "CUST-1029",
+        "product_area": "Billing",
+        "feedback": "The billing history page does not show who changed the plan."
+      },
+      {
+        "date": "2026-06-15",
+        "source": "CSV Import",
+        "segment": "Consumer",
+        "customer_id": "CUST-1030",
+        "product_area": "Billing",
+        "feedback": "We need purchase order support before finance can approve renewal."
+      },
+      {
+        "date": "2026-06-16",
+        "source": "Zendesk",
+        "segment": "Enterprise",
+        "customer_id": "CUST-1031",
+        "product_area": "Integrations",
+        "feedback": "The Slack integration sends duplicate alerts for the same event."
+      },
+      {
+        "date": "2026-06-17",
+        "source": "Intercom",
+        "segment": "Growth",
+        "customer_id": "CUST-1032",
+        "product_area": "Integrations",
+        "feedback": "Please add Microsoft Teams notifications for enterprise customers."
+      },
+      {
+        "date": "2026-06-18",
+        "source": "App Store",
+        "segment": "SMB",
+        "customer_id": "CUST-1033",
+        "product_area": "Integrations",
+        "feedback": "The Jira sync misses comments added after the first issue push."
+      },
+      {
+        "date": "2026-06-19",
+        "source": "Google Play",
+        "segment": "Consumer",
+        "customer_id": "CUST-1034",
+        "product_area": "UX",
+        "feedback": "The filter menu closes too quickly when selecting multiple options."
+      },
+      {
+        "date": "2026-06-20",
+        "source": "CSV Import",
+        "segment": "Enterprise",
+        "customer_id": "CUST-1035",
+        "product_area": "UX",
+        "feedback": "Empty states should explain what action to take next."
+      },
+      {
+        "date": "2026-06-21",
+        "source": "Zendesk",
+        "segment": "Growth",
+        "customer_id": "CUST-1036",
+        "product_area": "UX",
+        "feedback": "The table columns are hard to resize and saved widths do not persist."
+      },
+      {
+        "date": "2026-06-22",
+        "source": "Intercom",
+        "segment": "SMB",
+        "customer_id": "CUST-1037",
+        "product_area": "Permissions",
+        "feedback": "Admins need a way to preview what each role can see."
+      },
+      {
+        "date": "2026-06-23",
+        "source": "App Store",
+        "segment": "Consumer",
+        "customer_id": "CUST-1038",
+        "product_area": "Permissions",
+        "feedback": "Read-only users can still access export controls, which is confusing."
+      },
+      {
+        "date": "2026-06-24",
+        "source": "Google Play",
+        "segment": "Enterprise",
+        "customer_id": "CUST-1039",
+        "product_area": "Permissions",
+        "feedback": "We need separate permissions for billing settings and product settings."
+      },
+      {
+        "date": "2026-06-25",
+        "source": "CSV Import",
+        "segment": "Growth",
+        "customer_id": "CUST-1040",
+        "product_area": "Bugs",
+        "feedback": "CSV upload fails when the file has quoted line breaks in feedback text."
+      },
+      {
+        "date": "2026-06-26",
+        "source": "Zendesk",
+        "segment": "SMB",
+        "customer_id": "CUST-1041",
+        "product_area": "Bugs",
+        "feedback": "The date filter sometimes includes one extra day outside the selected range."
+      },
+      {
+        "date": "2026-06-27",
+        "source": "Intercom",
+        "segment": "Consumer",
+        "customer_id": "CUST-1042",
+        "product_area": "Bugs",
+        "feedback": "Bulk archive marks some records as archived but leaves them visible."
+      },
+      {
+        "date": "2026-06-28",
+        "source": "App Store",
+        "segment": "Enterprise",
+        "customer_id": "CUST-1043",
+        "product_area": "Support",
+        "feedback": "The support team solved my issue, but it took three handoffs."
+      },
+      {
+        "date": "2026-06-01",
+        "source": "Google Play",
+        "segment": "Growth",
+        "customer_id": "CUST-1044",
+        "product_area": "Support",
+        "feedback": "Live chat should show the expected wait time before we start a conversation."
+      },
+      {
+        "date": "2026-06-02",
+        "source": "CSV Import",
+        "segment": "SMB",
+        "customer_id": "CUST-1045",
+        "product_area": "Support",
+        "feedback": "The help center search returns too many unrelated articles."
+      },
+      {
+        "date": "2026-06-03",
+        "source": "Zendesk",
+        "segment": "Consumer",
+        "customer_id": "CUST-1046",
+        "product_area": "Reporting",
+        "feedback": "Scheduled reports should allow different recipients per department."
+      },
+      {
+        "date": "2026-06-04",
+        "source": "Intercom",
+        "segment": "Enterprise",
+        "customer_id": "CUST-1047",
+        "product_area": "Reporting",
+        "feedback": "The PDF report needs the same filters as the web dashboard."
+      },
+      {
+        "date": "2026-06-05",
+        "source": "App Store",
+        "segment": "Growth",
+        "customer_id": "CUST-1048",
+        "product_area": "Reporting",
+        "feedback": "Trend reports should call out sudden spikes automatically."
+      },
+      {
+        "date": "2026-06-06",
+        "source": "Google Play",
+        "segment": "SMB",
+        "customer_id": "CUST-1049",
+        "product_area": "Pricing",
+        "feedback": "The pricing tiers are hard to compare without a feature matrix."
+      },
+      {
+        "date": "2026-06-07",
+        "source": "CSV Import",
+        "segment": "Consumer",
+        "customer_id": "CUST-1050",
+        "product_area": "Pricing",
+        "feedback": "Usage overage warnings arrive too late for us to control spend."
+      },
+      {
+        "date": "2026-06-08",
+        "source": "Zendesk",
+        "segment": "Enterprise",
+        "customer_id": "CUST-1051",
+        "product_area": "Pricing",
+        "feedback": "We need a sandbox environment included in the Enterprise plan."
+      },
+      {
+        "date": "2026-06-09",
+        "source": "Intercom",
+        "segment": "Growth",
+        "customer_id": "CUST-1052",
+        "product_area": "Dashboard",
+        "feedback": "The dashboard freezes when I switch between saved filters during a live review."
+      },
+      {
+        "date": "2026-06-10",
+        "source": "App Store",
+        "segment": "SMB",
+        "customer_id": "CUST-1053",
+        "product_area": "Dashboard",
+        "feedback": "Charts are useful, but I need clearer labels for weekly trend changes."
+      },
+      {
+        "date": "2026-06-11",
+        "source": "Google Play",
+        "segment": "Consumer",
+        "customer_id": "CUST-1054",
+        "product_area": "Dashboard",
+        "feedback": "The dashboard should let me pin my most important metrics at the top."
+      },
+      {
+        "date": "2026-06-12",
+        "source": "CSV Import",
+        "segment": "Enterprise",
+        "customer_id": "CUST-1055",
+        "product_area": "Onboarding",
+        "feedback": "The first setup screen has too many choices and new teammates get stuck."
+      },
+      {
+        "date": "2026-06-13",
+        "source": "Zendesk",
+        "segment": "Growth",
+        "customer_id": "CUST-1056",
+        "product_area": "Onboarding",
+        "feedback": "We need a progress indicator during onboarding so admins know what is left."
+      },
+      {
+        "date": "2026-06-14",
+        "source": "Intercom",
+        "segment": "SMB",
+        "customer_id": "CUST-1057",
+        "product_area": "Onboarding",
+        "feedback": "The invite team step fails silently when an email address has a typo."
+      },
+      {
+        "date": "2026-06-15",
+        "source": "App Store",
+        "segment": "Consumer",
+        "customer_id": "CUST-1058",
+        "product_area": "Mobile App",
+        "feedback": "The mobile app logs me out every morning even though remember me is enabled."
+      },
+      {
+        "date": "2026-06-16",
+        "source": "Google Play",
+        "segment": "Enterprise",
+        "customer_id": "CUST-1059",
+        "product_area": "Mobile App",
+        "feedback": "Push notifications open the wrong screen after I tap them."
+      },
+      {
+        "date": "2026-06-17",
+        "source": "CSV Import",
+        "segment": "Growth",
+        "customer_id": "CUST-1060",
+        "product_area": "Mobile App",
+        "feedback": "The mobile layout cuts off long project names on smaller phones."
+      },
+      {
+        "date": "2026-06-18",
+        "source": "Zendesk",
+        "segment": "SMB",
+        "customer_id": "CUST-1061",
+        "product_area": "Performance",
+        "feedback": "Large reports take more than a minute to generate during peak hours."
+      },
+      {
+        "date": "2026-06-19",
+        "source": "Intercom",
+        "segment": "Consumer",
+        "customer_id": "CUST-1062",
+        "product_area": "Performance",
+        "feedback": "Search is fast for recent records but slow for older customer history."
+      },
+      {
+        "date": "2026-06-20",
+        "source": "App Store",
+        "segment": "Enterprise",
+        "customer_id": "CUST-1063",
+        "product_area": "Performance",
+        "feedback": "The app becomes sluggish after I leave several tabs open all day."
+      },
+      {
+        "date": "2026-06-21",
+        "source": "Google Play",
+        "segment": "Growth",
+        "customer_id": "CUST-1064",
+        "product_area": "Billing",
+        "feedback": "Invoice downloads should include the subscription ID and tax details."
+      },
+      {
+        "date": "2026-06-22",
+        "source": "CSV Import",
+        "segment": "SMB",
+        "customer_id": "CUST-1065",
+        "product_area": "Billing",
+        "feedback": "The billing history page does not show who changed the plan."
+      },
+      {
+        "date": "2026-06-23",
+        "source": "Zendesk",
+        "segment": "Consumer",
+        "customer_id": "CUST-1066",
+        "product_area": "Billing",
+        "feedback": "We need purchase order support before finance can approve renewal."
+      },
+      {
+        "date": "2026-06-24",
+        "source": "Intercom",
+        "segment": "Enterprise",
+        "customer_id": "CUST-1067",
+        "product_area": "Integrations",
+        "feedback": "The Slack integration sends duplicate alerts for the same event."
+      },
+      {
+        "date": "2026-06-25",
+        "source": "App Store",
+        "segment": "Growth",
+        "customer_id": "CUST-1068",
+        "product_area": "Integrations",
+        "feedback": "Please add Microsoft Teams notifications for enterprise customers."
+      },
+      {
+        "date": "2026-06-26",
+        "source": "Google Play",
+        "segment": "SMB",
+        "customer_id": "CUST-1069",
+        "product_area": "Integrations",
+        "feedback": "The Jira sync misses comments added after the first issue push."
+      },
+      {
+        "date": "2026-06-27",
+        "source": "CSV Import",
+        "segment": "Consumer",
+        "customer_id": "CUST-1070",
+        "product_area": "UX",
+        "feedback": "The filter menu closes too quickly when selecting multiple options."
+      },
+      {
+        "date": "2026-06-28",
+        "source": "Zendesk",
+        "segment": "Enterprise",
+        "customer_id": "CUST-1071",
+        "product_area": "UX",
+        "feedback": "Empty states should explain what action to take next."
+      },
+      {
+        "date": "2026-06-01",
+        "source": "Intercom",
+        "segment": "Growth",
+        "customer_id": "CUST-1072",
+        "product_area": "UX",
+        "feedback": "The table columns are hard to resize and saved widths do not persist."
+      },
+      {
+        "date": "2026-06-02",
+        "source": "App Store",
+        "segment": "SMB",
+        "customer_id": "CUST-1073",
+        "product_area": "Permissions",
+        "feedback": "Admins need a way to preview what each role can see."
+      },
+      {
+        "date": "2026-06-03",
+        "source": "Google Play",
+        "segment": "Consumer",
+        "customer_id": "CUST-1074",
+        "product_area": "Permissions",
+        "feedback": "Read-only users can still access export controls, which is confusing."
+      },
+      {
+        "date": "2026-06-04",
+        "source": "CSV Import",
+        "segment": "Enterprise",
+        "customer_id": "CUST-1075",
+        "product_area": "Permissions",
+        "feedback": "We need separate permissions for billing settings and product settings."
+      },
+      {
+        "date": "2026-06-05",
+        "source": "Zendesk",
+        "segment": "Growth",
+        "customer_id": "CUST-1076",
+        "product_area": "Bugs",
+        "feedback": "CSV upload fails when the file has quoted line breaks in feedback text."
+      },
+      {
+        "date": "2026-06-06",
+        "source": "Intercom",
+        "segment": "SMB",
+        "customer_id": "CUST-1077",
+        "product_area": "Bugs",
+        "feedback": "The date filter sometimes includes one extra day outside the selected range."
+      },
+      {
+        "date": "2026-06-07",
+        "source": "App Store",
+        "segment": "Consumer",
+        "customer_id": "CUST-1078",
+        "product_area": "Bugs",
+        "feedback": "Bulk archive marks some records as archived but leaves them visible."
+      },
+      {
+        "date": "2026-06-08",
+        "source": "Google Play",
+        "segment": "Enterprise",
+        "customer_id": "CUST-1079",
+        "product_area": "Support",
+        "feedback": "The support team solved my issue, but it took three handoffs."
+      },
+      {
+        "date": "2026-06-09",
+        "source": "CSV Import",
+        "segment": "Growth",
+        "customer_id": "CUST-1080",
+        "product_area": "Support",
+        "feedback": "Live chat should show the expected wait time before we start a conversation."
+      },
+      {
+        "date": "2026-06-10",
+        "source": "Zendesk",
+        "segment": "SMB",
+        "customer_id": "CUST-1081",
+        "product_area": "Support",
+        "feedback": "The help center search returns too many unrelated articles."
+      },
+      {
+        "date": "2026-06-11",
+        "source": "Intercom",
+        "segment": "Consumer",
+        "customer_id": "CUST-1082",
+        "product_area": "Reporting",
+        "feedback": "Scheduled reports should allow different recipients per department."
+      },
+      {
+        "date": "2026-06-12",
+        "source": "App Store",
+        "segment": "Enterprise",
+        "customer_id": "CUST-1083",
+        "product_area": "Reporting",
+        "feedback": "The PDF report needs the same filters as the web dashboard."
+      },
+      {
+        "date": "2026-06-13",
+        "source": "Google Play",
+        "segment": "Growth",
+        "customer_id": "CUST-1084",
+        "product_area": "Reporting",
+        "feedback": "Trend reports should call out sudden spikes automatically."
+      },
+      {
+        "date": "2026-06-14",
+        "source": "CSV Import",
+        "segment": "SMB",
+        "customer_id": "CUST-1085",
+        "product_area": "Pricing",
+        "feedback": "The pricing tiers are hard to compare without a feature matrix."
+      },
+      {
+        "date": "2026-06-15",
+        "source": "Zendesk",
+        "segment": "Consumer",
+        "customer_id": "CUST-1086",
+        "product_area": "Pricing",
+        "feedback": "Usage overage warnings arrive too late for us to control spend."
+      },
+      {
+        "date": "2026-06-16",
+        "source": "Intercom",
+        "segment": "Enterprise",
+        "customer_id": "CUST-1087",
+        "product_area": "Pricing",
+        "feedback": "We need a sandbox environment included in the Enterprise plan."
+      },
+      {
+        "date": "2026-06-17",
+        "source": "App Store",
+        "segment": "Growth",
+        "customer_id": "CUST-1088",
+        "product_area": "Dashboard",
+        "feedback": "The dashboard freezes when I switch between saved filters during a live review."
+      },
+      {
+        "date": "2026-06-18",
+        "source": "Google Play",
+        "segment": "SMB",
+        "customer_id": "CUST-1089",
+        "product_area": "Dashboard",
+        "feedback": "Charts are useful, but I need clearer labels for weekly trend changes."
+      },
+      {
+        "date": "2026-06-19",
+        "source": "CSV Import",
+        "segment": "Consumer",
+        "customer_id": "CUST-1090",
+        "product_area": "Dashboard",
+        "feedback": "The dashboard should let me pin my most important metrics at the top."
+      },
+      {
+        "date": "2026-06-20",
+        "source": "Zendesk",
+        "segment": "Enterprise",
+        "customer_id": "CUST-1091",
+        "product_area": "Onboarding",
+        "feedback": "The first setup screen has too many choices and new teammates get stuck."
+      },
+      {
+        "date": "2026-06-21",
+        "source": "Intercom",
+        "segment": "Growth",
+        "customer_id": "CUST-1092",
+        "product_area": "Onboarding",
+        "feedback": "We need a progress indicator during onboarding so admins know what is left."
+      },
+      {
+        "date": "2026-06-22",
+        "source": "App Store",
+        "segment": "SMB",
+        "customer_id": "CUST-1093",
+        "product_area": "Onboarding",
+        "feedback": "The invite team step fails silently when an email address has a typo."
+      },
+      {
+        "date": "2026-06-23",
+        "source": "Google Play",
+        "segment": "Consumer",
+        "customer_id": "CUST-1094",
+        "product_area": "Mobile App",
+        "feedback": "The mobile app logs me out every morning even though remember me is enabled."
+      },
+      {
+        "date": "2026-06-24",
+        "source": "CSV Import",
+        "segment": "Enterprise",
+        "customer_id": "CUST-1095",
+        "product_area": "Mobile App",
+        "feedback": "Push notifications open the wrong screen after I tap them."
+      },
+      {
+        "date": "2026-06-25",
+        "source": "Zendesk",
+        "segment": "Growth",
+        "customer_id": "CUST-1096",
+        "product_area": "Mobile App",
+        "feedback": "The mobile layout cuts off long project names on smaller phones."
+      },
+      {
+        "date": "2026-06-26",
+        "source": "Intercom",
+        "segment": "SMB",
+        "customer_id": "CUST-1097",
+        "product_area": "Performance",
+        "feedback": "Large reports take more than a minute to generate during peak hours."
+      },
+      {
+        "date": "2026-06-27",
+        "source": "App Store",
+        "segment": "Consumer",
+        "customer_id": "CUST-1098",
+        "product_area": "Performance",
+        "feedback": "Search is fast for recent records but slow for older customer history."
+      },
+      {
+        "date": "2026-06-28",
+        "source": "Google Play",
+        "segment": "Enterprise",
+        "customer_id": "CUST-1099",
+        "product_area": "Performance",
+        "feedback": "The app becomes sluggish after I leave several tabs open all day."
+      },
+      {
+        "date": "2026-06-01",
+        "source": "CSV Import",
+        "segment": "Growth",
+        "customer_id": "CUST-1100",
+        "product_area": "Billing",
+        "feedback": "Invoice downloads should include the subscription ID and tax details."
+      },
+      {
+        "date": "2026-06-02",
+        "source": "Zendesk",
+        "segment": "SMB",
+        "customer_id": "CUST-1101",
+        "product_area": "Billing",
+        "feedback": "The billing history page does not show who changed the plan."
+      },
+      {
+        "date": "2026-06-03",
+        "source": "Intercom",
+        "segment": "Consumer",
+        "customer_id": "CUST-1102",
+        "product_area": "Billing",
+        "feedback": "We need purchase order support before finance can approve renewal."
+      },
+      {
+        "date": "2026-06-04",
+        "source": "App Store",
+        "segment": "Enterprise",
+        "customer_id": "CUST-1103",
+        "product_area": "Integrations",
+        "feedback": "The Slack integration sends duplicate alerts for the same event."
+      },
+      {
+        "date": "2026-06-05",
+        "source": "Google Play",
+        "segment": "Growth",
+        "customer_id": "CUST-1104",
+        "product_area": "Integrations",
+        "feedback": "Please add Microsoft Teams notifications for enterprise customers."
+      },
+      {
+        "date": "2026-06-06",
+        "source": "CSV Import",
+        "segment": "SMB",
+        "customer_id": "CUST-1105",
+        "product_area": "Integrations",
+        "feedback": "The Jira sync misses comments added after the first issue push."
+      },
+      {
+        "date": "2026-06-07",
+        "source": "Zendesk",
+        "segment": "Consumer",
+        "customer_id": "CUST-1106",
+        "product_area": "UX",
+        "feedback": "The filter menu closes too quickly when selecting multiple options."
+      },
+      {
+        "date": "2026-06-08",
+        "source": "Intercom",
+        "segment": "Enterprise",
+        "customer_id": "CUST-1107",
+        "product_area": "UX",
+        "feedback": "Empty states should explain what action to take next."
+      },
+      {
+        "date": "2026-06-09",
+        "source": "App Store",
+        "segment": "Growth",
+        "customer_id": "CUST-1108",
+        "product_area": "UX",
+        "feedback": "The table columns are hard to resize and saved widths do not persist."
+      },
+      {
+        "date": "2026-06-10",
+        "source": "Google Play",
+        "segment": "SMB",
+        "customer_id": "CUST-1109",
+        "product_area": "Permissions",
+        "feedback": "Admins need a way to preview what each role can see."
+      },
+      {
+        "date": "2026-06-11",
+        "source": "CSV Import",
+        "segment": "Consumer",
+        "customer_id": "CUST-1110",
+        "product_area": "Permissions",
+        "feedback": "Read-only users can still access export controls, which is confusing."
+      },
+      {
+        "date": "2026-06-12",
+        "source": "Zendesk",
+        "segment": "Enterprise",
+        "customer_id": "CUST-1111",
+        "product_area": "Permissions",
+        "feedback": "We need separate permissions for billing settings and product settings."
+      },
+      {
+        "date": "2026-06-13",
+        "source": "Intercom",
+        "segment": "Growth",
+        "customer_id": "CUST-1112",
+        "product_area": "Bugs",
+        "feedback": "CSV upload fails when the file has quoted line breaks in feedback text."
+      },
+      {
+        "date": "2026-06-14",
+        "source": "App Store",
+        "segment": "SMB",
+        "customer_id": "CUST-1113",
+        "product_area": "Bugs",
+        "feedback": "The date filter sometimes includes one extra day outside the selected range."
+      },
+      {
+        "date": "2026-06-15",
+        "source": "Google Play",
+        "segment": "Consumer",
+        "customer_id": "CUST-1114",
+        "product_area": "Bugs",
+        "feedback": "Bulk archive marks some records as archived but leaves them visible."
+      },
+      {
+        "date": "2026-06-16",
+        "source": "CSV Import",
+        "segment": "Enterprise",
+        "customer_id": "CUST-1115",
+        "product_area": "Support",
+        "feedback": "The support team solved my issue, but it took three handoffs."
+      }
+    ],
+    "headers": [
+      "date",
+      "source",
+      "segment",
+      "customer_id",
+      "product_area",
+      "feedback"
+    ],
+    "fileName": "mock_customer_feedback.csv",
+    "fileSize": 13507,
+    "columnMap": {
+      "feedback": "feedback",
+      "rating": "",
+      "date": "date",
+      "source": "source",
+      "segment": "segment"
+    },
+    "analysisResult": {
+      "items": [
+        {
+          "id": "ai-item-0",
+          "feedbackText": "The dashboard takes too long to load when filtering reports by region.",
+          "date": "2026-05-01",
+          "source": "Zendesk",
+          "segment": "Enterprise",
+          "category": "Dashboard Issues",
+          "sentiment": "negative",
+          "urgency": "medium",
+          "originalRow": {
+            "date": "2026-05-01",
+            "source": "Zendesk",
+            "segment": "Enterprise",
+            "customer_id": "CUST-1001",
+            "product_area": "Dashboard",
+            "feedback": "The dashboard takes too long to load when filtering reports by region."
+          }
+        },
+        {
+          "id": "ai-item-1",
+          "feedbackText": "The onboarding checklist is confusing for new admins and we had to contact support twice.",
+          "date": "2026-05-02",
+          "source": "Intercom",
+          "segment": "SMB",
+          "category": "General Feedback",
+          "sentiment": "negative",
+          "urgency": "medium",
+          "originalRow": {
+            "date": "2026-05-02",
+            "source": "Intercom",
+            "segment": "SMB",
+            "customer_id": "CUST-1002",
+            "product_area": "Onboarding",
+            "feedback": "The onboarding checklist is confusing for new admins and we had to contact support twice."
+          }
+        },
+        {
+          "id": "ai-item-2",
+          "feedbackText": "The app crashes whenever I try to upload a profile photo.",
+          "date": "2026-05-03",
+          "source": "App Store",
+          "segment": "Consumer",
+          "category": "General Feedback",
+          "sentiment": "negative",
+          "urgency": "high",
+          "originalRow": {
+            "date": "2026-05-03",
+            "source": "App Store",
+            "segment": "Consumer",
+            "customer_id": "CUST-1003",
+            "product_area": "Mobile App",
+            "feedback": "The app crashes whenever I try to upload a profile photo."
+          }
+        },
+        {
+          "id": "ai-item-3",
+          "feedbackText": "Search results are very slow and sometimes show old data.",
+          "date": "2026-05-04",
+          "source": "Google Play",
+          "segment": "Consumer",
+          "category": "General Feedback",
+          "sentiment": "negative",
+          "urgency": "medium",
+          "originalRow": {
+            "date": "2026-05-04",
+            "source": "Google Play",
+            "segment": "Consumer",
+            "customer_id": "CUST-1004",
+            "product_area": "Performance",
+            "feedback": "Search results are very slow and sometimes show old data."
+          }
+        },
+        {
+          "id": "ai-item-4",
+          "feedbackText": "We need bulk invoice export for finance review at the end of each month.",
+          "date": "2026-05-05",
+          "source": "Zendesk",
+          "segment": "Enterprise",
+          "category": "Need Issues",
+          "sentiment": "neutral",
+          "urgency": "medium",
+          "originalRow": {
+            "date": "2026-05-05",
+            "source": "Zendesk",
+            "segment": "Enterprise",
+            "customer_id": "CUST-1005",
+            "product_area": "Billing",
+            "feedback": "We need bulk invoice export for finance review at the end of each month."
+          }
+        },
+        {
+          "id": "ai-item-5",
+          "feedbackText": "Please add a native HubSpot integration so we do not have to use Zapier.",
+          "date": "2026-05-06",
+          "source": "CSV Import",
+          "segment": "Growth",
+          "category": "Need Issues",
+          "sentiment": "neutral",
+          "urgency": "medium",
+          "originalRow": {
+            "date": "2026-05-06",
+            "source": "CSV Import",
+            "segment": "Growth",
+            "customer_id": "CUST-1006",
+            "product_area": "Integrations",
+            "feedback": "Please add a native HubSpot integration so we do not have to use Zapier."
+          }
+        },
+        {
+          "id": "ai-item-6",
+          "feedbackText": "The settings page is hard to understand and important controls are buried.",
+          "date": "2026-05-07",
+          "source": "Intercom",
+          "segment": "SMB",
+          "category": "General Feedback",
+          "sentiment": "negative",
+          "urgency": "low",
+          "originalRow": {
+            "date": "2026-05-07",
+            "source": "Intercom",
+            "segment": "SMB",
+            "customer_id": "CUST-1007",
+            "product_area": "UX",
+            "feedback": "The settings page is hard to understand and important controls are buried."
+          }
+        },
+        {
+          "id": "ai-item-7",
+          "feedbackText": "Role permissions are too limited for our regional managers.",
+          "date": "2026-05-08",
+          "source": "Zendesk",
+          "segment": "Enterprise",
+          "category": "General Feedback",
+          "sentiment": "negative",
+          "urgency": "medium",
+          "originalRow": {
+            "date": "2026-05-08",
+            "source": "Zendesk",
+            "segment": "Enterprise",
+            "customer_id": "CUST-1008",
+            "product_area": "Permissions",
+            "feedback": "Role permissions are too limited for our regional managers."
+          }
+        },
+        {
+          "id": "ai-item-8",
+          "feedbackText": "I love the new layout, but notifications arrive late.",
+          "date": "2026-05-09",
+          "source": "App Store",
+          "segment": "Consumer",
+          "category": "General Feedback",
+          "sentiment": "negative",
+          "urgency": "medium",
+          "originalRow": {
+            "date": "2026-05-09",
+            "source": "App Store",
+            "segment": "Consumer",
+            "customer_id": "CUST-1009",
+            "product_area": "Mobile App",
+            "feedback": "I love the new layout, but notifications arrive late."
+          }
+        },
+        {
+          "id": "ai-item-9",
+          "feedbackText": "Export fails with an unknown error when the report has more than 500 rows.",
+          "date": "2026-05-10",
+          "source": "Google Play",
+          "segment": "Consumer",
+          "category": "General Feedback",
+          "sentiment": "negative",
+          "urgency": "high",
+          "originalRow": {
+            "date": "2026-05-10",
+            "source": "Google Play",
+            "segment": "Consumer",
+            "customer_id": "CUST-1010",
+            "product_area": "Bugs",
+            "feedback": "Export fails with an unknown error when the report has more than 500 rows."
+          }
+        },
+        {
+          "id": "ai-item-10",
+          "feedbackText": "Support response was helpful, but the help center article was outdated.",
+          "date": "2026-05-11",
+          "source": "Intercom",
+          "segment": "Growth",
+          "category": "General Feedback",
+          "sentiment": "neutral",
+          "urgency": "low",
+          "originalRow": {
+            "date": "2026-05-11",
+            "source": "Intercom",
+            "segment": "Growth",
+            "customer_id": "CUST-1011",
+            "product_area": "Support",
+            "feedback": "Support response was helpful, but the help center article was outdated."
+          }
+        },
+        {
+          "id": "ai-item-11",
+          "feedbackText": "The weekly report needs a comparison against the previous month.",
+          "date": "2026-05-12",
+          "source": "Zendesk",
+          "segment": "Enterprise",
+          "category": "Need Issues",
+          "sentiment": "neutral",
+          "urgency": "medium",
+          "originalRow": {
+            "date": "2026-05-12",
+            "source": "Zendesk",
+            "segment": "Enterprise",
+            "customer_id": "CUST-1012",
+            "product_area": "Reporting",
+            "feedback": "The weekly report needs a comparison against the previous month."
+          }
+        },
+        {
+          "id": "ai-item-12",
+          "feedbackText": "The pricing page does not explain what is included in the Growth plan.",
+          "date": "2026-05-13",
+          "source": "CSV Import",
+          "segment": "SMB",
+          "category": "General Feedback",
+          "sentiment": "negative",
+          "urgency": "medium",
+          "originalRow": {
+            "date": "2026-05-13",
+            "source": "CSV Import",
+            "segment": "SMB",
+            "customer_id": "CUST-1013",
+            "product_area": "Pricing",
+            "feedback": "The pricing page does not explain what is included in the Growth plan."
+          }
+        },
+        {
+          "id": "ai-item-13",
+          "feedbackText": "The Salesforce sync disconnects every few days and creates duplicate records.",
+          "date": "2026-05-14",
+          "source": "Intercom",
+          "segment": "Enterprise",
+          "category": "General Feedback",
+          "sentiment": "negative",
+          "urgency": "high",
+          "originalRow": {
+            "date": "2026-05-14",
+            "source": "Intercom",
+            "segment": "Enterprise",
+            "customer_id": "CUST-1014",
+            "product_area": "Integrations",
+            "feedback": "The Salesforce sync disconnects every few days and creates duplicate records."
+          }
+        },
+        {
+          "id": "ai-item-14",
+          "feedbackText": "It is difficult to find saved items after the latest update.",
+          "date": "2026-05-15",
+          "source": "App Store",
+          "segment": "Consumer",
+          "category": "After Issues",
+          "sentiment": "negative",
+          "urgency": "medium",
+          "originalRow": {
+            "date": "2026-05-15",
+            "source": "App Store",
+            "segment": "Consumer",
+            "customer_id": "CUST-1015",
+            "product_area": "UX",
+            "feedback": "It is difficult to find saved items after the latest update."
+          }
+        },
+        {
+          "id": "ai-item-15",
+          "feedbackText": "The dashboard freezes when I switch between saved filters during a live review.",
+          "date": "2026-06-01",
+          "source": "Zendesk",
+          "segment": "Growth",
+          "category": "Dashboard Issues",
+          "sentiment": "negative",
+          "urgency": "high",
+          "originalRow": {
+            "date": "2026-06-01",
+            "source": "Zendesk",
+            "segment": "Growth",
+            "customer_id": "CUST-1016",
+            "product_area": "Dashboard",
+            "feedback": "The dashboard freezes when I switch between saved filters during a live review."
+          }
+        },
+        {
+          "id": "ai-item-16",
+          "feedbackText": "Charts are useful, but I need clearer labels for weekly trend changes.",
+          "date": "2026-06-02",
+          "source": "Intercom",
+          "segment": "SMB",
+          "category": "Need Issues",
+          "sentiment": "neutral",
+          "urgency": "medium",
+          "originalRow": {
+            "date": "2026-06-02",
+            "source": "Intercom",
+            "segment": "SMB",
+            "customer_id": "CUST-1017",
+            "product_area": "Dashboard",
+            "feedback": "Charts are useful, but I need clearer labels for weekly trend changes."
+          }
+        },
+        {
+          "id": "ai-item-17",
+          "feedbackText": "The dashboard should let me pin my most important metrics at the top.",
+          "date": "2026-06-03",
+          "source": "App Store",
+          "segment": "Consumer",
+          "category": "Should Issues",
+          "sentiment": "neutral",
+          "urgency": "medium",
+          "originalRow": {
+            "date": "2026-06-03",
+            "source": "App Store",
+            "segment": "Consumer",
+            "customer_id": "CUST-1018",
+            "product_area": "Dashboard",
+            "feedback": "The dashboard should let me pin my most important metrics at the top."
+          }
+        },
+        {
+          "id": "ai-item-18",
+          "feedbackText": "The first setup screen has too many choices and new teammates get stuck.",
+          "date": "2026-06-04",
+          "source": "Google Play",
+          "segment": "Enterprise",
+          "category": "General Feedback",
+          "sentiment": "negative",
+          "urgency": "medium",
+          "originalRow": {
+            "date": "2026-06-04",
+            "source": "Google Play",
+            "segment": "Enterprise",
+            "customer_id": "CUST-1019",
+            "product_area": "Onboarding",
+            "feedback": "The first setup screen has too many choices and new teammates get stuck."
+          }
+        },
+        {
+          "id": "ai-item-19",
+          "feedbackText": "We need a progress indicator during onboarding so admins know what is left.",
+          "date": "2026-06-05",
+          "source": "CSV Import",
+          "segment": "Growth",
+          "category": "Need Issues",
+          "sentiment": "neutral",
+          "urgency": "medium",
+          "originalRow": {
+            "date": "2026-06-05",
+            "source": "CSV Import",
+            "segment": "Growth",
+            "customer_id": "CUST-1020",
+            "product_area": "Onboarding",
+            "feedback": "We need a progress indicator during onboarding so admins know what is left."
+          }
+        },
+        {
+          "id": "ai-item-20",
+          "feedbackText": "The invite team step fails silently when an email address has a typo.",
+          "date": "2026-06-06",
+          "source": "Zendesk",
+          "segment": "SMB",
+          "category": "General Feedback",
+          "sentiment": "negative",
+          "urgency": "medium",
+          "originalRow": {
+            "date": "2026-06-06",
+            "source": "Zendesk",
+            "segment": "SMB",
+            "customer_id": "CUST-1021",
+            "product_area": "Onboarding",
+            "feedback": "The invite team step fails silently when an email address has a typo."
+          }
+        },
+        {
+          "id": "ai-item-21",
+          "feedbackText": "The mobile app logs me out every morning even though remember me is enabled.",
+          "date": "2026-06-07",
+          "source": "Intercom",
+          "segment": "Consumer",
+          "category": "General Feedback",
+          "sentiment": "negative",
+          "urgency": "medium",
+          "originalRow": {
+            "date": "2026-06-07",
+            "source": "Intercom",
+            "segment": "Consumer",
+            "customer_id": "CUST-1022",
+            "product_area": "Mobile App",
+            "feedback": "The mobile app logs me out every morning even though remember me is enabled."
+          }
+        },
+        {
+          "id": "ai-item-22",
+          "feedbackText": "Push notifications open the wrong screen after I tap them.",
+          "date": "2026-06-08",
+          "source": "App Store",
+          "segment": "Enterprise",
+          "category": "After Issues",
+          "sentiment": "negative",
+          "urgency": "medium",
+          "originalRow": {
+            "date": "2026-06-08",
+            "source": "App Store",
+            "segment": "Enterprise",
+            "customer_id": "CUST-1023",
+            "product_area": "Mobile App",
+            "feedback": "Push notifications open the wrong screen after I tap them."
+          }
+        },
+        {
+          "id": "ai-item-23",
+          "feedbackText": "The mobile layout cuts off long project names on smaller phones.",
+          "date": "2026-06-09",
+          "source": "Google Play",
+          "segment": "Growth",
+          "category": "General Feedback",
+          "sentiment": "negative",
+          "urgency": "low",
+          "originalRow": {
+            "date": "2026-06-09",
+            "source": "Google Play",
+            "segment": "Growth",
+            "customer_id": "CUST-1024",
+            "product_area": "Mobile App",
+            "feedback": "The mobile layout cuts off long project names on smaller phones."
+          }
+        },
+        {
+          "id": "ai-item-24",
+          "feedbackText": "Large reports take more than a minute to generate during peak hours.",
+          "date": "2026-06-10",
+          "source": "CSV Import",
+          "segment": "SMB",
+          "category": "General Feedback",
+          "sentiment": "negative",
+          "urgency": "medium",
+          "originalRow": {
+            "date": "2026-06-10",
+            "source": "CSV Import",
+            "segment": "SMB",
+            "customer_id": "CUST-1025",
+            "product_area": "Performance",
+            "feedback": "Large reports take more than a minute to generate during peak hours."
+          }
+        },
+        {
+          "id": "ai-item-25",
+          "feedbackText": "Search is fast for recent records but slow for older customer history.",
+          "date": "2026-06-11",
+          "source": "Zendesk",
+          "segment": "Consumer",
+          "category": "Dashboard Issues",
+          "sentiment": "negative",
+          "urgency": "medium",
+          "originalRow": {
+            "date": "2026-06-11",
+            "source": "Zendesk",
+            "segment": "Consumer",
+            "customer_id": "CUST-1026",
+            "product_area": "Performance",
+            "feedback": "Search is fast for recent records but slow for older customer history."
+          }
+        },
+        {
+          "id": "ai-item-26",
+          "feedbackText": "The app becomes sluggish after I leave several tabs open all day.",
+          "date": "2026-06-12",
+          "source": "Intercom",
+          "segment": "Enterprise",
+          "category": "After Issues",
+          "sentiment": "negative",
+          "urgency": "medium",
+          "originalRow": {
+            "date": "2026-06-12",
+            "source": "Intercom",
+            "segment": "Enterprise",
+            "customer_id": "CUST-1027",
+            "product_area": "Performance",
+            "feedback": "The app becomes sluggish after I leave several tabs open all day."
+          }
+        },
+        {
+          "id": "ai-item-27",
+          "feedbackText": "Invoice downloads should include the subscription ID and tax details.",
+          "date": "2026-06-13",
+          "source": "App Store",
+          "segment": "Growth",
+          "category": "Should Issues",
+          "sentiment": "neutral",
+          "urgency": "medium",
+          "originalRow": {
+            "date": "2026-06-13",
+            "source": "App Store",
+            "segment": "Growth",
+            "customer_id": "CUST-1028",
+            "product_area": "Billing",
+            "feedback": "Invoice downloads should include the subscription ID and tax details."
+          }
+        },
+        {
+          "id": "ai-item-28",
+          "feedbackText": "The billing history page does not show who changed the plan.",
+          "date": "2026-06-14",
+          "source": "Google Play",
+          "segment": "SMB",
+          "category": "Dashboard Issues",
+          "sentiment": "negative",
+          "urgency": "medium",
+          "originalRow": {
+            "date": "2026-06-14",
+            "source": "Google Play",
+            "segment": "SMB",
+            "customer_id": "CUST-1029",
+            "product_area": "Billing",
+            "feedback": "The billing history page does not show who changed the plan."
+          }
+        },
+        {
+          "id": "ai-item-29",
+          "feedbackText": "We need purchase order support before finance can approve renewal.",
+          "date": "2026-06-15",
+          "source": "CSV Import",
+          "segment": "Consumer",
+          "category": "Need Issues",
+          "sentiment": "negative",
+          "urgency": "high",
+          "originalRow": {
+            "date": "2026-06-15",
+            "source": "CSV Import",
+            "segment": "Consumer",
+            "customer_id": "CUST-1030",
+            "product_area": "Billing",
+            "feedback": "We need purchase order support before finance can approve renewal."
+          }
+        },
+        {
+          "id": "ai-item-30",
+          "feedbackText": "The Slack integration sends duplicate alerts for the same event.",
+          "date": "2026-06-16",
+          "source": "Zendesk",
+          "segment": "Enterprise",
+          "category": "General Feedback",
+          "sentiment": "negative",
+          "urgency": "medium",
+          "originalRow": {
+            "date": "2026-06-16",
+            "source": "Zendesk",
+            "segment": "Enterprise",
+            "customer_id": "CUST-1031",
+            "product_area": "Integrations",
+            "feedback": "The Slack integration sends duplicate alerts for the same event."
+          }
+        },
+        {
+          "id": "ai-item-31",
+          "feedbackText": "Please add Microsoft Teams notifications for enterprise customers.",
+          "date": "2026-06-17",
+          "source": "Intercom",
+          "segment": "Growth",
+          "category": "General Feedback",
+          "sentiment": "neutral",
+          "urgency": "low",
+          "originalRow": {
+            "date": "2026-06-17",
+            "source": "Intercom",
+            "segment": "Growth",
+            "customer_id": "CUST-1032",
+            "product_area": "Integrations",
+            "feedback": "Please add Microsoft Teams notifications for enterprise customers."
+          }
+        },
+        {
+          "id": "ai-item-32",
+          "feedbackText": "The Jira sync misses comments added after the first issue push.",
+          "date": "2026-06-18",
+          "source": "App Store",
+          "segment": "SMB",
+          "category": "After Issues",
+          "sentiment": "negative",
+          "urgency": "high",
+          "originalRow": {
+            "date": "2026-06-18",
+            "source": "App Store",
+            "segment": "SMB",
+            "customer_id": "CUST-1033",
+            "product_area": "Integrations",
+            "feedback": "The Jira sync misses comments added after the first issue push."
+          }
+        },
+        {
+          "id": "ai-item-33",
+          "feedbackText": "The filter menu closes too quickly when selecting multiple options.",
+          "date": "2026-06-19",
+          "source": "Google Play",
+          "segment": "Consumer",
+          "category": "Dashboard Issues",
+          "sentiment": "negative",
+          "urgency": "medium",
+          "originalRow": {
+            "date": "2026-06-19",
+            "source": "Google Play",
+            "segment": "Consumer",
+            "customer_id": "CUST-1034",
+            "product_area": "UX",
+            "feedback": "The filter menu closes too quickly when selecting multiple options."
+          }
+        },
+        {
+          "id": "ai-item-34",
+          "feedbackText": "Empty states should explain what action to take next.",
+          "date": "2026-06-20",
+          "source": "CSV Import",
+          "segment": "Enterprise",
+          "category": "Should Issues",
+          "sentiment": "neutral",
+          "urgency": "low",
+          "originalRow": {
+            "date": "2026-06-20",
+            "source": "CSV Import",
+            "segment": "Enterprise",
+            "customer_id": "CUST-1035",
+            "product_area": "UX",
+            "feedback": "Empty states should explain what action to take next."
+          }
+        },
+        {
+          "id": "ai-item-35",
+          "feedbackText": "The table columns are hard to resize and saved widths do not persist.",
+          "date": "2026-06-21",
+          "source": "Zendesk",
+          "segment": "Growth",
+          "category": "Dashboard Issues",
+          "sentiment": "negative",
+          "urgency": "medium",
+          "originalRow": {
+            "date": "2026-06-21",
+            "source": "Zendesk",
+            "segment": "Growth",
+            "customer_id": "CUST-1036",
+            "product_area": "UX",
+            "feedback": "The table columns are hard to resize and saved widths do not persist."
+          }
+        },
+        {
+          "id": "ai-item-36",
+          "feedbackText": "Admins need a way to preview what each role can see.",
+          "date": "2026-06-22",
+          "source": "Intercom",
+          "segment": "SMB",
+          "category": "Need Issues",
+          "sentiment": "neutral",
+          "urgency": "medium",
+          "originalRow": {
+            "date": "2026-06-22",
+            "source": "Intercom",
+            "segment": "SMB",
+            "customer_id": "CUST-1037",
+            "product_area": "Permissions",
+            "feedback": "Admins need a way to preview what each role can see."
+          }
+        },
+        {
+          "id": "ai-item-37",
+          "feedbackText": "Read-only users can still access export controls, which is confusing.",
+          "date": "2026-06-23",
+          "source": "App Store",
+          "segment": "Consumer",
+          "category": "General Feedback",
+          "sentiment": "negative",
+          "urgency": "high",
+          "originalRow": {
+            "date": "2026-06-23",
+            "source": "App Store",
+            "segment": "Consumer",
+            "customer_id": "CUST-1038",
+            "product_area": "Permissions",
+            "feedback": "Read-only users can still access export controls, which is confusing."
+          }
+        },
+        {
+          "id": "ai-item-38",
+          "feedbackText": "We need separate permissions for billing settings and product settings.",
+          "date": "2026-06-24",
+          "source": "Google Play",
+          "segment": "Enterprise",
+          "category": "Need Issues",
+          "sentiment": "neutral",
+          "urgency": "medium",
+          "originalRow": {
+            "date": "2026-06-24",
+            "source": "Google Play",
+            "segment": "Enterprise",
+            "customer_id": "CUST-1039",
+            "product_area": "Permissions",
+            "feedback": "We need separate permissions for billing settings and product settings."
+          }
+        },
+        {
+          "id": "ai-item-39",
+          "feedbackText": "CSV upload fails when the file has quoted line breaks in feedback text.",
+          "date": "2026-06-25",
+          "source": "CSV Import",
+          "segment": "Growth",
+          "category": "General Feedback",
+          "sentiment": "negative",
+          "urgency": "high",
+          "originalRow": {
+            "date": "2026-06-25",
+            "source": "CSV Import",
+            "segment": "Growth",
+            "customer_id": "CUST-1040",
+            "product_area": "Bugs",
+            "feedback": "CSV upload fails when the file has quoted line breaks in feedback text."
+          }
+        },
+        {
+          "id": "ai-item-40",
+          "feedbackText": "The date filter sometimes includes one extra day outside the selected range.",
+          "date": "2026-06-26",
+          "source": "Zendesk",
+          "segment": "SMB",
+          "category": "Dashboard Issues",
+          "sentiment": "negative",
+          "urgency": "medium",
+          "originalRow": {
+            "date": "2026-06-26",
+            "source": "Zendesk",
+            "segment": "SMB",
+            "customer_id": "CUST-1041",
+            "product_area": "Bugs",
+            "feedback": "The date filter sometimes includes one extra day outside the selected range."
+          }
+        },
+        {
+          "id": "ai-item-41",
+          "feedbackText": "Bulk archive marks some records as archived but leaves them visible.",
+          "date": "2026-06-27",
+          "source": "Intercom",
+          "segment": "Consumer",
+          "category": "Dashboard Issues",
+          "sentiment": "negative",
+          "urgency": "high",
+          "originalRow": {
+            "date": "2026-06-27",
+            "source": "Intercom",
+            "segment": "Consumer",
+            "customer_id": "CUST-1042",
+            "product_area": "Bugs",
+            "feedback": "Bulk archive marks some records as archived but leaves them visible."
+          }
+        },
+        {
+          "id": "ai-item-42",
+          "feedbackText": "The support team solved my issue, but it took three handoffs.",
+          "date": "2026-06-28",
+          "source": "App Store",
+          "segment": "Enterprise",
+          "category": "General Feedback",
+          "sentiment": "negative",
+          "urgency": "low",
+          "originalRow": {
+            "date": "2026-06-28",
+            "source": "App Store",
+            "segment": "Enterprise",
+            "customer_id": "CUST-1043",
+            "product_area": "Support",
+            "feedback": "The support team solved my issue, but it took three handoffs."
+          }
+        },
+        {
+          "id": "ai-item-43",
+          "feedbackText": "Live chat should show the expected wait time before we start a conversation.",
+          "date": "2026-06-01",
+          "source": "Google Play",
+          "segment": "Growth",
+          "category": "Should Issues",
+          "sentiment": "neutral",
+          "urgency": "low",
+          "originalRow": {
+            "date": "2026-06-01",
+            "source": "Google Play",
+            "segment": "Growth",
+            "customer_id": "CUST-1044",
+            "product_area": "Support",
+            "feedback": "Live chat should show the expected wait time before we start a conversation."
+          }
+        },
+        {
+          "id": "ai-item-44",
+          "feedbackText": "The help center search returns too many unrelated articles.",
+          "date": "2026-06-02",
+          "source": "CSV Import",
+          "segment": "SMB",
+          "category": "General Feedback",
+          "sentiment": "negative",
+          "urgency": "medium",
+          "originalRow": {
+            "date": "2026-06-02",
+            "source": "CSV Import",
+            "segment": "SMB",
+            "customer_id": "CUST-1045",
+            "product_area": "Support",
+            "feedback": "The help center search returns too many unrelated articles."
+          }
+        },
+        {
+          "id": "ai-item-45",
+          "feedbackText": "Scheduled reports should allow different recipients per department.",
+          "date": "2026-06-03",
+          "source": "Zendesk",
+          "segment": "Consumer",
+          "category": "Should Issues",
+          "sentiment": "neutral",
+          "urgency": "medium",
+          "originalRow": {
+            "date": "2026-06-03",
+            "source": "Zendesk",
+            "segment": "Consumer",
+            "customer_id": "CUST-1046",
+            "product_area": "Reporting",
+            "feedback": "Scheduled reports should allow different recipients per department."
+          }
+        },
+        {
+          "id": "ai-item-46",
+          "feedbackText": "The PDF report needs the same filters as the web dashboard.",
+          "date": "2026-06-04",
+          "source": "Intercom",
+          "segment": "Enterprise",
+          "category": "Need Issues",
+          "sentiment": "neutral",
+          "urgency": "medium",
+          "originalRow": {
+            "date": "2026-06-04",
+            "source": "Intercom",
+            "segment": "Enterprise",
+            "customer_id": "CUST-1047",
+            "product_area": "Reporting",
+            "feedback": "The PDF report needs the same filters as the web dashboard."
+          }
+        },
+        {
+          "id": "ai-item-47",
+          "feedbackText": "Trend reports should call out sudden spikes automatically.",
+          "date": "2026-06-05",
+          "source": "App Store",
+          "segment": "Growth",
+          "category": "Should Issues",
+          "sentiment": "neutral",
+          "urgency": "medium",
+          "originalRow": {
+            "date": "2026-06-05",
+            "source": "App Store",
+            "segment": "Growth",
+            "customer_id": "CUST-1048",
+            "product_area": "Reporting",
+            "feedback": "Trend reports should call out sudden spikes automatically."
+          }
+        },
+        {
+          "id": "ai-item-48",
+          "feedbackText": "The pricing tiers are hard to compare without a feature matrix.",
+          "date": "2026-06-06",
+          "source": "Google Play",
+          "segment": "SMB",
+          "category": "General Feedback",
+          "sentiment": "negative",
+          "urgency": "low",
+          "originalRow": {
+            "date": "2026-06-06",
+            "source": "Google Play",
+            "segment": "SMB",
+            "customer_id": "CUST-1049",
+            "product_area": "Pricing",
+            "feedback": "The pricing tiers are hard to compare without a feature matrix."
+          }
+        },
+        {
+          "id": "ai-item-49",
+          "feedbackText": "Usage overage warnings arrive too late for us to control spend.",
+          "date": "2026-06-07",
+          "source": "CSV Import",
+          "segment": "Consumer",
+          "category": "General Feedback",
+          "sentiment": "negative",
+          "urgency": "high",
+          "originalRow": {
+            "date": "2026-06-07",
+            "source": "CSV Import",
+            "segment": "Consumer",
+            "customer_id": "CUST-1050",
+            "product_area": "Pricing",
+            "feedback": "Usage overage warnings arrive too late for us to control spend."
+          }
+        },
+        {
+          "id": "ai-item-50",
+          "feedbackText": "We need a sandbox environment included in the Enterprise plan.",
+          "date": "2026-06-08",
+          "source": "Zendesk",
+          "segment": "Enterprise",
+          "category": "Need Issues",
+          "sentiment": "neutral",
+          "urgency": "medium",
+          "originalRow": {
+            "date": "2026-06-08",
+            "source": "Zendesk",
+            "segment": "Enterprise",
+            "customer_id": "CUST-1051",
+            "product_area": "Pricing",
+            "feedback": "We need a sandbox environment included in the Enterprise plan."
+          }
+        },
+        {
+          "id": "ai-item-51",
+          "feedbackText": "The dashboard freezes when I switch between saved filters during a live review.",
+          "date": "2026-06-09",
+          "source": "Intercom",
+          "segment": "Growth",
+          "category": "Dashboard Issues",
+          "sentiment": "negative",
+          "urgency": "high",
+          "originalRow": {
+            "date": "2026-06-09",
+            "source": "Intercom",
+            "segment": "Growth",
+            "customer_id": "CUST-1052",
+            "product_area": "Dashboard",
+            "feedback": "The dashboard freezes when I switch between saved filters during a live review."
+          }
+        },
+        {
+          "id": "ai-item-52",
+          "feedbackText": "Charts are useful, but I need clearer labels for weekly trend changes.",
+          "date": "2026-06-10",
+          "source": "App Store",
+          "segment": "SMB",
+          "category": "Need Issues",
+          "sentiment": "neutral",
+          "urgency": "low",
+          "originalRow": {
+            "date": "2026-06-10",
+            "source": "App Store",
+            "segment": "SMB",
+            "customer_id": "CUST-1053",
+            "product_area": "Dashboard",
+            "feedback": "Charts are useful, but I need clearer labels for weekly trend changes."
+          }
+        },
+        {
+          "id": "ai-item-53",
+          "feedbackText": "The dashboard should let me pin my most important metrics at the top.",
+          "date": "2026-06-11",
+          "source": "Google Play",
+          "segment": "Consumer",
+          "category": "Should Issues",
+          "sentiment": "neutral",
+          "urgency": "low",
+          "originalRow": {
+            "date": "2026-06-11",
+            "source": "Google Play",
+            "segment": "Consumer",
+            "customer_id": "CUST-1054",
+            "product_area": "Dashboard",
+            "feedback": "The dashboard should let me pin my most important metrics at the top."
+          }
+        },
+        {
+          "id": "ai-item-54",
+          "feedbackText": "The first setup screen has too many choices and new teammates get stuck.",
+          "date": "2026-06-12",
+          "source": "CSV Import",
+          "segment": "Enterprise",
+          "category": "General Feedback",
+          "sentiment": "negative",
+          "urgency": "medium",
+          "originalRow": {
+            "date": "2026-06-12",
+            "source": "CSV Import",
+            "segment": "Enterprise",
+            "customer_id": "CUST-1055",
+            "product_area": "Onboarding",
+            "feedback": "The first setup screen has too many choices and new teammates get stuck."
+          }
+        },
+        {
+          "id": "ai-item-55",
+          "feedbackText": "We need a progress indicator during onboarding so admins know what is left.",
+          "date": "2026-06-13",
+          "source": "Zendesk",
+          "segment": "Growth",
+          "category": "Need Issues",
+          "sentiment": "neutral",
+          "urgency": "low",
+          "originalRow": {
+            "date": "2026-06-13",
+            "source": "Zendesk",
+            "segment": "Growth",
+            "customer_id": "CUST-1056",
+            "product_area": "Onboarding",
+            "feedback": "We need a progress indicator during onboarding so admins know what is left."
+          }
+        },
+        {
+          "id": "ai-item-56",
+          "feedbackText": "The invite team step fails silently when an email address has a typo.",
+          "date": "2026-06-14",
+          "source": "Intercom",
+          "segment": "SMB",
+          "category": "General Feedback",
+          "sentiment": "negative",
+          "urgency": "high",
+          "originalRow": {
+            "date": "2026-06-14",
+            "source": "Intercom",
+            "segment": "SMB",
+            "customer_id": "CUST-1057",
+            "product_area": "Onboarding",
+            "feedback": "The invite team step fails silently when an email address has a typo."
+          }
+        },
+        {
+          "id": "ai-item-57",
+          "feedbackText": "The mobile app logs me out every morning even though remember me is enabled.",
+          "date": "2026-06-15",
+          "source": "App Store",
+          "segment": "Consumer",
+          "category": "General Feedback",
+          "sentiment": "negative",
+          "urgency": "medium",
+          "originalRow": {
+            "date": "2026-06-15",
+            "source": "App Store",
+            "segment": "Consumer",
+            "customer_id": "CUST-1058",
+            "product_area": "Mobile App",
+            "feedback": "The mobile app logs me out every morning even though remember me is enabled."
+          }
+        },
+        {
+          "id": "ai-item-58",
+          "feedbackText": "Push notifications open the wrong screen after I tap them.",
+          "date": "2026-06-16",
+          "source": "Google Play",
+          "segment": "Enterprise",
+          "category": "After Issues",
+          "sentiment": "negative",
+          "urgency": "high",
+          "originalRow": {
+            "date": "2026-06-16",
+            "source": "Google Play",
+            "segment": "Enterprise",
+            "customer_id": "CUST-1059",
+            "product_area": "Mobile App",
+            "feedback": "Push notifications open the wrong screen after I tap them."
+          }
+        },
+        {
+          "id": "ai-item-59",
+          "feedbackText": "The mobile layout cuts off long project names on smaller phones.",
+          "date": "2026-06-17",
+          "source": "CSV Import",
+          "segment": "Growth",
+          "category": "General Feedback",
+          "sentiment": "negative",
+          "urgency": "medium",
+          "originalRow": {
+            "date": "2026-06-17",
+            "source": "CSV Import",
+            "segment": "Growth",
+            "customer_id": "CUST-1060",
+            "product_area": "Mobile App",
+            "feedback": "The mobile layout cuts off long project names on smaller phones."
+          }
+        },
+        {
+          "id": "ai-item-60",
+          "feedbackText": "Large reports take more than a minute to generate during peak hours.",
+          "date": "2026-06-18",
+          "source": "Zendesk",
+          "segment": "SMB",
+          "category": "General Feedback",
+          "sentiment": "negative",
+          "urgency": "medium",
+          "originalRow": {
+            "date": "2026-06-18",
+            "source": "Zendesk",
+            "segment": "SMB",
+            "customer_id": "CUST-1061",
+            "product_area": "Performance",
+            "feedback": "Large reports take more than a minute to generate during peak hours."
+          }
+        },
+        {
+          "id": "ai-item-61",
+          "feedbackText": "Search is fast for recent records but slow for older customer history.",
+          "date": "2026-06-19",
+          "source": "Intercom",
+          "segment": "Consumer",
+          "category": "General Feedback",
+          "sentiment": "neutral",
+          "urgency": "medium",
+          "originalRow": {
+            "date": "2026-06-19",
+            "source": "Intercom",
+            "segment": "Consumer",
+            "customer_id": "CUST-1062",
+            "product_area": "Performance",
+            "feedback": "Search is fast for recent records but slow for older customer history."
+          }
+        },
+        {
+          "id": "ai-item-62",
+          "feedbackText": "The app becomes sluggish after I leave several tabs open all day.",
+          "date": "2026-06-20",
+          "source": "App Store",
+          "segment": "Enterprise",
+          "category": "After Issues",
+          "sentiment": "negative",
+          "urgency": "medium",
+          "originalRow": {
+            "date": "2026-06-20",
+            "source": "App Store",
+            "segment": "Enterprise",
+            "customer_id": "CUST-1063",
+            "product_area": "Performance",
+            "feedback": "The app becomes sluggish after I leave several tabs open all day."
+          }
+        },
+        {
+          "id": "ai-item-63",
+          "feedbackText": "Invoice downloads should include the subscription ID and tax details.",
+          "date": "2026-06-21",
+          "source": "Google Play",
+          "segment": "Growth",
+          "category": "Should Issues",
+          "sentiment": "neutral",
+          "urgency": "low",
+          "originalRow": {
+            "date": "2026-06-21",
+            "source": "Google Play",
+            "segment": "Growth",
+            "customer_id": "CUST-1064",
+            "product_area": "Billing",
+            "feedback": "Invoice downloads should include the subscription ID and tax details."
+          }
+        },
+        {
+          "id": "ai-item-64",
+          "feedbackText": "The billing history page does not show who changed the plan.",
+          "date": "2026-06-22",
+          "source": "CSV Import",
+          "segment": "SMB",
+          "category": "General Feedback",
+          "sentiment": "negative",
+          "urgency": "medium",
+          "originalRow": {
+            "date": "2026-06-22",
+            "source": "CSV Import",
+            "segment": "SMB",
+            "customer_id": "CUST-1065",
+            "product_area": "Billing",
+            "feedback": "The billing history page does not show who changed the plan."
+          }
+        },
+        {
+          "id": "ai-item-65",
+          "feedbackText": "We need purchase order support before finance can approve renewal.",
+          "date": "2026-06-23",
+          "source": "Zendesk",
+          "segment": "Consumer",
+          "category": "Need Issues",
+          "sentiment": "neutral",
+          "urgency": "high",
+          "originalRow": {
+            "date": "2026-06-23",
+            "source": "Zendesk",
+            "segment": "Consumer",
+            "customer_id": "CUST-1066",
+            "product_area": "Billing",
+            "feedback": "We need purchase order support before finance can approve renewal."
+          }
+        },
+        {
+          "id": "ai-item-66",
+          "feedbackText": "The Slack integration sends duplicate alerts for the same event.",
+          "date": "2026-06-24",
+          "source": "Intercom",
+          "segment": "Enterprise",
+          "category": "General Feedback",
+          "sentiment": "negative",
+          "urgency": "high",
+          "originalRow": {
+            "date": "2026-06-24",
+            "source": "Intercom",
+            "segment": "Enterprise",
+            "customer_id": "CUST-1067",
+            "product_area": "Integrations",
+            "feedback": "The Slack integration sends duplicate alerts for the same event."
+          }
+        },
+        {
+          "id": "ai-item-67",
+          "feedbackText": "Please add Microsoft Teams notifications for enterprise customers.",
+          "date": "2026-06-25",
+          "source": "App Store",
+          "segment": "Growth",
+          "category": "General Feedback",
+          "sentiment": "neutral",
+          "urgency": "medium",
+          "originalRow": {
+            "date": "2026-06-25",
+            "source": "App Store",
+            "segment": "Growth",
+            "customer_id": "CUST-1068",
+            "product_area": "Integrations",
+            "feedback": "Please add Microsoft Teams notifications for enterprise customers."
+          }
+        },
+        {
+          "id": "ai-item-68",
+          "feedbackText": "The Jira sync misses comments added after the first issue push.",
+          "date": "2026-06-26",
+          "source": "Google Play",
+          "segment": "SMB",
+          "category": "After Issues",
+          "sentiment": "negative",
+          "urgency": "high",
+          "originalRow": {
+            "date": "2026-06-26",
+            "source": "Google Play",
+            "segment": "SMB",
+            "customer_id": "CUST-1069",
+            "product_area": "Integrations",
+            "feedback": "The Jira sync misses comments added after the first issue push."
+          }
+        },
+        {
+          "id": "ai-item-69",
+          "feedbackText": "The filter menu closes too quickly when selecting multiple options.",
+          "date": "2026-06-27",
+          "source": "CSV Import",
+          "segment": "Consumer",
+          "category": "General Feedback",
+          "sentiment": "negative",
+          "urgency": "medium",
+          "originalRow": {
+            "date": "2026-06-27",
+            "source": "CSV Import",
+            "segment": "Consumer",
+            "customer_id": "CUST-1070",
+            "product_area": "UX",
+            "feedback": "The filter menu closes too quickly when selecting multiple options."
+          }
+        },
+        {
+          "id": "ai-item-70",
+          "feedbackText": "Empty states should explain what action to take next.",
+          "date": "2026-06-28",
+          "source": "Zendesk",
+          "segment": "Enterprise",
+          "category": "Should Issues",
+          "sentiment": "neutral",
+          "urgency": "low",
+          "originalRow": {
+            "date": "2026-06-28",
+            "source": "Zendesk",
+            "segment": "Enterprise",
+            "customer_id": "CUST-1071",
+            "product_area": "UX",
+            "feedback": "Empty states should explain what action to take next."
+          }
+        },
+        {
+          "id": "ai-item-71",
+          "feedbackText": "The table columns are hard to resize and saved widths do not persist.",
+          "date": "2026-06-01",
+          "source": "Intercom",
+          "segment": "Growth",
+          "category": "General Feedback",
+          "sentiment": "negative",
+          "urgency": "medium",
+          "originalRow": {
+            "date": "2026-06-01",
+            "source": "Intercom",
+            "segment": "Growth",
+            "customer_id": "CUST-1072",
+            "product_area": "UX",
+            "feedback": "The table columns are hard to resize and saved widths do not persist."
+          }
+        },
+        {
+          "id": "ai-item-72",
+          "feedbackText": "Admins need a way to preview what each role can see.",
+          "date": "2026-06-02",
+          "source": "App Store",
+          "segment": "SMB",
+          "category": "Need Issues",
+          "sentiment": "neutral",
+          "urgency": "medium",
+          "originalRow": {
+            "date": "2026-06-02",
+            "source": "App Store",
+            "segment": "SMB",
+            "customer_id": "CUST-1073",
+            "product_area": "Permissions",
+            "feedback": "Admins need a way to preview what each role can see."
+          }
+        },
+        {
+          "id": "ai-item-73",
+          "feedbackText": "Read-only users can still access export controls, which is confusing.",
+          "date": "2026-06-03",
+          "source": "Google Play",
+          "segment": "Consumer",
+          "category": "General Feedback",
+          "sentiment": "negative",
+          "urgency": "high",
+          "originalRow": {
+            "date": "2026-06-03",
+            "source": "Google Play",
+            "segment": "Consumer",
+            "customer_id": "CUST-1074",
+            "product_area": "Permissions",
+            "feedback": "Read-only users can still access export controls, which is confusing."
+          }
+        },
+        {
+          "id": "ai-item-74",
+          "feedbackText": "We need separate permissions for billing settings and product settings.",
+          "date": "2026-06-04",
+          "source": "CSV Import",
+          "segment": "Enterprise",
+          "category": "Need Issues",
+          "sentiment": "neutral",
+          "urgency": "medium",
+          "originalRow": {
+            "date": "2026-06-04",
+            "source": "CSV Import",
+            "segment": "Enterprise",
+            "customer_id": "CUST-1075",
+            "product_area": "Permissions",
+            "feedback": "We need separate permissions for billing settings and product settings."
+          }
+        },
+        {
+          "id": "ai-item-75",
+          "feedbackText": "CSV upload fails when the file has quoted line breaks in feedback text.",
+          "date": "2026-06-05",
+          "source": "Zendesk",
+          "segment": "Growth",
+          "category": "General Feedback",
+          "sentiment": "negative",
+          "urgency": "medium",
+          "originalRow": {
+            "date": "2026-06-05",
+            "source": "Zendesk",
+            "segment": "Growth",
+            "customer_id": "CUST-1076",
+            "product_area": "Bugs",
+            "feedback": "CSV upload fails when the file has quoted line breaks in feedback text."
+          }
+        },
+        {
+          "id": "ai-item-76",
+          "feedbackText": "The date filter sometimes includes one extra day outside the selected range.",
+          "date": "2026-06-06",
+          "source": "Intercom",
+          "segment": "SMB",
+          "category": "General Feedback",
+          "sentiment": "negative",
+          "urgency": "medium",
+          "originalRow": {
+            "date": "2026-06-06",
+            "source": "Intercom",
+            "segment": "SMB",
+            "customer_id": "CUST-1077",
+            "product_area": "Bugs",
+            "feedback": "The date filter sometimes includes one extra day outside the selected range."
+          }
+        },
+        {
+          "id": "ai-item-77",
+          "feedbackText": "Bulk archive marks some records as archived but leaves them visible.",
+          "date": "2026-06-07",
+          "source": "App Store",
+          "segment": "Consumer",
+          "category": "General Feedback",
+          "sentiment": "negative",
+          "urgency": "high",
+          "originalRow": {
+            "date": "2026-06-07",
+            "source": "App Store",
+            "segment": "Consumer",
+            "customer_id": "CUST-1078",
+            "product_area": "Bugs",
+            "feedback": "Bulk archive marks some records as archived but leaves them visible."
+          }
+        },
+        {
+          "id": "ai-item-78",
+          "feedbackText": "The support team solved my issue, but it took three handoffs.",
+          "date": "2026-06-08",
+          "source": "Google Play",
+          "segment": "Enterprise",
+          "category": "General Feedback",
+          "sentiment": "neutral",
+          "urgency": "low",
+          "originalRow": {
+            "date": "2026-06-08",
+            "source": "Google Play",
+            "segment": "Enterprise",
+            "customer_id": "CUST-1079",
+            "product_area": "Support",
+            "feedback": "The support team solved my issue, but it took three handoffs."
+          }
+        },
+        {
+          "id": "ai-item-79",
+          "feedbackText": "Live chat should show the expected wait time before we start a conversation.",
+          "date": "2026-06-09",
+          "source": "CSV Import",
+          "segment": "Growth",
+          "category": "Should Issues",
+          "sentiment": "neutral",
+          "urgency": "low",
+          "originalRow": {
+            "date": "2026-06-09",
+            "source": "CSV Import",
+            "segment": "Growth",
+            "customer_id": "CUST-1080",
+            "product_area": "Support",
+            "feedback": "Live chat should show the expected wait time before we start a conversation."
+          }
+        },
+        {
+          "id": "ai-item-80",
+          "feedbackText": "The help center search returns too many unrelated articles.",
+          "date": "2026-06-10",
+          "source": "Zendesk",
+          "segment": "SMB",
+          "category": "General Feedback",
+          "sentiment": "negative",
+          "urgency": "medium",
+          "originalRow": {
+            "date": "2026-06-10",
+            "source": "Zendesk",
+            "segment": "SMB",
+            "customer_id": "CUST-1081",
+            "product_area": "Support",
+            "feedback": "The help center search returns too many unrelated articles."
+          }
+        },
+        {
+          "id": "ai-item-81",
+          "feedbackText": "Scheduled reports should allow different recipients per department.",
+          "date": "2026-06-11",
+          "source": "Intercom",
+          "segment": "Consumer",
+          "category": "Should Issues",
+          "sentiment": "neutral",
+          "urgency": "low",
+          "originalRow": {
+            "date": "2026-06-11",
+            "source": "Intercom",
+            "segment": "Consumer",
+            "customer_id": "CUST-1082",
+            "product_area": "Reporting",
+            "feedback": "Scheduled reports should allow different recipients per department."
+          }
+        },
+        {
+          "id": "ai-item-82",
+          "feedbackText": "The PDF report needs the same filters as the web dashboard.",
+          "date": "2026-06-12",
+          "source": "App Store",
+          "segment": "Enterprise",
+          "category": "Need Issues",
+          "sentiment": "neutral",
+          "urgency": "medium",
+          "originalRow": {
+            "date": "2026-06-12",
+            "source": "App Store",
+            "segment": "Enterprise",
+            "customer_id": "CUST-1083",
+            "product_area": "Reporting",
+            "feedback": "The PDF report needs the same filters as the web dashboard."
+          }
+        },
+        {
+          "id": "ai-item-83",
+          "feedbackText": "Trend reports should call out sudden spikes automatically.",
+          "date": "2026-06-13",
+          "source": "Google Play",
+          "segment": "Growth",
+          "category": "Should Issues",
+          "sentiment": "neutral",
+          "urgency": "low",
+          "originalRow": {
+            "date": "2026-06-13",
+            "source": "Google Play",
+            "segment": "Growth",
+            "customer_id": "CUST-1084",
+            "product_area": "Reporting",
+            "feedback": "Trend reports should call out sudden spikes automatically."
+          }
+        },
+        {
+          "id": "ai-item-84",
+          "feedbackText": "The pricing tiers are hard to compare without a feature matrix.",
+          "date": "2026-06-14",
+          "source": "CSV Import",
+          "segment": "SMB",
+          "category": "General Feedback",
+          "sentiment": "negative",
+          "urgency": "medium",
+          "originalRow": {
+            "date": "2026-06-14",
+            "source": "CSV Import",
+            "segment": "SMB",
+            "customer_id": "CUST-1085",
+            "product_area": "Pricing",
+            "feedback": "The pricing tiers are hard to compare without a feature matrix."
+          }
+        },
+        {
+          "id": "ai-item-85",
+          "feedbackText": "Usage overage warnings arrive too late for us to control spend.",
+          "date": "2026-06-15",
+          "source": "Zendesk",
+          "segment": "Consumer",
+          "category": "General Feedback",
+          "sentiment": "negative",
+          "urgency": "high",
+          "originalRow": {
+            "date": "2026-06-15",
+            "source": "Zendesk",
+            "segment": "Consumer",
+            "customer_id": "CUST-1086",
+            "product_area": "Pricing",
+            "feedback": "Usage overage warnings arrive too late for us to control spend."
+          }
+        },
+        {
+          "id": "ai-item-86",
+          "feedbackText": "We need a sandbox environment included in the Enterprise plan.",
+          "date": "2026-06-16",
+          "source": "Intercom",
+          "segment": "Enterprise",
+          "category": "Need Issues",
+          "sentiment": "neutral",
+          "urgency": "medium",
+          "originalRow": {
+            "date": "2026-06-16",
+            "source": "Intercom",
+            "segment": "Enterprise",
+            "customer_id": "CUST-1087",
+            "product_area": "Pricing",
+            "feedback": "We need a sandbox environment included in the Enterprise plan."
+          }
+        },
+        {
+          "id": "ai-item-87",
+          "feedbackText": "The dashboard freezes when I switch between saved filters during a live review.",
+          "date": "2026-06-17",
+          "source": "App Store",
+          "segment": "Growth",
+          "category": "Dashboard Issues",
+          "sentiment": "negative",
+          "urgency": "high",
+          "originalRow": {
+            "date": "2026-06-17",
+            "source": "App Store",
+            "segment": "Growth",
+            "customer_id": "CUST-1088",
+            "product_area": "Dashboard",
+            "feedback": "The dashboard freezes when I switch between saved filters during a live review."
+          }
+        },
+        {
+          "id": "ai-item-88",
+          "feedbackText": "Charts are useful, but I need clearer labels for weekly trend changes.",
+          "date": "2026-06-18",
+          "source": "Google Play",
+          "segment": "SMB",
+          "category": "Need Issues",
+          "sentiment": "neutral",
+          "urgency": "low",
+          "originalRow": {
+            "date": "2026-06-18",
+            "source": "Google Play",
+            "segment": "SMB",
+            "customer_id": "CUST-1089",
+            "product_area": "Dashboard",
+            "feedback": "Charts are useful, but I need clearer labels for weekly trend changes."
+          }
+        },
+        {
+          "id": "ai-item-89",
+          "feedbackText": "The dashboard should let me pin my most important metrics at the top.",
+          "date": "2026-06-19",
+          "source": "CSV Import",
+          "segment": "Consumer",
+          "category": "Dashboard Issues",
+          "sentiment": "neutral",
+          "urgency": "low",
+          "originalRow": {
+            "date": "2026-06-19",
+            "source": "CSV Import",
+            "segment": "Consumer",
+            "customer_id": "CUST-1090",
+            "product_area": "Dashboard",
+            "feedback": "The dashboard should let me pin my most important metrics at the top."
+          }
+        },
+        {
+          "id": "ai-item-90",
+          "feedbackText": "The first setup screen has too many choices and new teammates get stuck.",
+          "date": "2026-06-20",
+          "source": "Zendesk",
+          "segment": "Enterprise",
+          "category": "General Feedback",
+          "sentiment": "negative",
+          "urgency": "medium",
+          "originalRow": {
+            "date": "2026-06-20",
+            "source": "Zendesk",
+            "segment": "Enterprise",
+            "customer_id": "CUST-1091",
+            "product_area": "Onboarding",
+            "feedback": "The first setup screen has too many choices and new teammates get stuck."
+          }
+        },
+        {
+          "id": "ai-item-91",
+          "feedbackText": "We need a progress indicator during onboarding so admins know what is left.",
+          "date": "2026-06-21",
+          "source": "Intercom",
+          "segment": "Growth",
+          "category": "Need Issues",
+          "sentiment": "neutral",
+          "urgency": "medium",
+          "originalRow": {
+            "date": "2026-06-21",
+            "source": "Intercom",
+            "segment": "Growth",
+            "customer_id": "CUST-1092",
+            "product_area": "Onboarding",
+            "feedback": "We need a progress indicator during onboarding so admins know what is left."
+          }
+        },
+        {
+          "id": "ai-item-92",
+          "feedbackText": "The invite team step fails silently when an email address has a typo.",
+          "date": "2026-06-22",
+          "source": "App Store",
+          "segment": "SMB",
+          "category": "General Feedback",
+          "sentiment": "negative",
+          "urgency": "medium",
+          "originalRow": {
+            "date": "2026-06-22",
+            "source": "App Store",
+            "segment": "SMB",
+            "customer_id": "CUST-1093",
+            "product_area": "Onboarding",
+            "feedback": "The invite team step fails silently when an email address has a typo."
+          }
+        },
+        {
+          "id": "ai-item-93",
+          "feedbackText": "The mobile app logs me out every morning even though remember me is enabled.",
+          "date": "2026-06-23",
+          "source": "Google Play",
+          "segment": "Consumer",
+          "category": "After Issues",
+          "sentiment": "negative",
+          "urgency": "high",
+          "originalRow": {
+            "date": "2026-06-23",
+            "source": "Google Play",
+            "segment": "Consumer",
+            "customer_id": "CUST-1094",
+            "product_area": "Mobile App",
+            "feedback": "The mobile app logs me out every morning even though remember me is enabled."
+          }
+        },
+        {
+          "id": "ai-item-94",
+          "feedbackText": "Push notifications open the wrong screen after I tap them.",
+          "date": "2026-06-24",
+          "source": "CSV Import",
+          "segment": "Enterprise",
+          "category": "After Issues",
+          "sentiment": "negative",
+          "urgency": "high",
+          "originalRow": {
+            "date": "2026-06-24",
+            "source": "CSV Import",
+            "segment": "Enterprise",
+            "customer_id": "CUST-1095",
+            "product_area": "Mobile App",
+            "feedback": "Push notifications open the wrong screen after I tap them."
+          }
+        },
+        {
+          "id": "ai-item-95",
+          "feedbackText": "The mobile layout cuts off long project names on smaller phones.",
+          "date": "2026-06-25",
+          "source": "Zendesk",
+          "segment": "Growth",
+          "category": "General Feedback",
+          "sentiment": "negative",
+          "urgency": "low",
+          "originalRow": {
+            "date": "2026-06-25",
+            "source": "Zendesk",
+            "segment": "Growth",
+            "customer_id": "CUST-1096",
+            "product_area": "Mobile App",
+            "feedback": "The mobile layout cuts off long project names on smaller phones."
+          }
+        },
+        {
+          "id": "ai-item-96",
+          "feedbackText": "Large reports take more than a minute to generate during peak hours.",
+          "date": "2026-06-26",
+          "source": "Intercom",
+          "segment": "SMB",
+          "category": "General Feedback",
+          "sentiment": "negative",
+          "urgency": "medium",
+          "originalRow": {
+            "date": "2026-06-26",
+            "source": "Intercom",
+            "segment": "SMB",
+            "customer_id": "CUST-1097",
+            "product_area": "Performance",
+            "feedback": "Large reports take more than a minute to generate during peak hours."
+          }
+        },
+        {
+          "id": "ai-item-97",
+          "feedbackText": "Search is fast for recent records but slow for older customer history.",
+          "date": "2026-06-27",
+          "source": "App Store",
+          "segment": "Consumer",
+          "category": "General Feedback",
+          "sentiment": "negative",
+          "urgency": "medium",
+          "originalRow": {
+            "date": "2026-06-27",
+            "source": "App Store",
+            "segment": "Consumer",
+            "customer_id": "CUST-1098",
+            "product_area": "Performance",
+            "feedback": "Search is fast for recent records but slow for older customer history."
+          }
+        },
+        {
+          "id": "ai-item-98",
+          "feedbackText": "The app becomes sluggish after I leave several tabs open all day.",
+          "date": "2026-06-28",
+          "source": "Google Play",
+          "segment": "Enterprise",
+          "category": "After Issues",
+          "sentiment": "negative",
+          "urgency": "medium",
+          "originalRow": {
+            "date": "2026-06-28",
+            "source": "Google Play",
+            "segment": "Enterprise",
+            "customer_id": "CUST-1099",
+            "product_area": "Performance",
+            "feedback": "The app becomes sluggish after I leave several tabs open all day."
+          }
+        },
+        {
+          "id": "ai-item-99",
+          "feedbackText": "Invoice downloads should include the subscription ID and tax details.",
+          "date": "2026-06-01",
+          "source": "CSV Import",
+          "segment": "Growth",
+          "category": "Should Issues",
+          "sentiment": "neutral",
+          "urgency": "low",
+          "originalRow": {
+            "date": "2026-06-01",
+            "source": "CSV Import",
+            "segment": "Growth",
+            "customer_id": "CUST-1100",
+            "product_area": "Billing",
+            "feedback": "Invoice downloads should include the subscription ID and tax details."
+          }
+        },
+        {
+          "id": "ai-item-100",
+          "feedbackText": "The billing history page does not show who changed the plan.",
+          "date": "2026-06-02",
+          "source": "Zendesk",
+          "segment": "SMB",
+          "category": "Dashboard Issues",
+          "sentiment": "negative",
+          "urgency": "medium",
+          "originalRow": {
+            "date": "2026-06-02",
+            "source": "Zendesk",
+            "segment": "SMB",
+            "customer_id": "CUST-1101",
+            "product_area": "Billing",
+            "feedback": "The billing history page does not show who changed the plan."
+          }
+        },
+        {
+          "id": "ai-item-101",
+          "feedbackText": "We need purchase order support before finance can approve renewal.",
+          "date": "2026-06-03",
+          "source": "Intercom",
+          "segment": "Consumer",
+          "category": "Need Issues",
+          "sentiment": "neutral",
+          "urgency": "high",
+          "originalRow": {
+            "date": "2026-06-03",
+            "source": "Intercom",
+            "segment": "Consumer",
+            "customer_id": "CUST-1102",
+            "product_area": "Billing",
+            "feedback": "We need purchase order support before finance can approve renewal."
+          }
+        },
+        {
+          "id": "ai-item-102",
+          "feedbackText": "The Slack integration sends duplicate alerts for the same event.",
+          "date": "2026-06-04",
+          "source": "App Store",
+          "segment": "Enterprise",
+          "category": "General Feedback",
+          "sentiment": "negative",
+          "urgency": "medium",
+          "originalRow": {
+            "date": "2026-06-04",
+            "source": "App Store",
+            "segment": "Enterprise",
+            "customer_id": "CUST-1103",
+            "product_area": "Integrations",
+            "feedback": "The Slack integration sends duplicate alerts for the same event."
+          }
+        },
+        {
+          "id": "ai-item-103",
+          "feedbackText": "Please add Microsoft Teams notifications for enterprise customers.",
+          "date": "2026-06-05",
+          "source": "Google Play",
+          "segment": "Growth",
+          "category": "General Feedback",
+          "sentiment": "neutral",
+          "urgency": "low",
+          "originalRow": {
+            "date": "2026-06-05",
+            "source": "Google Play",
+            "segment": "Growth",
+            "customer_id": "CUST-1104",
+            "product_area": "Integrations",
+            "feedback": "Please add Microsoft Teams notifications for enterprise customers."
+          }
+        },
+        {
+          "id": "ai-item-104",
+          "feedbackText": "The Jira sync misses comments added after the first issue push.",
+          "date": "2026-06-06",
+          "source": "CSV Import",
+          "segment": "SMB",
+          "category": "After Issues",
+          "sentiment": "negative",
+          "urgency": "medium",
+          "originalRow": {
+            "date": "2026-06-06",
+            "source": "CSV Import",
+            "segment": "SMB",
+            "customer_id": "CUST-1105",
+            "product_area": "Integrations",
+            "feedback": "The Jira sync misses comments added after the first issue push."
+          }
+        },
+        {
+          "id": "ai-item-105",
+          "feedbackText": "The filter menu closes too quickly when selecting multiple options.",
+          "date": "2026-06-07",
+          "source": "Zendesk",
+          "segment": "Consumer",
+          "category": "Dashboard Issues",
+          "sentiment": "negative",
+          "urgency": "low",
+          "originalRow": {
+            "date": "2026-06-07",
+            "source": "Zendesk",
+            "segment": "Consumer",
+            "customer_id": "CUST-1106",
+            "product_area": "UX",
+            "feedback": "The filter menu closes too quickly when selecting multiple options."
+          }
+        },
+        {
+          "id": "ai-item-106",
+          "feedbackText": "Empty states should explain what action to take next.",
+          "date": "2026-06-08",
+          "source": "Intercom",
+          "segment": "Enterprise",
+          "category": "Should Issues",
+          "sentiment": "neutral",
+          "urgency": "low",
+          "originalRow": {
+            "date": "2026-06-08",
+            "source": "Intercom",
+            "segment": "Enterprise",
+            "customer_id": "CUST-1107",
+            "product_area": "UX",
+            "feedback": "Empty states should explain what action to take next."
+          }
+        },
+        {
+          "id": "ai-item-107",
+          "feedbackText": "The table columns are hard to resize and saved widths do not persist.",
+          "date": "2026-06-09",
+          "source": "App Store",
+          "segment": "Growth",
+          "category": "Dashboard Issues",
+          "sentiment": "negative",
+          "urgency": "low",
+          "originalRow": {
+            "date": "2026-06-09",
+            "source": "App Store",
+            "segment": "Growth",
+            "customer_id": "CUST-1108",
+            "product_area": "UX",
+            "feedback": "The table columns are hard to resize and saved widths do not persist."
+          }
+        },
+        {
+          "id": "ai-item-108",
+          "feedbackText": "Admins need a way to preview what each role can see.",
+          "date": "2026-06-10",
+          "source": "Google Play",
+          "segment": "SMB",
+          "category": "Need Issues",
+          "sentiment": "neutral",
+          "urgency": "medium",
+          "originalRow": {
+            "date": "2026-06-10",
+            "source": "Google Play",
+            "segment": "SMB",
+            "customer_id": "CUST-1109",
+            "product_area": "Permissions",
+            "feedback": "Admins need a way to preview what each role can see."
+          }
+        },
+        {
+          "id": "ai-item-109",
+          "feedbackText": "Read-only users can still access export controls, which is confusing.",
+          "date": "2026-06-11",
+          "source": "CSV Import",
+          "segment": "Consumer",
+          "category": "General Feedback",
+          "sentiment": "negative",
+          "urgency": "high",
+          "originalRow": {
+            "date": "2026-06-11",
+            "source": "CSV Import",
+            "segment": "Consumer",
+            "customer_id": "CUST-1110",
+            "product_area": "Permissions",
+            "feedback": "Read-only users can still access export controls, which is confusing."
+          }
+        },
+        {
+          "id": "ai-item-110",
+          "feedbackText": "We need separate permissions for billing settings and product settings.",
+          "date": "2026-06-12",
+          "source": "Zendesk",
+          "segment": "Enterprise",
+          "category": "Need Issues",
+          "sentiment": "neutral",
+          "urgency": "medium",
+          "originalRow": {
+            "date": "2026-06-12",
+            "source": "Zendesk",
+            "segment": "Enterprise",
+            "customer_id": "CUST-1111",
+            "product_area": "Permissions",
+            "feedback": "We need separate permissions for billing settings and product settings."
+          }
+        },
+        {
+          "id": "ai-item-111",
+          "feedbackText": "CSV upload fails when the file has quoted line breaks in feedback text.",
+          "date": "2026-06-13",
+          "source": "Intercom",
+          "segment": "Growth",
+          "category": "General Feedback",
+          "sentiment": "negative",
+          "urgency": "medium",
+          "originalRow": {
+            "date": "2026-06-13",
+            "source": "Intercom",
+            "segment": "Growth",
+            "customer_id": "CUST-1112",
+            "product_area": "Bugs",
+            "feedback": "CSV upload fails when the file has quoted line breaks in feedback text."
+          }
+        },
+        {
+          "id": "ai-item-112",
+          "feedbackText": "The date filter sometimes includes one extra day outside the selected range.",
+          "date": "2026-06-14",
+          "source": "App Store",
+          "segment": "SMB",
+          "category": "Dashboard Issues",
+          "sentiment": "negative",
+          "urgency": "medium",
+          "originalRow": {
+            "date": "2026-06-14",
+            "source": "App Store",
+            "segment": "SMB",
+            "customer_id": "CUST-1113",
+            "product_area": "Bugs",
+            "feedback": "The date filter sometimes includes one extra day outside the selected range."
+          }
+        },
+        {
+          "id": "ai-item-113",
+          "feedbackText": "Bulk archive marks some records as archived but leaves them visible.",
+          "date": "2026-06-15",
+          "source": "Google Play",
+          "segment": "Consumer",
+          "category": "General Feedback",
+          "sentiment": "negative",
+          "urgency": "high",
+          "originalRow": {
+            "date": "2026-06-15",
+            "source": "Google Play",
+            "segment": "Consumer",
+            "customer_id": "CUST-1114",
+            "product_area": "Bugs",
+            "feedback": "Bulk archive marks some records as archived but leaves them visible."
+          }
+        },
+        {
+          "id": "ai-item-114",
+          "feedbackText": "The support team solved my issue, but it took three handoffs.",
+          "date": "2026-06-16",
+          "source": "CSV Import",
+          "segment": "Enterprise",
+          "category": "General Feedback",
+          "sentiment": "negative",
+          "urgency": "low",
+          "originalRow": {
+            "date": "2026-06-16",
+            "source": "CSV Import",
+            "segment": "Enterprise",
+            "customer_id": "CUST-1115",
+            "product_area": "Support",
+            "feedback": "The support team solved my issue, but it took three handoffs."
+          }
+        }
+      ],
+      "totalCount": 115,
+      "averageSentimentScore": 18,
+      "sentimentDistribution": {
+        "positive": 0,
+        "neutral": 42,
+        "negative": 73,
+        "positivePercentage": 0,
+        "neutralPercentage": 37,
+        "negativePercentage": 63
+      },
+      "categoryStats": [
+        {
+          "name": "General Feedback",
+          "count": 53,
+          "sentiment": {
+            "positive": 0,
+            "neutral": 6,
+            "negative": 47
+          }
+        },
+        {
+          "name": "Need Issues",
+          "count": 22,
+          "sentiment": {
+            "positive": 0,
+            "neutral": 21,
+            "negative": 1
+          }
+        },
+        {
+          "name": "Dashboard Issues",
+          "count": 15,
+          "sentiment": {
+            "positive": 0,
+            "neutral": 1,
+            "negative": 14
+          }
+        },
+        {
+          "name": "Should Issues",
+          "count": 14,
+          "sentiment": {
+            "positive": 0,
+            "neutral": 14,
+            "negative": 0
+          }
+        },
+        {
+          "name": "After Issues",
+          "count": 11,
+          "sentiment": {
+            "positive": 0,
+            "neutral": 0,
+            "negative": 11
+          }
+        }
+      ],
+      "topKeywords": [
+        {
+          "text": "when",
+          "count": 14
+        },
+        {
+          "text": "after",
+          "count": 10
+        },
+        {
+          "text": "fails",
+          "count": 7
+        },
+        {
+          "text": "saved",
+          "count": 7
+        },
+        {
+          "text": "hard",
+          "count": 6
+        }
+      ],
+      "urgentComplaints": [
+        {
+          "id": "ai-item-15",
+          "feedbackText": "The dashboard freezes when I switch between saved filters during a live review.",
+          "date": "2026-06-01",
+          "source": "Zendesk",
+          "segment": "Growth",
+          "category": "Dashboard Issues",
+          "sentiment": "negative",
+          "urgency": "high",
+          "originalRow": {
+            "date": "2026-06-01",
+            "source": "Zendesk",
+            "segment": "Growth",
+            "customer_id": "CUST-1016",
+            "product_area": "Dashboard",
+            "feedback": "The dashboard freezes when I switch between saved filters during a live review."
+          }
+        },
+        {
+          "id": "ai-item-51",
+          "feedbackText": "The dashboard freezes when I switch between saved filters during a live review.",
+          "date": "2026-06-09",
+          "source": "Intercom",
+          "segment": "Growth",
+          "category": "Dashboard Issues",
+          "sentiment": "negative",
+          "urgency": "high",
+          "originalRow": {
+            "date": "2026-06-09",
+            "source": "Intercom",
+            "segment": "Growth",
+            "customer_id": "CUST-1052",
+            "product_area": "Dashboard",
+            "feedback": "The dashboard freezes when I switch between saved filters during a live review."
+          }
+        },
+        {
+          "id": "ai-item-87",
+          "feedbackText": "The dashboard freezes when I switch between saved filters during a live review.",
+          "date": "2026-06-17",
+          "source": "App Store",
+          "segment": "Growth",
+          "category": "Dashboard Issues",
+          "sentiment": "negative",
+          "urgency": "high",
+          "originalRow": {
+            "date": "2026-06-17",
+            "source": "App Store",
+            "segment": "Growth",
+            "customer_id": "CUST-1088",
+            "product_area": "Dashboard",
+            "feedback": "The dashboard freezes when I switch between saved filters during a live review."
+          }
+        },
+        {
+          "id": "ai-item-13",
+          "feedbackText": "The Salesforce sync disconnects every few days and creates duplicate records.",
+          "date": "2026-05-14",
+          "source": "Intercom",
+          "segment": "Enterprise",
+          "category": "General Feedback",
+          "sentiment": "negative",
+          "urgency": "high",
+          "originalRow": {
+            "date": "2026-05-14",
+            "source": "Intercom",
+            "segment": "Enterprise",
+            "customer_id": "CUST-1014",
+            "product_area": "Integrations",
+            "feedback": "The Salesforce sync disconnects every few days and creates duplicate records."
+          }
+        },
+        {
+          "id": "ai-item-93",
+          "feedbackText": "The mobile app logs me out every morning even though remember me is enabled.",
+          "date": "2026-06-23",
+          "source": "Google Play",
+          "segment": "Consumer",
+          "category": "After Issues",
+          "sentiment": "negative",
+          "urgency": "high",
+          "originalRow": {
+            "date": "2026-06-23",
+            "source": "Google Play",
+            "segment": "Consumer",
+            "customer_id": "CUST-1094",
+            "product_area": "Mobile App",
+            "feedback": "The mobile app logs me out every morning even though remember me is enabled."
+          }
+        }
+      ]
+    },
+    "recommendationsStore": {
+      "Other": {
+        "title": "AI Action: Other Spec Audit",
+        "actionText": "Coordinate user research specs to address top feedback trends inside Other.",
+        "priority": "Medium",
+        "actionType": "bug_fix",
+        "status": "Done"
+      },
+      "Support/Service": {
+        "title": "AI Action: Support/Service Spec Audit",
+        "actionText": "Coordinate user research specs to address top feedback trends inside Support/Service.",
+        "priority": "Medium",
+        "actionType": "feature",
+        "status": "Done"
+      },
+      "Device Issues": {
+        "title": "AI Action: Device Issues Spec Audit",
+        "actionText": "Coordinate user research specs to address top feedback trends inside Device Issues.",
+        "priority": "High",
+        "actionType": "feature",
+        "status": "New"
+      }
+    },
+    "isAiMode": true
+  },
+  "settings": {
+    "weights": {
+      "frequency": 30,
+      "segment": 30,
+      "sentiment": 20,
+      "trend": 20
+    },
+    "alertConfig": {
+      "sentimentThreshold": 30,
+      "volumeThreshold": 5,
+      "emailNotifications": false
+    }
+  },
+  "tickets": []
+}

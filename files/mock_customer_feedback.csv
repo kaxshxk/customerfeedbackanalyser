@@ -1,0 +1,116 @@
+date,source,segment,customer_id,product_area,feedback
+2026-05-01,Zendesk,Enterprise,CUST-1001,Dashboard,The dashboard takes too long to load when filtering reports by region.
+2026-05-02,Intercom,SMB,CUST-1002,Onboarding,The onboarding checklist is confusing for new admins and we had to contact support twice.
+2026-05-03,App Store,Consumer,CUST-1003,Mobile App,The app crashes whenever I try to upload a profile photo.
+2026-05-04,Google Play,Consumer,CUST-1004,Performance,Search results are very slow and sometimes show old data.
+2026-05-05,Zendesk,Enterprise,CUST-1005,Billing,We need bulk invoice export for finance review at the end of each month.
+2026-05-06,CSV Import,Growth,CUST-1006,Integrations,Please add a native HubSpot integration so we do not have to use Zapier.
+2026-05-07,Intercom,SMB,CUST-1007,UX,The settings page is hard to understand and important controls are buried.
+2026-05-08,Zendesk,Enterprise,CUST-1008,Permissions,Role permissions are too limited for our regional managers.
+2026-05-09,App Store,Consumer,CUST-1009,Mobile App,"I love the new layout, but notifications arrive late."
+2026-05-10,Google Play,Consumer,CUST-1010,Bugs,Export fails with an unknown error when the report has more than 500 rows.
+2026-05-11,Intercom,Growth,CUST-1011,Support,"Support response was helpful, but the help center article was outdated."
+2026-05-12,Zendesk,Enterprise,CUST-1012,Reporting,The weekly report needs a comparison against the previous month.
+2026-05-13,CSV Import,SMB,CUST-1013,Pricing,The pricing page does not explain what is included in the Growth plan.
+2026-05-14,Intercom,Enterprise,CUST-1014,Integrations,The Salesforce sync disconnects every few days and creates duplicate records.
+2026-05-15,App Store,Consumer,CUST-1015,UX,It is difficult to find saved items after the latest update.
+2026-06-01,Zendesk,Growth,CUST-1016,Dashboard,The dashboard freezes when I switch between saved filters during a live review.
+2026-06-02,Intercom,SMB,CUST-1017,Dashboard,"Charts are useful, but I need clearer labels for weekly trend changes."
+2026-06-03,App Store,Consumer,CUST-1018,Dashboard,The dashboard should let me pin my most important metrics at the top.
+2026-06-04,Google Play,Enterprise,CUST-1019,Onboarding,The first setup screen has too many choices and new teammates get stuck.
+2026-06-05,CSV Import,Growth,CUST-1020,Onboarding,We need a progress indicator during onboarding so admins know what is left.
+2026-06-06,Zendesk,SMB,CUST-1021,Onboarding,The invite team step fails silently when an email address has a typo.
+2026-06-07,Intercom,Consumer,CUST-1022,Mobile App,The mobile app logs me out every morning even though remember me is enabled.
+2026-06-08,App Store,Enterprise,CUST-1023,Mobile App,Push notifications open the wrong screen after I tap them.
+2026-06-09,Google Play,Growth,CUST-1024,Mobile App,The mobile layout cuts off long project names on smaller phones.
+2026-06-10,CSV Import,SMB,CUST-1025,Performance,Large reports take more than a minute to generate during peak hours.
+2026-06-11,Zendesk,Consumer,CUST-1026,Performance,Search is fast for recent records but slow for older customer history.
+2026-06-12,Intercom,Enterprise,CUST-1027,Performance,The app becomes sluggish after I leave several tabs open all day.
+2026-06-13,App Store,Growth,CUST-1028,Billing,Invoice downloads should include the subscription ID and tax details.
+2026-06-14,Google Play,SMB,CUST-1029,Billing,The billing history page does not show who changed the plan.
+2026-06-15,CSV Import,Consumer,CUST-1030,Billing,We need purchase order support before finance can approve renewal.
+2026-06-16,Zendesk,Enterprise,CUST-1031,Integrations,The Slack integration sends duplicate alerts for the same event.
+2026-06-17,Intercom,Growth,CUST-1032,Integrations,Please add Microsoft Teams notifications for enterprise customers.
+2026-06-18,App Store,SMB,CUST-1033,Integrations,The Jira sync misses comments added after the first issue push.
+2026-06-19,Google Play,Consumer,CUST-1034,UX,The filter menu closes too quickly when selecting multiple options.
+2026-06-20,CSV Import,Enterprise,CUST-1035,UX,Empty states should explain what action to take next.
+2026-06-21,Zendesk,Growth,CUST-1036,UX,The table columns are hard to resize and saved widths do not persist.
+2026-06-22,Intercom,SMB,CUST-1037,Permissions,Admins need a way to preview what each role can see.
+2026-06-23,App Store,Consumer,CUST-1038,Permissions,"Read-only users can still access export controls, which is confusing."
+2026-06-24,Google Play,Enterprise,CUST-1039,Permissions,We need separate permissions for billing settings and product settings.
+2026-06-25,CSV Import,Growth,CUST-1040,Bugs,CSV upload fails when the file has quoted line breaks in feedback text.
+2026-06-26,Zendesk,SMB,CUST-1041,Bugs,The date filter sometimes includes one extra day outside the selected range.
+2026-06-27,Intercom,Consumer,CUST-1042,Bugs,Bulk archive marks some records as archived but leaves them visible.
+2026-06-28,App Store,Enterprise,CUST-1043,Support,"The support team solved my issue, but it took three handoffs."
+2026-06-01,Google Play,Growth,CUST-1044,Support,Live chat should show the expected wait time before we start a conversation.
+2026-06-02,CSV Import,SMB,CUST-1045,Support,The help center search returns too many unrelated articles.
+2026-06-03,Zendesk,Consumer,CUST-1046,Reporting,Scheduled reports should allow different recipients per department.
+2026-06-04,Intercom,Enterprise,CUST-1047,Reporting,The PDF report needs the same filters as the web dashboard.
+2026-06-05,App Store,Growth,CUST-1048,Reporting,Trend reports should call out sudden spikes automatically.
+2026-06-06,Google Play,SMB,CUST-1049,Pricing,The pricing tiers are hard to compare without a feature matrix.
+2026-06-07,CSV Import,Consumer,CUST-1050,Pricing,Usage overage warnings arrive too late for us to control spend.
+2026-06-08,Zendesk,Enterprise,CUST-1051,Pricing,We need a sandbox environment included in the Enterprise plan.
+2026-06-09,Intercom,Growth,CUST-1052,Dashboard,The dashboard freezes when I switch between saved filters during a live review.
+2026-06-10,App Store,SMB,CUST-1053,Dashboard,"Charts are useful, but I need clearer labels for weekly trend changes."
+2026-06-11,Google Play,Consumer,CUST-1054,Dashboard,The dashboard should let me pin my most important metrics at the top.
+2026-06-12,CSV Import,Enterprise,CUST-1055,Onboarding,The first setup screen has too many choices and new teammates get stuck.
+2026-06-13,Zendesk,Growth,CUST-1056,Onboarding,We need a progress indicator during onboarding so admins know what is left.
+2026-06-14,Intercom,SMB,CUST-1057,Onboarding,The invite team step fails silently when an email address has a typo.
+2026-06-15,App Store,Consumer,CUST-1058,Mobile App,The mobile app logs me out every morning even though remember me is enabled.
+2026-06-16,Google Play,Enterprise,CUST-1059,Mobile App,Push notifications open the wrong screen after I tap them.
+2026-06-17,CSV Import,Growth,CUST-1060,Mobile App,The mobile layout cuts off long project names on smaller phones.
+2026-06-18,Zendesk,SMB,CUST-1061,Performance,Large reports take more than a minute to generate during peak hours.
+2026-06-19,Intercom,Consumer,CUST-1062,Performance,Search is fast for recent records but slow for older customer history.
+2026-06-20,App Store,Enterprise,CUST-1063,Performance,The app becomes sluggish after I leave several tabs open all day.
+2026-06-21,Google Play,Growth,CUST-1064,Billing,Invoice downloads should include the subscription ID and tax details.
+2026-06-22,CSV Import,SMB,CUST-1065,Billing,The billing history page does not show who changed the plan.
+2026-06-23,Zendesk,Consumer,CUST-1066,Billing,We need purchase order support before finance can approve renewal.
+2026-06-24,Intercom,Enterprise,CUST-1067,Integrations,The Slack integration sends duplicate alerts for the same event.
+2026-06-25,App Store,Growth,CUST-1068,Integrations,Please add Microsoft Teams notifications for enterprise customers.
+2026-06-26,Google Play,SMB,CUST-1069,Integrations,The Jira sync misses comments added after the first issue push.
+2026-06-27,CSV Import,Consumer,CUST-1070,UX,The filter menu closes too quickly when selecting multiple options.
+2026-06-28,Zendesk,Enterprise,CUST-1071,UX,Empty states should explain what action to take next.
+2026-06-01,Intercom,Growth,CUST-1072,UX,The table columns are hard to resize and saved widths do not persist.
+2026-06-02,App Store,SMB,CUST-1073,Permissions,Admins need a way to preview what each role can see.
+2026-06-03,Google Play,Consumer,CUST-1074,Permissions,"Read-only users can still access export controls, which is confusing."
+2026-06-04,CSV Import,Enterprise,CUST-1075,Permissions,We need separate permissions for billing settings and product settings.
+2026-06-05,Zendesk,Growth,CUST-1076,Bugs,CSV upload fails when the file has quoted line breaks in feedback text.
+2026-06-06,Intercom,SMB,CUST-1077,Bugs,The date filter sometimes includes one extra day outside the selected range.
+2026-06-07,App Store,Consumer,CUST-1078,Bugs,Bulk archive marks some records as archived but leaves them visible.
+2026-06-08,Google Play,Enterprise,CUST-1079,Support,"The support team solved my issue, but it took three handoffs."
+2026-06-09,CSV Import,Growth,CUST-1080,Support,Live chat should show the expected wait time before we start a conversation.
+2026-06-10,Zendesk,SMB,CUST-1081,Support,The help center search returns too many unrelated articles.
+2026-06-11,Intercom,Consumer,CUST-1082,Reporting,Scheduled reports should allow different recipients per department.
+2026-06-12,App Store,Enterprise,CUST-1083,Reporting,The PDF report needs the same filters as the web dashboard.
+2026-06-13,Google Play,Growth,CUST-1084,Reporting,Trend reports should call out sudden spikes automatically.
+2026-06-14,CSV Import,SMB,CUST-1085,Pricing,The pricing tiers are hard to compare without a feature matrix.
+2026-06-15,Zendesk,Consumer,CUST-1086,Pricing,Usage overage warnings arrive too late for us to control spend.
+2026-06-16,Intercom,Enterprise,CUST-1087,Pricing,We need a sandbox environment included in the Enterprise plan.
+2026-06-17,App Store,Growth,CUST-1088,Dashboard,The dashboard freezes when I switch between saved filters during a live review.
+2026-06-18,Google Play,SMB,CUST-1089,Dashboard,"Charts are useful, but I need clearer labels for weekly trend changes."
+2026-06-19,CSV Import,Consumer,CUST-1090,Dashboard,The dashboard should let me pin my most important metrics at the top.
+2026-06-20,Zendesk,Enterprise,CUST-1091,Onboarding,The first setup screen has too many choices and new teammates get stuck.
+2026-06-21,Intercom,Growth,CUST-1092,Onboarding,We need a progress indicator during onboarding so admins know what is left.
+2026-06-22,App Store,SMB,CUST-1093,Onboarding,The invite team step fails silently when an email address has a typo.
+2026-06-23,Google Play,Consumer,CUST-1094,Mobile App,The mobile app logs me out every morning even though remember me is enabled.
+2026-06-24,CSV Import,Enterprise,CUST-1095,Mobile App,Push notifications open the wrong screen after I tap them.
+2026-06-25,Zendesk,Growth,CUST-1096,Mobile App,The mobile layout cuts off long project names on smaller phones.
+2026-06-26,Intercom,SMB,CUST-1097,Performance,Large reports take more than a minute to generate during peak hours.
+2026-06-27,App Store,Consumer,CUST-1098,Performance,Search is fast for recent records but slow for older customer history.
+2026-06-28,Google Play,Enterprise,CUST-1099,Performance,The app becomes sluggish after I leave several tabs open all day.
+2026-06-01,CSV Import,Growth,CUST-1100,Billing,Invoice downloads should include the subscription ID and tax details.
+2026-06-02,Zendesk,SMB,CUST-1101,Billing,The billing history page does not show who changed the plan.
+2026-06-03,Intercom,Consumer,CUST-1102,Billing,We need purchase order support before finance can approve renewal.
+2026-06-04,App Store,Enterprise,CUST-1103,Integrations,The Slack integration sends duplicate alerts for the same event.
+2026-06-05,Google Play,Growth,CUST-1104,Integrations,Please add Microsoft Teams notifications for enterprise customers.
+2026-06-06,CSV Import,SMB,CUST-1105,Integrations,The Jira sync misses comments added after the first issue push.
+2026-06-07,Zendesk,Consumer,CUST-1106,UX,The filter menu closes too quickly when selecting multiple options.
+2026-06-08,Intercom,Enterprise,CUST-1107,UX,Empty states should explain what action to take next.
+2026-06-09,App Store,Growth,CUST-1108,UX,The table columns are hard to resize and saved widths do not persist.
+2026-06-10,Google Play,SMB,CUST-1109,Permissions,Admins need a way to preview what each role can see.
+2026-06-11,CSV Import,Consumer,CUST-1110,Permissions,"Read-only users can still access export controls, which is confusing."
+2026-06-12,Zendesk,Enterprise,CUST-1111,Permissions,We need separate permissions for billing settings and product settings.
+2026-06-13,Intercom,Growth,CUST-1112,Bugs,CSV upload fails when the file has quoted line breaks in feedback text.
+2026-06-14,App Store,SMB,CUST-1113,Bugs,The date filter sometimes includes one extra day outside the selected range.
+2026-06-15,Google Play,Consumer,CUST-1114,Bugs,Bulk archive marks some records as archived but leaves them visible.
+2026-06-16,CSV Import,Enterprise,CUST-1115,Support,"The support team solved my issue, but it took three handoffs."

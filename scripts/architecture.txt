@@ -1,0 +1,619 @@
+﻿
+
+
+SYSTEM ARCHITECTURE DOCUMENT
+
+Customer Feedback Analyzer and Prioritization Agent
+
+Version 1.0  |  Antigravity + Codex Stack
+
+June 2026
+
+
+Architect
+Platform
+AI Framework
+Last Updated
+System Architecture Team
+Antigravity
+Codex
+June 2026
+
+1. Architecture Overview
+The CFAPA system is a cloud-native, multi-tier intelligent pipeline deployed on the Antigravity platform with Codex providing all AI/ML inference capabilities. The architecture follows an event-driven microservices pattern with three primary planes: Data Ingestion, AI Processing, and Intelligence Delivery.
+
+The system is designed for horizontal scalability, multi-tenancy, and model replaceability. All AI workloads are isolated from ingestion infrastructure to allow independent scaling. The Antigravity platform handles orchestration, autoscaling, secrets management, and observability. Codex provides the NLP model endpoints consumed by the AI Processing plane.
+
+1.1 High-Level Architecture Diagram (Textual Representation)
+EXTERNAL SOURCES  →  [Ingestion Layer]  →  [Event Bus]  →  [AI Processing Layer]  →  [Storage Layer]  →  [Delivery Layer]  →  END USERS / PM TOOLS
+
+1.2 Architecture Principles
+Separation of concerns: ingestion, processing, storage, and delivery are independently deployable
+Event-driven: all inter-service communication via message bus (no synchronous chaining)
+Model agnosticism: AI models swappable via Codex API versioning without pipeline changes
+Tenant isolation: strict data partitioning per organization at storage and compute layers
+Observability-first: all services emit structured logs, metrics, and traces to Antigravity's platform observability stack
+Zero-trust networking: all inter-service calls authenticated via service mesh mTLS
+
+2. System Components
+2.1 Layer 1: Data Ingestion Layer
+Responsible for connecting to external feedback sources, normalizing raw data, deduplicating, and publishing clean events to the message bus.
+
+2.1.1 Source Connector Services
+Connector
+Protocol
+Mode
+Tech
+App Store Connector
+App Store Connect API
+Polling (1hr)
+Node.js microservice on Antigravity
+Google Play Connector
+Google Play Developer API
+Polling (1hr)
+Node.js microservice on Antigravity
+Zendesk Connector
+Zendesk REST API + Webhooks
+Hybrid
+Node.js microservice on Antigravity
+Intercom Connector
+Intercom REST + Webhook
+Hybrid
+Node.js microservice on Antigravity
+Freshdesk Connector
+Freshdesk REST API
+Polling (30min)
+Node.js microservice on Antigravity
+Twitter/X Connector
+Twitter API v2
+Streaming
+Node.js microservice on Antigravity
+Reddit Connector
+Reddit API
+Polling (2hr)
+Node.js microservice on Antigravity
+CSV/Transcript Upload
+S3 multipart upload
+On-demand
+Serverless function on Antigravity
+
+2.1.2 Normalization Service
+A stateless service that receives raw events from all connectors, applies the following transformations, and publishes normalized FeedbackItems to the message bus:
+Unicode normalization (NFC form)
+HTML/Markdown stripping
+Language detection (fastText model)
+Translation to English via Codex translation endpoint (non-English items)
+PII detection and redaction (email, phone, names) via Codex NER model
+Content fingerprinting (SHA-256 of normalized text) for deduplication
+Metadata enrichment: source, timestamp, user segment tag, product version
+
+2.1.3 Deduplication Store
+A Redis cache (managed by Antigravity) keyed by content fingerprint, with a 30-day TTL. Normalization Service checks this store before publishing; duplicate fingerprints are discarded and logged.
+2.2 Layer 2: Message Bus
+All inter-service communication is asynchronous via a managed Kafka cluster on the Antigravity platform. Key topics:
+Topic
+Producer
+Consumer(s)
+Retention
+raw.feedback.ingested
+Connector services
+Normalization Service
+24 hours
+feedback.normalized
+Normalization Service
+Sentiment Service, Theme Service, Feature Extractor
+7 days
+feedback.sentiment.scored
+Sentiment Service
+ICS Engine, Dashboard Aggregator
+30 days
+themes.refreshed
+Theme Modeling Service
+Dashboard Aggregator, Recommendation Engine
+30 days
+recommendations.generated
+Recommendation Engine
+PM Integration Service, Dashboard Aggregator
+90 days
+alerts.triggered
+Alert Engine
+Notification Service
+7 days
+
+2.3 Layer 3: AI Processing Layer
+All AI workloads run as dedicated microservices on Antigravity, calling Codex API endpoints for model inference. Services are independently autoscaled based on queue depth.
+
+2.3.1 Sentiment Analysis Service
+Consumes feedback.normalized events. For each item, calls the Codex Sentiment Classification endpoint with a domain-fine-tuned model. Returns a 5-class label (Very Positive → Very Negative) and a confidence score. Also performs aspect-level sentiment analysis identifying polarity per product feature detected in the text.
+
+Codex endpoint:
+POST https://api.codex.ai/v1/classify/sentiment
+Model: cfapa-sentiment-v1 (fine-tuned on product feedback corpus)
+Latency target: p99 < 200ms
+
+2.3.2 Theme Modeling Service
+Operates on the full feedback corpus per tenant. Runs BERTopic-equivalent topic modeling via the Codex Embeddings + Clustering API. Produces theme clusters with auto-generated labels via Codex LLM summarization. Scheduled weekly or triggered on demand. Stores results in the Theme Store.
+
+Codex endpoints:
+POST https://api.codex.ai/v1/embed/batch  (generate embeddings)
+POST https://api.codex.ai/v1/cluster/topics  (cluster into themes)
+POST https://api.codex.ai/v1/complete  (generate theme labels via LLM)
+
+2.3.3 Feature Request Extractor
+Consumes feedback.normalized events. A Codex intent classifier identifies items containing feature requests. Matched items are embedded and grouped into feature clusters via cosine similarity. Cluster metadata is stored in the Feature Request Store.
+
+POST https://api.codex.ai/v1/classify/intent
+Model: cfapa-feature-intent-v1
+
+2.3.4 Impact Confidence Score (ICS) Engine
+Consumes feedback.sentiment.scored events and reads from Theme Store and Feature Request Store. Computes ICS for each theme and feature cluster using the weighted formula:
+
+ICS = (Frequency_score × 0.30) + (Revenue_segment_score × 0.30) + (Sentiment_severity × 0.20) + (Recency_trend × 0.20)
+
+Weights are tenant-configurable. ICS values are persisted to the ICS Store and trigger the top-10% alert rule evaluation.
+2.3.5 Recommendation Engine
+Consumes themes.refreshed events. For each top-N theme (configurable; default N=20), calls the Codex LLM completion endpoint with a structured prompt template to generate a product improvement recommendation. Recommendations include: executive summary, evidence quotes, affected segments, action type, and effort tier.
+
+POST https://api.codex.ai/v1/complete
+System prompt: cfapa-recommendation-template-v2
+Max tokens: 800 per recommendation
+
+2.3.6 Alert Engine
+Polls ICS Store and Sentiment Store on a 15-minute cycle. Evaluates configurable alert rules such as: sentiment score drops >20% in 24 hours for a segment, ICS score crossing top-10% threshold, or new theme with >50 items appearing in <7 days. Publishes matched alerts to the alerts.triggered topic.
+2.4 Layer 4: Storage Layer
+Store
+Technology
+Purpose
+Retention
+Raw Feedback Store
+S3 (Antigravity Object Storage)
+Immutable raw ingested items
+90 days (configurable)
+Normalized Feedback DB
+PostgreSQL (Antigravity Managed DB)
+Processed, queryable feedback items
+1 year
+Deduplication Cache
+Redis (Antigravity Cache)
+Content fingerprint dedup
+30 days TTL
+Theme Store
+PostgreSQL
+Theme clusters, labels, metadata
+Permanent
+Feature Request Store
+PostgreSQL
+Feature clusters and evidence
+Permanent
+ICS Store
+PostgreSQL + Redis (hot cache)
+ICS scores and priority queue
+Permanent + 1hr cache
+Recommendation Store
+PostgreSQL
+Generated recommendation documents
+Permanent
+Audit Log Store
+S3 (append-only)
+Immutable audit trail
+12 months min
+Vector Store
+Codex Vector DB (managed)
+Embeddings for semantic search
+Rolling 90 days
+
+2.5 Layer 5: Delivery Layer
+2.5.1 API Gateway
+All client-facing requests are routed through the Antigravity API Gateway, which handles: OAuth 2.0 token validation, rate limiting (per tier), request logging, and routing to backend services. The gateway exposes:
+REST API for dashboard web app and third-party integrations
+WebSocket endpoint for real-time dashboard updates
+Webhook receiver for inbound source push events
+
+2.5.2 Dashboard Backend Service
+Serves the web dashboard with aggregated, tenant-scoped data. Reads from Theme Store, Feature Request Store, ICS Store, and Recommendation Store. Supports date range, source, and segment filtering. Pushes real-time ICS and alert updates via WebSocket.
+
+2.5.3 PM Integration Service
+Handles bi-directional sync with Jira, Linear, and Productboard. On issue creation request from the dashboard, it calls the appropriate PM tool API with pre-formatted payload. Polls PM tools every 30 minutes to check for status changes and updates CFAPA theme status accordingly. Credentials stored in Antigravity Secrets Manager (AES-256 encrypted at rest).
+
+2.5.4 Notification Service
+Consumes alerts.triggered events. Delivers notifications via: in-app notification center (WebSocket push), email (SendGrid integration), and optional Slack webhook. Notification templates are configurable per alert type and tenant.
+
+3. Technology Stack Summary
+Category
+Technology
+Managed By
+Notes
+Platform Orchestration
+Antigravity Platform
+Antigravity
+Autoscaling, secrets, auth, logging
+AI Inference
+Codex AI API
+Codex
+Sentiment, NER, LLM, embeddings, clustering
+Message Bus
+Kafka (Antigravity Managed)
+Antigravity
+Event-driven inter-service comms
+Relational Database
+PostgreSQL (Antigravity Managed DB)
+Antigravity
+Core structured data stores
+Cache
+Redis (Antigravity Cache)
+Antigravity
+Dedup, ICS hot cache, sessions
+Object Storage
+Antigravity Object Storage (S3-compatible)
+Antigravity
+Raw feedback, audit logs
+Vector Database
+Codex Vector DB
+Codex
+Embeddings for semantic search
+Service Runtime
+Node.js (microservices)
+Self / Antigravity containers
+Connector and delivery services
+API Gateway
+Antigravity API Gateway
+Antigravity
+Auth, rate limiting, routing
+Web Frontend
+React + TypeScript
+CDN via Antigravity
+Dashboard SPA
+Authentication
+OAuth 2.0 / OIDC
+Antigravity Identity
+SSO support
+Email Delivery
+SendGrid
+SendGrid
+Digest reports and alerts
+Service Mesh
+Antigravity Service Mesh (mTLS)
+Antigravity
+Zero-trust inter-service auth
+Observability
+Antigravity Observability Stack
+Antigravity
+Metrics, traces, structured logs
+
+4. End-to-End Data Flow
+4.1 Real-Time Ingestion Flow
+Step-by-step flow for a new feedback item arriving via webhook (e.g., Zendesk ticket):
+
+Step
+Actor
+Action
+Output
+1
+Zendesk Connector
+Receives webhook POST from Zendesk; parses ticket payload
+Raw feedback event
+2
+Zendesk Connector
+Publishes to raw.feedback.ingested topic
+Kafka message
+3
+Normalization Service
+Consumes event; strips HTML, detects language, translates if needed, generates fingerprint
+Normalized FeedbackItem
+4
+Normalization Service
+Checks Redis dedup cache; if duplicate, drops and logs; else publishes to feedback.normalized
+Kafka message or discard
+5
+Sentiment Service
+Consumes event; calls Codex sentiment endpoint; stores sentiment result
+Scored item in DB
+6
+Feature Extractor
+Consumes event; calls Codex intent classifier; updates feature clusters if request detected
+Updated Feature Store
+7
+ICS Engine
+Recomputes ICS for affected feature clusters and themes on next cycle (15min)
+Updated ICS Store
+8
+Alert Engine
+Evaluates alert rules on ICS/Sentiment updates; triggers notifications if thresholds crossed
+Alert event (if triggered)
+9
+Dashboard Backend
+Reflects updated data via WebSocket push to connected PM dashboard sessions
+Live dashboard update
+
+4.2 Weekly Theme Refresh Flow
+Scheduled trigger fires (Antigravity Cron) — every Sunday 2AM UTC per tenant
+Theme Modeling Service fetches all FeedbackItems from past 30 days from Normalized Feedback DB
+Calls Codex Embeddings API in batch for all items not yet embedded
+Calls Codex Clustering API to produce updated topic clusters
+Calls Codex LLM to generate human-readable labels for each cluster
+Persists updated themes to Theme Store, marking previous version as archived
+Publishes themes.refreshed event to Kafka
+Recommendation Engine consumes event; generates recommendations for top-20 themes
+Dashboard Backend receives updated themes and recommendations; notifies PM users of new weekly digest
+
+4.3 PM Tool Push Flow
+PM user clicks 'Push to Jira' on a Recommendation Card in the dashboard
+Dashboard sends POST /api/v1/recommendations/{id}/push?target=jira to API Gateway
+PM Integration Service validates credentials from Antigravity Secrets Manager
+Constructs Jira issue payload with recommendation summary, evidence quotes, ICS score, CFAPA ID
+Calls Jira REST API POST /rest/api/3/issue
+Stores Jira issue ID mapped to CFAPA recommendation ID in Integration Sync Table
+Returns issue URL to dashboard; displayed as link on Recommendation Card
+Every 30 minutes: PM Integration Service polls Jira for status changes; updates theme status in CFAPA if resolved
+
+5. Security Architecture
+5.1 Authentication and Authorization
+CFAPA uses Antigravity's Identity Provider for all authentication. The auth flow:
+Users authenticate via OAuth 2.0 Authorization Code flow with PKCE
+JWTs issued by Antigravity IDP; validated at API Gateway on every request
+Role-Based Access Control (RBAC) enforced at API Gateway and service layer
+Three roles: Viewer (read-only dashboard), Analyst (full data access), Admin (config + integrations)
+
+5.2 Data Security
+Scope
+Mechanism
+Standard
+Data in transit (external)
+TLS 1.3
+HTTPS everywhere; HSTS enforced
+Data in transit (internal)
+mTLS via Antigravity Service Mesh
+Zero-trust service-to-service
+Data at rest (DB)
+AES-256 encryption
+Antigravity Managed DB encryption
+Data at rest (object storage)
+AES-256 encryption
+Server-side encryption on all S3 buckets
+Secrets (API keys, PM credentials)
+Antigravity Secrets Manager
+AES-256, RBAC-gated access
+PII in feedback
+Codex NER-based detection and redaction
+Flagged on ingestion; masked in UI by default
+
+5.3 Multi-Tenancy Isolation
+All database tables include a tenant_id column; all queries are tenant-scoped
+Kafka topics are namespaced per tenant: {tenant_id}.feedback.normalized
+Object storage uses tenant-prefixed bucket paths: s3://cfapa/{tenant_id}/
+Redis keys are namespaced: {tenant_id}:dedup:{fingerprint}
+Codex API calls include tenant_id in request headers for usage tracking
+
+6. Scalability and Deployment Architecture
+6.1 Scaling Strategy
+Service
+Scaling Trigger
+Min Instances
+Max Instances
+Connector Services
+Queue depth > 1,000 raw items
+1 per source
+10 per source
+Normalization Service
+CPU > 70% or queue depth > 5,000
+2
+20
+Sentiment Service
+Codex API queue depth / CPU
+2
+15
+Theme Modeling Service
+Scheduled; on-demand burst
+1 (standby)
+3
+ICS Engine
+Cron / event-triggered
+1
+5
+Recommendation Engine
+themes.refreshed event
+1
+5
+Dashboard Backend
+HTTP request rate + WebSocket connections
+2
+20
+PM Integration Service
+Queue depth / poll cycle
+1
+5
+
+6.2 Deployment Model
+All services are containerized with Docker and deployed on Antigravity's Kubernetes-backed container runtime. Deployment configurations:
+Rolling deployments for stateless services (zero-downtime)
+Blue-green deployments for AI model updates (instant rollback capability)
+Antigravity-managed auto-scaling with HPA (Horizontal Pod Autoscaler) based on custom Kafka consumer lag metrics
+Health checks: liveness and readiness probes on all services; failing services auto-restarted
+Disaster Recovery: PostgreSQL automated daily backups with 30-day retention; point-in-time recovery to within 1 hour
+
+6.3 Environments
+Environment
+Purpose
+Data
+Codex Tier
+Development
+Local and CI feature development
+Synthetic / anonymized sample
+Codex Dev (rate-limited)
+Staging
+Integration testing; pre-production validation
+Anonymized production clone
+Codex Staging
+Production
+Live customer workloads
+Real customer data (encrypted)
+Codex Production (SLA-backed)
+
+7. Observability and Operations
+7.1 Metrics (Key SLIs)
+Metric
+Source
+Alert Threshold
+Ingestion pipeline throughput
+Kafka consumer lag
+Lag > 5,000 items for > 5 minutes
+Sentiment service latency (p99)
+Service traces
+> 500ms p99
+Codex API error rate
+API Gateway logs
+> 1% error rate over 5 min window
+ICS computation staleness
+ICS Engine last-run timestamp
+> 30 minutes since last cycle
+PM tool sync failure rate
+PM Integration Service
+> 5 consecutive failures per tenant
+Dashboard API latency (p95)
+API Gateway
+> 2 seconds p95
+
+7.2 Logging
+All services emit structured JSON logs via Antigravity's logging SDK
+Log levels: DEBUG (dev only), INFO, WARN, ERROR
+Each log entry includes: service_name, tenant_id, trace_id, span_id, timestamp, level, message
+Audit logs for all create/update/delete operations on feedback, themes, and recommendations
+Audit logs are append-only; stored in S3 with 12-month minimum retention
+
+7.3 Distributed Tracing
+OpenTelemetry instrumentation on all services, exported to Antigravity's trace collector. Trace IDs propagated via W3C Trace Context headers across all inter-service calls including Codex API requests. Enables end-to-end tracing from feedback ingestion through AI processing to PM tool push.
+
+8. External Integration Architecture
+8.1 Codex AI Integration
+All Codex API calls are routed through a dedicated Codex Client Library embedded in each AI Processing service. The library handles:
+API key injection (retrieved from Antigravity Secrets Manager at startup)
+Retry logic with exponential backoff (max 3 retries, starting at 100ms)
+Request/response logging for audit purposes
+Token usage tracking per tenant for billing and quota management
+Model version pinning: each service specifies an explicit model version; updates require a new deployment
+
+8.2 PM Tool Integration Contracts
+PM Tool
+Auth Method
+API Used
+CFAPA Actions
+Jira
+OAuth 2.0 (3-legged)
+Jira REST API v3
+Create issue, get issue status, add comment
+Linear
+OAuth 2.0
+Linear GraphQL API
+Create issue, get issue state, add comment
+Productboard
+API Token (OAuth planned)
+Productboard REST API
+Create feature, link feedback, update status
+
+8.3 Inbound Source Webhooks
+CFAPA exposes a webhook receiver endpoint for real-time push from supported sources:
+POST https://api.cfapa.io/v1/webhooks/{connector_id}
+Each request is authenticated via HMAC-SHA256 signature validation using a per-connector signing secret. Malformed or unverifiable webhook payloads are rejected with 401 and logged.
+
+9. Core API Design
+9.1 REST API — Key Endpoints
+Method
+Endpoint
+Description
+GET
+/v1/themes
+List themes for tenant with ICS scores and trend data
+GET
+/v1/themes/{id}
+Detailed theme view with item list and sentiment breakdown
+GET
+/v1/recommendations
+Paginated list of generated recommendations
+GET
+/v1/recommendations/{id}
+Full recommendation with evidence and metadata
+POST
+/v1/recommendations/{id}/push
+Push recommendation to configured PM tool
+GET
+/v1/features
+List feature request clusters with ICS ranking
+GET
+/v1/feedback
+Search/filter raw normalized feedback items
+GET
+/v1/analytics/sentiment
+Sentiment trend time series (filterable by source, segment)
+POST
+/v1/ingestion/trigger
+Manually trigger ingestion run for a source
+GET
+/v1/settings/integrations
+List configured source and PM tool integrations
+PUT
+/v1/settings/ics-weights
+Update ICS scoring weights (admin only)
+GET
+/v1/alerts
+List triggered alerts for tenant
+
+9.2 API Standards
+REST over HTTPS; JSON request/response bodies
+Authentication: Bearer token (JWT) in Authorization header
+Pagination: cursor-based using next_cursor and page_size parameters
+Rate limiting: 1,000 req/min (Starter), 5,000 req/min (Growth), custom (Enterprise)
+Versioning: URI-based versioning (/v1/, /v2/) with 12-month deprecation notice
+Errors: RFC 7807 Problem Details format with error_code, message, and trace_id
+
+10. Key Architecture Decision Records (ADRs)
+ADR
+Decision
+Rationale
+Trade-offs
+ADR-01
+Use Codex for all AI inference; no direct OpenAI/Anthropic calls
+Contractual alignment; Codex provides unified model management, fine-tuning, and versioning for CFAPA-specific models
+Dependency on Codex availability; mitigated by Codex SLA and retry logic
+ADR-02
+Event-driven architecture via Kafka; no synchronous service chains
+Decouples ingestion from processing; allows each AI service to scale independently; enables replay of events for model retraining
+Eventual consistency; dashboard reflects state with ~15-minute lag for ICS updates
+ADR-03
+PostgreSQL as primary structured data store (not NoSQL)
+Feedback analysis requires complex relational queries (theme ↔ item ↔ recommendation joins); strong consistency needed for ICS computation
+Requires schema migrations; addressed with Antigravity managed migration tooling
+ADR-04
+Multi-tenant via tenant_id column (shared database); not separate schemas
+Operational simplicity; Antigravity manages single cluster; sufficient isolation for v1.0
+v2.0 may introduce schema-per-tenant for enterprise isolation; designed for migration path
+ADR-05
+ICS weights are tenant-configurable at runtime; not hardcoded
+Different product teams have different prioritization philosophies; configurable weights enable product-led growth and reduces churn risk
+Requires weight validation logic; wrong weights can produce nonsensical rankings — mitigated by UI guardrails
+
+11. Architecture Summary
+Attribute
+Summary
+Architecture Style
+Event-driven microservices, multi-tenant, cloud-native
+AI/ML Platform
+Codex AI (all inference: sentiment, NLP, embeddings, LLM, clustering)
+Orchestration Platform
+Antigravity (containers, autoscaling, secrets, auth, observability)
+Primary Languages
+Node.js (backend services), TypeScript/React (frontend)
+Data Storage
+PostgreSQL (structured), Redis (cache), S3 (objects), Codex VectorDB (embeddings)
+Message Bus
+Kafka (Antigravity managed)
+API Style
+REST + WebSocket (external); Kafka events (internal)
+Security Model
+OAuth 2.0 / OIDC, mTLS, AES-256 at rest, TLS 1.3 in transit, RBAC
+Deployment
+Docker containers on Antigravity Kubernetes; rolling + blue-green deployments
+Compliance Targets
+GDPR, CCPA; SOC 2 Type II (Year 1 target)
+
+
+— End of System Architecture Document —

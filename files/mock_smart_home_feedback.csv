@@ -1,0 +1,31 @@
+Date,Source,Segment,Feedback,Rating
+2026-05-01,Zendesk,Premium,"The smart thermostat is extremely easy to install and saves me a lot of energy. Best purchase of the year. (Ref: #3000)",5
+2026-05-02,Reddit,Consumer,"The smart doorbell battery drain is too fast. I have to recharge it every two weeks. (Ref: #3001)",1
+2026-05-03,Google Play,SMB,"Thermostat setup app keeps crashing on my iPhone when searching for Bluetooth devices. (Ref: #3002)",1
+2026-05-04,Intercom,Premium,"Integration with Alexa and Google Assistant is seamless. My smart speaker responds instantly. (Ref: #3003)",5
+2026-05-05,App Store,Consumer,"The motion sensors are lagging by 10 seconds before sending notifications to my phone. (Ref: #3004)",2
+2026-05-06,Zendesk,Enterprise,"The security camera video feed is crystal clear, even at night. Highly recommend the smart floodlight. (Ref: #3005)",4
+2026-05-07,Reddit,Consumer,"The device keeps losing connection to my home WiFi router. Synced sensors keep going offline. (Ref: #3006)",2
+2026-05-08,App Store,SMB,"Love the schedule options on the smart plug, works perfectly for my morning coffee machine. (Ref: #3007)",5
+2026-05-09,Google Play,Premium,"Camera battery calibration is broken, it drops from 40% to zero in an hour. (Ref: #3008)",1
+2026-05-10,Intercom,Consumer,"Smart lock drains batteries within a month, very inconvenient. (Ref: #3009)",2
+2026-05-11,Reddit,Premium,"Smart speaker voice recognition is poor, it ignores my commands and triggers randomly. (Ref: #3010)",2
+2026-05-12,Zendesk,Consumer,"Cannot connect smart display to my Spotify account, setup interface freezes. (Ref: #3011)",2
+2026-05-13,Intercom,Enterprise,"The smart lighting hubs are super fast to configure, wall switches sync automatically. (Ref: #3012)",5
+2026-05-14,Google Play,Consumer,"The smart camera keeps dropping frames and buffering live feeds. WiFi antenna is too weak. (Ref: #3013)",1
+2026-05-15,Reddit,Premium,"Automatic firmware update bricked my security hub, now none of my locks respond. (Ref: #3014)",1
+2026-05-16,App Store,Consumer,"App UI is too cluttered, searching for connected sensors takes way too many taps. (Ref: #3015)",2
+2026-05-17,Zendesk,SMB,"Motion detection is too sensitive, it sends alerts for every passing moth or leaf. (Ref: #3016)",3
+2026-05-18,Intercom,Premium,"The smart hub sounds alerts for smoke instantly, great security system. (Ref: #3017)",5
+2026-05-19,Reddit,Consumer,"The speaker sound is hollow, and the volume level control is very clunky in the app. (Ref: #3018)",3
+2026-05-20,Google Play,Enterprise,"WiFi plug scheduler works solid, zero disconnects over 30 days of runtime. (Ref: #3019)",5
+2026-05-21,App Store,Consumer,"The thermostat schedule interface is super confusing, keeps reverting to eco-mode. (Ref: #3020)",2
+2026-05-22,Zendesk,Consumer,"The smart camera battery is already dead after a week, outdoor mount is very hard to open. (Ref: #3021)",2
+2026-05-23,Intercom,Premium,"Voice command latency is terrible, takes 5 seconds to toggle smart light bulbs. (Ref: #3022)",2
+2026-05-24,Reddit,SMB,"Great integration with my Apple HomeKit, Siri toggles the smart locks instantly. (Ref: #3023)",5
+2026-05-25,Google Play,Consumer,"Setup app is full of ads, and requires my location enabled permanently just to sync plugs. (Ref: #3024)",1
+2026-05-26,App Store,Premium,"The doorbell camera night vision range is very short, cannot see anything past 3 feet. (Ref: #3025)",2
+2026-05-27,Zendesk,Consumer,"Excellent smart home kit! Lights, doorbell, and thermostats all coordinate perfectly. (Ref: #3026)",5
+2026-05-28,Reddit,Enterprise,"Firmware upgrade added great new smart routines. Battery efficiency improved by 20%. (Ref: #3027)",5
+2026-05-29,Intercom,Consumer,"Motion sensors disconnect every time the microwave is running, severe signal interference. (Ref: #3028)",1
+2026-05-30,Google Play,Premium,"Thermostat eco mode is awesome, saved $30 on my electrical bill this month! (Ref: #3029)",5
