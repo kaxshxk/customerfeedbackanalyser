@@ -1,0 +1,16 @@
+{
+  "name": "Customer Feedback Analyser",
+  "image": "mcr.microsoft.com/vscode/devcontainers/python:3.11",
+  "workspaceFolder": "/workspaces/customerfeedbackanalyser",
+  "forwardPorts": [],
+  "postCreateCommand": "pip install -r requirements.txt",
+  "postStartCommand": "echo '🚀 Ready! Try: python main.py -f feedback.txt -o result.json'",
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "ms-python.python",
+        "ms-python.vscode-pylance"
+      ]
+    }
+  }
+}
